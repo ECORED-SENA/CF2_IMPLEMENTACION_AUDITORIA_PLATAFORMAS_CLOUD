@@ -22,7 +22,7 @@
     p.text-center.mb-5 Los servicios tradicionales se categorizan en tres tipos
     
     .row.justify-content-center.align-items-center.fondo-1.mb-3
-      .col-4
+      .col-4.mb-4.d-flex
         .tarjeta--sencilla.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -31,7 +31,7 @@
           h3.aling.mb-4 Pass
             p.mb-0 Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, farmework de desarrollo, bases de datos entre otros.
               
-      .col-4
+      .col-4.mb-4.d-flex
         .tarjeta--sencilla.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -39,7 +39,7 @@
                 img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar')
           h3.aling.mb-4  Saas
             p.mb-0 Es el acceso a Aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
-      .col-4
+      .col-4.mb-4.d-flex
         .tarjeta--sencilla.p-4
           .row.justify-content-center.mb-3
             .col-7
