@@ -8,11 +8,11 @@
       h1  Arquitectura Cloud Computing
 
     .row.align-items-center.fondo-11.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
+      .col-12.col-md-8.col-lg-4.col-xl-4 
         img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-1rem 11rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        p.aling-2.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
-    
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+        p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
+
     Separador 
 
     #t_1_1.titulo-segundo
@@ -61,7 +61,7 @@
           p.text-small(numero="3" titulo="Servicios se networking (Acceso a Redes)") Los accesos a los servicios de la computación en la nube son alojados en internet para lograr acceder a los servicios contratados PaaS, SaaS, LaaS, se requiere contar con acceso desde y hacia redes externas, regularmente al crear un servicio en la nube se incluye la creación de una red virtual que permita la interconexión.
       
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
-        img(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",)
+        img(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",).mb-5
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
         img(src="@/assets/curso/images/tema1/img_3.png" alt="AvatarTop",)
       .col-12.col-md-4.col-lg-6.col-xl-7
@@ -446,7 +446,7 @@
           .contenedor-text
             .row.justify-content-center.p-4
               .col-auto
-                p.mb-4 A continuación, se podrá observar en detalle los componentes funcionales por capa:
+                p.mb-5 A continuación, se podrá observar en detalle los componentes funcionales por capa:
 
         .row.justify-content-center.mb-0
           .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
@@ -465,14 +465,14 @@
                 img(src='@/assets/curso/images/tema1/ico_menu_3.svg' alt='1')
               .indicador--click(v-if="mostrarIndicador")  
       br
-      .pRelative
+      #1.pRelative
         .backtoTop
           a(href="#menu1", title="Capa de usuario") 
             img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
     
       .row.mb-5.ps-2
         .col-8.col-lg-2.bg-color-11
-          #1.h3.mb-0.text-white Capa de usuario
+          h3.mb-0.text-white Capa de usuario
 
       .row.justify-content-center.align-items-center.mb-3.fondo-6
         .col-lg-10
@@ -501,14 +501,14 @@
                 p.mb-3   Este componente funcional es compatible con las actividades de computación en la nube del administrador de servicios en la nube del Cliente. 
 
                 p Esto incluye funciones para la administración de identidades y perfiles de usuarios, el monitoreo de la actividad y el uso del servicio, el manejo de eventos y la notificación de problemas.
-        .pRelative
+        #2.pRelative
           .backtoTop
             a(href="#menu1", title="Capas de acceso") 
               img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
             
         .row.mb-5.ps-2
           .col-8.col-lg-2.bg-color-11
-            #2.h3.mb-0.text-white Capas de acceso
+            h3.mb-0.text-white Capas de acceso
 
         .row.justify-content-center.align-items-center.mb-3
           .col-12.col-md-4.col-lg-6.col-xl-7
@@ -529,14 +529,14 @@
 
           .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
             img(src="@/assets/curso/images/tema1/img_21.png" alt="AvatarTop",)
-    .pRelative
-      .backtoTop
+    #3.pRelative
+      .backtoTop-1
         a(href="#menu1", title="Capa de servicio") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
     
     .row.mb-5.ps-2
       .col-8.col-lg-2.bg-color-11
-        #3.h3.mb-0.text-white Capa de servicio
+        h3.mb-0.text-white Capa de servicio
       
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
       .tarjeta.sp1.p-4
@@ -575,8 +575,8 @@
 
     .row.align-items-center.fondo-12.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:300px; display:block; margin:-1rem 19rem;").mb-3
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:300px; display:block; margin:-1rem 18rem;").mb-3
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
         p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario como en la arquitectura y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
 
     
