@@ -7,12 +7,11 @@
         span 1
       h1  Arquitectura Cloud Computing
 
-    .row.align-items-center.fondo-2.mb-5
+    .row.align-items-center.fondo-11.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -2rem;")
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-1rem 11rem;").mb-3
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-2rem 5rem;")
-        p.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
+        p.aling-2.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
     
     Separador 
 
@@ -574,13 +573,13 @@
     #t_1_4.titulo-segundo
       .h4 1.4 Consideraciones operativas de los servicios en la nube
 
-    .row.align-items-center.fondo-2.mb-5
+    .row.align-items-center.fondo-12.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -2rem;")
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-2rem 5rem;")
-        p.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario como en la arquitectura y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
+        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:300px; display:block; margin:-1rem 19rem;").mb-3
+      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
+        p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario como en la arquitectura y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
 
+    
     .row.align-items-center.mb-5.fondo-3
       .col-12.col-md-8.col-lg-8.col-xl-8
         p.mb-3 Un ejemplo de aspecto transversal es la seguridad porque aplica a la infraestructura, los servicios, los proveedores de servicios en la nube, los clientes de servicios en la nube y los socios de servicios en la nube (auditores de la nube, desarrolladores de servicios en la nube, etc.).

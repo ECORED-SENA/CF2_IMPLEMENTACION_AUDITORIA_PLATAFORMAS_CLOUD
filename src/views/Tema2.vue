@@ -44,14 +44,15 @@
     #t_2_1.titulo-segundo
       .h4 2.1 	Roles asociados al cliente
     br
-    .row.align-items-center.fondo-2.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:370px; display:block; margin:-2rem -2rem;")
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        img(src="@/assets/curso/images/tema1/text.svg" alt="AvatarTop", style="width:600px; display:block; margin:-2rem 5rem;")
-        p.text-white Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente de servicios en la nube puede mantener una relación comercial con un socio de servicios en la nube para una variedad de propósitos.
 
-        p.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
+    .row.align-items-center.fondo-13.mb-5
+      .col-12.col-md-8.col-lg-4.col-xl-4
+        img(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:300px; display:block; margin:-1rem 21rem;").mb-3
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        p.aling-3.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente de servicios en la nube puede mantener una relación comercial con un socio de servicios en la nube para una variedad de propósitos.
+
+        p.aling-3.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
+    
     br
     .row.ps-2
       .col-8.col-lg-3.bg-color-6
