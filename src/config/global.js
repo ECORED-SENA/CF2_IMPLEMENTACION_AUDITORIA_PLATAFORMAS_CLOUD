@@ -23,7 +23,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Arquitectura Cloud Computing',
+        titulo: 'Arquitectura <i>Cloud Computing</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -52,19 +52,19 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.1',
+            numero: '',
             titulo: 'Auditabilidad',
             hash: 't_1_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.2',
+            numero: '',
             titulo: 'Disponibilidad',
             hash: 't_1_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.3',
+            numero: '',
             titulo: 'Gobernanza',
             hash: 't_1_4_3',
           },
@@ -76,19 +76,19 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.5',
+            numero: '',
             titulo: 'Control de versiones',
             hash: 't_1_4_5',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.6',
+            numero: '',
             titulo: 'Portabilidad',
             hash: 't_1_4_6',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.7',
+            numero: '',
             titulo: 'Protección de la información de la identidad personal',
             hash: 't_1_4_7',
           },
@@ -100,7 +100,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.9',
+            numero: '',
             titulo: 'Reservisibilidad',
             hash: 't_1_4_9',
           },
@@ -134,7 +134,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Desarrollador de servicios de nube',
+            titulo: 'Desarrollador de servicios en la nube',
             hash: 't_2_4',
           },
           {
@@ -201,11 +201,11 @@ export default {
     },
     {
       referencia:
-        'Padilla Aguilar, J. J., & Pinzón Castellanos, J. (2015). Estándares para Cloud Computing: estado del arte y análisis de protocolos para varias nubes. Puente. Revista Científica. Vol. 9 No. 2.',
+        'Padilla Aguilar, J. J., & Pinzón Castellanos, J. (2015). Estándares para <i>Cloud Computing</i>: estado del arte y análisis de protocolos para varias nubes. Puente. Revista Científica. Vol. 9 No. 2.',
     },
     {
       referencia:
-        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a Cloud Service Partner. MIS Quarterly Executive. 15:3',
+        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3',
       link:
         'https://www.researchgate.net/publication/309285232_The_Role_and_Value_of_a_Cloud_Service_Partner.',
     },

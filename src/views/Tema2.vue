@@ -376,7 +376,7 @@
             p.text-white.mb-5 Registrar problemas, informar los problemas de manera adecuada siguiendo los canales de comunicación con las partes establecido por el proveedor a nivel interno y con los roles externos del cliente y el partner y seguir los procesos de resolución de problemas hasta que se solucione el problema.
 
           .tarjeta.p-3.tarjeta-violeta(x="72%" y="41%" numero="")
-            p.text-white.mb-5  Realizar un seguimiento de todos los activos computacionales, de almacenamiento, de red y de software y la relación entre ellos. Esto incluye aspectos de seguimiento como versiones y niveles de parcheo, además de información de configuración, cuando sea relevante.
+            p.text-white.mb-5  Realizar un seguimiento de todos los activos computacionales, de almacenamiento, de red y de <i>software</i>  y la relación entre ellos. Esto incluye aspectos de seguimiento como versiones y niveles de parcheo, además de información de configuración, cuando sea relevante.
 
           .tarjeta.p-3.tarjeta-violeta(x="72%" y="48%" numero="")
             p.text-white.mb-5 Alta de nuevos activos y baja de activos antiguos. Esto puede incluir garantizar que los nuevos activos sean adecuados para su propósito y que se hayan verificado adecuadamente desde el punto de vista de la seguridad y la capacidad de gestión y puede incluir la eliminación segura de activos que ya no son necesarios considerando los datos que pueda contener.
@@ -405,7 +405,7 @@
               ul.lista-ul--color.mt-3
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Definir el entorno técnico requerido en términos de recursos informáticos, de almacenamiento y de red, las dependencias del software, incluida la configuración.
+                  | Definir el entorno técnico requerido en términos de recursos informáticos, de almacenamiento y de red, las dependencias del <i>software</i>, incluida la configuración.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Definir políticas y procesos para ampliar y reducir el uso de recursos en respuesta a la demanda de uso cambiante.
@@ -482,10 +482,10 @@
                 | Gestionar las tendencias de rendimiento y capacidad a largo plazo.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Instalar, configurar y realizar actualizaciones de mantenimiento en el hardware requerido para las capacidades de computación, almacenamiento y red para el Datacenter del proveedor de servicios en la nube.
+                | Instalar, configurar y realizar actualizaciones de mantenimiento en el <i>hardware</i> requerido para las capacidades de computación, almacenamiento y red para el Datacenter del proveedor de servicios en la nube.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Instalar y configurar el software necesario para ejecutar y respaldar las implementaciones de servicios en la nube. Esto incluye la aplicación de correcciones, actualizaciones y mejoras a ese software, según sea necesario.
+                | Instalar y configurar el <i>software</i>  necesario para ejecutar y respaldar las implementaciones de servicios en la nube. Esto incluye la aplicación de correcciones, actualizaciones y mejoras a ese <i>software</i> , según sea necesario.
             
             
           p.text-small(numero="3" titulo="Desplegar y suministrar servicios") Esta actividad implica poner en funcionamiento una implementación de servicio y ponerla a disposición en un punto final de la red accesible para los usuarios del cliente y hacer que pueda manejar las solicitudes de servicio de los usuarios. Esta actividad incluye:
@@ -618,12 +618,12 @@
 
     .row.align-items-center.mb-5.fondo-3
       .col-12.col-md-8.col-lg-5.col-xl-5
-        p.mb-3  Los proveedores de servicio de cloud pueden depender de uno o más proveedores “pares” (peer) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
+        p.mb-3  Los proveedores de servicio de <i>cloud</i>pueden depender de uno o más proveedores “pares” (peer) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-2
         .cajon.color-custom.p-3 
           p Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
 
-      p.mb-3 El objetivo es que, desde el punto de vista del proveedor de servicios de cloud principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
+      p.mb-3 El objetivo es que, desde el punto de vista del proveedor de servicios de <i>cloud</i> principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
 
       p.mb-3 Las actividades del proveedor entre nubes incluyen:
 
@@ -697,7 +697,7 @@
               p.mb-0 Definir los riesgos de seguridad de la información relacionados con el servicio en la nube y detectar aquellos riesgos relacionados con el cumplimiento de los objetivos comerciales del proveedor Como consideración importante, indicada en el tema sobre rentabilidad en la nube y modelos económicos del cliente y del proveedor, es que la gestión de los riesgos de seguridad de la información tiene un costo asociado. En consecuencia, el proveedor podría asumir la posición comercial de no manejar algunos riesgos, dejando la responsabilidad de esos riesgos al cliente mediante el contrato de servicio, con el fin de no asumir estos costes directamente y redirigiéndolos a otras partes del mercado.
 
             div        
-              p.mb-0 Seleccionar el punto de diseño y los controles de seguridad de la información necesarios para abordar los riesgos asociados con el servicio y el punto de diseño elegido. Los controles suelen cubrir un conjunto de categorías como la gestión de identidad y acceso, seguridad física y personal, protección de datos y activos de información y que se pueden presentar organizados de diferente forma en el caso de los marcos de seguridad de referencia (ISO 27002, ISO 27017, Cloud Security Alliance, NIST.
+              p.mb-0 Seleccionar el punto de diseño y los controles de seguridad de la información necesarios para abordar los riesgos asociados con el servicio y el punto de diseño elegido. Los controles suelen cubrir un conjunto de categorías como la gestión de identidad y acceso, seguridad física y personal, protección de datos y activos de información y que se pueden presentar organizados de diferente forma en el caso de los marcos de seguridad de referencia (ISO 27002, ISO 27017, <i>Cloud Security Alliance</i>, NIST.
 
             div        
               p.mb-0 Asegurar que los controles identificados estén implementados de manera efectiva en el servicio desplegado y en la infraestructura subyacente.
@@ -796,7 +796,7 @@
           img(src="@/assets/curso/images/tema2/img_27.svg" alt="AvatarTop",)
       .col-12.col-md-4.col-lg-7.col-xl-7
         LineaTiempoD.color-acento-contenido.mt-5
-          p.text-small.color.line(numero="1" titulo="Consultor") Socio que cuenta con un equipo técnico capacitado, certificado por el proveedor y que es capaz de brindar consultoría en cuanto a la mejor utilización de los recursos de la nube pública, servicios de optimización de costos, integración de software de terceros, arquitectura para diferentes cargas de trabajo, entre otro tipo de apoyos.
+          p.text-small.color.line(numero="1" titulo="Consultor") Socio que cuenta con un equipo técnico capacitado, certificado por el proveedor y que es capaz de brindar consultoría en cuanto a la mejor utilización de los recursos de la nube pública, servicios de optimización de costos, integración de <i>software</i>  de terceros, arquitectura para diferentes cargas de trabajo, entre otro tipo de apoyos.
 
           p.text-small(numero="2" titulo="Proveedor de servicios gestionados (MSP)") Socio que realmente se ocupa del entorno de nube pública del cliente y actúa como un equipo de infraestructura o <i>DevOps</i> externo, de acuerdo con los principios de confiabilidad del sitio.
             
@@ -913,10 +913,10 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Actúa como comerciante vendiendo el software del proveedor a sus clientes nuevos y existentes.
+                  | Actúa como comerciante vendiendo el <i>software</i> e del proveedor a sus clientes nuevos y existentes.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Trabaja con un cliente para instalar y respaldar la infraestructura tecnológica necesaria para ejecutar un servicio en la nube (por ejemplo, red y alojamiento). Mientras que el proveedor de servicios en la nube crea y actualiza el software, el socio gestiona las relaciones entre el proveedor y los clientes.
+                  | Trabaja con un cliente para instalar y respaldar la infraestructura tecnológica necesaria para ejecutar un servicio en la nube (por ejemplo, red y alojamiento). Mientras que el proveedor de servicios en la nube crea y actualiza el <i>software</i> , el socio gestiona las relaciones entre el proveedor y los clientes.
               
           .col-md-6
             figure
@@ -963,7 +963,7 @@
             ul.lista-ul--color.mt-3
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Diseñar y crear componentes de software que son parte de la implementación de un servicio.
+                | Diseñar y crear componentes de <i>software</i>  que son parte de la implementación de un servicio.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Crear la funcionalidad que se ofrece a los usuarios del servicio, lo que también implica conectar los componentes del servicio a los sistemas de soporte operativo del proveedor, de modo que la implementación del servicio pueda ser monitoreada y controlada.

@@ -2,11 +2,12 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal
+  
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introducción 
     
     .contenedor-total
       figure
@@ -14,7 +15,7 @@
       .contenedor-text
         .row.justify-content-center.p-4
           .col-auto
-            p.mb-3 Se da la bienvenida al componente formativo <b>“Arquitectura y servicios en la nube”</b>. Para comenzar el recorrido por el mismo, se debe visitar el recurso didáctico que se muestra a continuación:
+            p.mb-3.p-4 Se da la bienvenida al componente formativo <b>“Arquitectura y servicios en la nube”</b>. Para comenzar el recorrido por el mismo, se debe visitar el recurso didáctico que se muestra a continuación:
   
     
     figure.mb-5

@@ -8,6 +8,8 @@
     background-color: #F7F2DE
 .linea-tiempo-d__item__content__title
 		background-color: #F7F2DE
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #E2C140
 .linea-tiempo-d__item__content
   background-color: #F7F2DE
 .titulo-segundo::after 
@@ -28,7 +30,7 @@
 .backtoTop
   width: 65px
   position: relative
-  top: 4rem
+  top: 0.5rem
   float: right
 .backtoTop-1
   width: 65px
@@ -42,9 +44,18 @@
 .backtoTop_1
   width: 105px
   position: relative
-  top: -2rem
+  top: 1rem
   float: right
   margin-bottom: 1rem
+.backtoTop-2
+  width: 65px
+  position: relative
+  top: 8rem
+  float: right
+.pRelative_2
+  position: relative
+  margin-inline-end:  -0.8rem
+  margin-top: -7rem
 .floatRight
   float: right
 .contenedor
@@ -53,12 +64,14 @@
   margin-left: -3rem
   margin-right: -3rem
 .contenedor-text
-  bottom: 0%
+  position: absolute
+  bottom: 10%
   left: 50%
   transform: translateX(-50%) translateY(-50%)
-  width: 88%
+  width: 83%
+  height: 120px
+  background-repeat: no-repeat
   background-size: cover
-  background-repeat: no-repeat 
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
   //filter: drop-shadow(2px 4px 6px grey)
   display: flex
@@ -123,8 +136,8 @@
   background-image: url('../assets/curso/images/tema1/back_4.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px !important
-  padding: 2.5rem
+  margin-inline-start: -48px !important
+  margin-inline-end: -49px !important
 .fondo-4
   background-image: url('../assets/curso/images/tema1/back_5.svg')
   background-size: cover
@@ -170,16 +183,18 @@
   background-image: url('../assets/curso/images/tema1/back_18.svg')
   background-size: cover
   background-repeat: no-repeat 
-  padding: 2.5rem
-  margin-inline-start: -280px  !important
-  margin-inline-end: -70px !important
+  padding: 1.5rem
+  margin-inline-start: -240px  !important
+  margin-inline-end: -80px !important
+  height: 240px
 .fondo-12
   background-image: url('../assets/curso/images/tema1/back_18.svg')
-  background-size: 95%
+  background-size: 55%
   background-repeat: no-repeat 
-  padding: 2.5rem
-  margin-inline-start: -390px  !important
-  margin-inline-end: -140px !important
+  padding: 1rem
+  margin-inline-start: -180px  !important
+  margin-inline-end: -1100px !important
+  height: 240px
 .fondo-13
   background-image: url('../assets/curso/images/tema1/back_18.svg')
   background-size: cover
@@ -187,6 +202,25 @@
   margin-inline-start: -400px  !important
   margin-inline-end: -120px !important
   padding: 2rem
+.fondo-14
+  background-image: url('../assets/curso/images/tema1/back_1_2.svg')
+  background-size: cover
+  background-repeat: no-repeat 
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
+.fondo-15
+  background-image: url('../assets/curso/images/tema1/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat 
+  margin-inline-start: -48px !important
+  margin-inline-end: -48px !important
+.fondo-16
+  background-image: url('../assets/curso/images/tema1/back_6.svg')
+  background-size: cover
+  background-repeat: no-repeat 
+  margin-inline-start: -85px !important
+  margin-inline-end: -49px !important
+  padding: 3.5rem
 .color-custom
   background-color: #FFDFF0
   &::before
@@ -226,7 +260,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   background-color: #12263F
   width: 370px !important
 .p-text
-  margin-top: -9rem
+  margin-top: -7rem
 .bg-color-1
   padding: 6px
   background-color: #12263F
@@ -275,7 +309,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   border-radius: 50px
   position: relative
   width: 300px
-  background: linear-gradient(0deg, rgba(0,57,149,1) 0%, rgba(5,139,204,1) 59%)
+  background: linear-gradient(0deg, rgba(3,155,229,1) 0%, rgba(77,208,225,1) 48%)
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1)
 .tarjeta--sencilla-1
   border-radius: 50px
@@ -327,14 +361,67 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .tabs-b.color-acento-contenido .tabs-b__tab--active 
   border-top-color: #FF2C9C !important
 .aling-2
-  text-align: left  !important
-  margin-left: 8rem
-  margin-bottom: -1rem
+  text-align: justify !important
+  margin-left: -14rem
+  margin-bottom: 2rem
 .aling-3
   text-align: left  !important
   margin-left: 11.5rem
   margin-bottom: -1rem
 .aling-4
   text-align: left  !important
-  margin-left: 9rem
-  margin-bottom: -1rem
+  margin-left: 10rem
+  margin-bottom: 1rem
+.aling-5
+  text-align: left  !important
+  margin-left: -0.1rem
+.aling-6
+  text-align: left  !important
+  margin-right: 2rem
+.aling-7
+  text-align: left  !important
+  margin-left: -9rem
+.aling-8
+  margin-top: -1rem
+.aling-8.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50
+  height: 50px
+  background-color: #039BE5
+  border-radius: 50%
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: #707070
+    border-top-color: rgb(112, 112, 112)
+    border-right-color: rgb(112, 112, 112)
+    border-bottom-color: rgb(112, 112, 112)
+    border-left-color: rgb(112, 112, 112)
+  top: 50%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: #FFF
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+  text-align: left  !important
+  margin-left: 4rem
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50
+  height: 50px
+  background-color: #039BE5
+  border-radius: 50%
+  background-repeat: no-repeat
+  background-size: 16px 24px
+  background-position: center
+  border: #707070
+  top: 50%;
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: #FFF
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+.cd
+  width: 88%
+  height: 110px
+.elemento 
+  color: #FF2C9C;
+
