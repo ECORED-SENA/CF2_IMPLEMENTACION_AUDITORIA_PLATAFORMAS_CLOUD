@@ -24,7 +24,7 @@
 .contenedor-total
   position: relative
   width: 100%
-  padding-bottom: 8rem
+  padding-bottom: 4rem
 .pRelative
   position: relative
 .backtoTop
@@ -88,8 +88,29 @@
   position: absolute
   left: 50%
   transform: translateX(-50%) translateY(-50%)
-  width: 98%
-  height: 140px
+  width: 90%
+  height: 120px
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  //filter: drop-shadow(2px 4px 6px grey)
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 20px
+  @media (max-width: 992px)
+    position: relative
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(-50%) translateY(0%)
+.contenedor-text-3
+  position: absolute
+  bottom: -70%
+  left: 50%
+  transform: translateX(-50%) translateY(-50%)
+  width: 93%
+  height: 120px
   background-repeat: no-repeat
   background-size: cover
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
@@ -174,11 +195,12 @@
   margin-inline-start: -30px !important
   padding: 2.5rem
 .fondo-10
-  background-image: url('../assets/curso/images/tema1/back_4.svg')
+  background-image: url('../assets/curso/images/tema2/back_tema_2.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px !important
-  padding: 2.5rem
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
+  margin-bottom: -5rem
 .fondo-11
   background-image: url('../assets/curso/images/tema1/back_18.svg')
   background-size: cover
@@ -197,11 +219,12 @@
   height: 240px
 .fondo-13
   background-image: url('../assets/curso/images/tema1/back_18.svg')
-  background-size: cover
+  background-size: 55%
   background-repeat: no-repeat 
-  margin-inline-start: -400px  !important
-  margin-inline-end: -120px !important
-  padding: 2rem
+  padding: 1rem
+  margin-inline-start: -180px  !important
+  margin-inline-end: -1100px !important
+  height: 240px
 .fondo-14
   background-image: url('../assets/curso/images/tema1/back_1_2.svg')
   background-size: cover
@@ -230,9 +253,9 @@
 	&::before
 		background-color:#12263F
 .color-custom-2
-  background-color:#EEE2BD
+  background-color: #F3E9B4
   &::before
-    background-color: #E2C140
+    background-color:  #E2C140
 .color-custom-3
 	background-color:#12263F
 	&::before
@@ -254,7 +277,7 @@
   cursor: pointer
 button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type="reset"]:hover, [type="reset"]:focus, [type="submit"]:hover, [type="submit"]:focus 
   background-color: #12263F
-  color: #000;
+  color: #000
 .bg-color
   padding: 6px
   background-color: #12263F
@@ -336,6 +359,7 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   text-align: left !important
 .aling
   text-align: center !important
+  top: 30px
 .tema1-1 .bloque-texto-a__texto     
   background-color: rgba(248, 248, 248, 0.904) !important
 .tslyder
@@ -383,6 +407,10 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   margin-left: -9rem
 .aling-8
   margin-top: -1rem
+.aling-9
+  text-align: justify !important
+  margin-left: -2rem
+  margin-bottom: 2rem
 .aling-8.slyder-a__btn--sigt, .slyder-a__btn--atrs 
   width: 50
   height: 50px
@@ -423,5 +451,17 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   width: 88%
   height: 110px
 .elemento 
-  color: #FF2C9C;
+  color: #FF2C9C
+.tarjeta-avatar .tarjeta 
+  display: inline-block
+  padding-top: 60px !important
+  height: 100%
+  border-top-right-radius: 2rem
+  border-top-left-radius: 2rem
+  border-bottom-left-radius: 2rem
+  border-bottom-right-radius: 2rem
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+  border-top-color: #E2C140 !important
+
+
 

@@ -13,27 +13,27 @@
       .contenedor-text-2
         .row.justify-content-center.p-4
           .col-auto
-            p.mb-3 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
-    .row.justify-content-center.align-items-center.fondo-10
+            p.aling.mb-3 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
+    .row.justify-content.fondo-10.p-4
         .tema1-1 
-          .bloque-texto-a.color-custom-1.p-4.p-md-5.mb-5 
+          .bloque-texto-a.color-custom-1.p-4.p-md-5.mb-4
             .row.m-0.align-items-center.justify-content-between
               .col-lg-4.mb-4.mb-lg-0
-                p Roles y responsabilidades
+                p <b>Roles y responsabilidades</b>
               .col-lg-8
                 .bloque-texto-a__texto.p-4
                   p.mb-3 La definición de roles y responsabilidades asociadas a la adquisición y uso de servicios en la nube tiene relación adicional directa con las competencias que las personas designadas deben disponer para un desarrollo eficaz de las actividades.
 
-        .row.justify-content-center.align-items-center
-          .col-12.col-md-8.col-lg-12.col-xl-12.mb-4        
-            .cajon.color-custom-2.p-4.mb-3
+        .row.justify-content-center.align-items-center.mb-4
+          .col-12.col-md-8.col-lg-12.col-xl-12
+            .cajon.color-custom-2.p-4
               p Cuanto mayor y/o más compleja se vuelve una organización, un mayor nivel de formalización y documentación asociada a la descripción y designación de los roles y responsabilidades que intervienen en los procesos se pueden encontrar y que además habilitan a la organización para el desarrollo de las competencias, alcanzar mayores grados de coordinación y eficiencia o, la incorporación de nuevo personal y rotación de este a nivel interno.
 
         .row.align-items-center.mb-5
           .col-12.col-md-8.col-lg-6.col-xl-6
-            p.mb-3 Por todos estos motivos, si la definición de los roles, responsabilidades y autoridad asociada al primer término son importantes en el funcionamiento interno de una organización lo son, aún más, en el caso de la externalización de servicios de soporte esenciales para la entrega de los productos y servicios a proveedores de nube.
+            p.mb-5 Por todos estos motivos, si la definición de los roles, responsabilidades y autoridad asociada al primer término son importantes en el funcionamiento interno de una organización lo son, aún más, en el caso de la externalización de servicios de soporte esenciales para la entrega de los productos y servicios a proveedores de nube.
 
-            p.mb-3 Aunque el desarrollo de los servicios en nube es una forma novedosa de prestar los servicios TIC, diversos roles y responsabilidades por parte del proveedor se mantienen en relación a terminología ya utilizada en el entorno de los servicios de las nuevas tecnologías desde el inicio del presente siglo y, en muchas ocasiones, organizadas en relación a marcos de buenas prácticas como ITIL®, COBIT, entre otros posibles y según el tipo de servicio final prestado por el proveedor.
+            p.mb-5 Aunque el desarrollo de los servicios en nube es una forma novedosa de prestar los servicios TIC, diversos roles y responsabilidades por parte del proveedor se mantienen en relación con la terminología ya utilizada en el entorno de los servicios de las nuevas tecnologías desde el inicio del presente siglo y, en muchas ocasiones, organizadas en relación a marcos de buenas prácticas como ITIL®, COBIT, entre otros posibles y según el tipo de servicio final prestado por el proveedor.
       
             p A continuación, se mencionarán algunos de los roles más importantes y sus respectivas actividades.
           .col-12.col-md-4.col-lg-6.col-xl-6.mb-3
@@ -44,22 +44,21 @@
     #t_2_1.titulo-segundo
       .h4 2.1 	Roles asociados al cliente
     br
-
+    br
     .row.align-items-center.fondo-13.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:300px; display:block; margin:-1rem 21rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        p.aling-3.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente de servicios en la nube puede mantener una relación comercial con un socio de servicios en la nube para una variedad de propósitos.
+      .col-12.col-md-8.col-lg-3.col-xl-3
+        img(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:390px; display:block; margin:-5rem 7rem;").mb-3
+      .col-12.col-md-4.col-lg-9.col-xl-9.mb-3
+        p.aling-9.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor #[br] de servicios para el uso de unos servicios específicos, adicionalmente, un cliente #[br] de servicios  en la nube puede mantener una relación comercial con un socio de servicios #[br]en la nube para una variedad de propósitos.
 
-        p.aling-3.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
-    
+        p.aling-9.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
     br
     .row.ps-2
-      .col-8.col-lg-3.bg-color-6
+      .col-8.col-lg-3.bg-color-6.mb-4
         h3.mb-0.text-white Usuarios
       
-    .row.align-items-center
-      .col-12.col-md-8.col-lg-7.col-xl-7
+    .row.align-items-center.mb-3
+      .col-12.col-md-8.col-lg-6.col-xl-6
         p Corresponde a una persona física o entidad que actúa en su nombre, pero asociado con un cliente del servicio en la nube, las actividades de computación en la nube del usuario del servicio incluyen, principalmente, el uso de los servicios en la nube contratado por el cliente a un proveedor de servicios en la nube para realizar algunas tareas que generalmente implica:
         ul.lista-ul--color
           li 
@@ -68,8 +67,8 @@
           li
             i.fas.fa-caret-right(style="color: #FF2C9C")
             | La invocación del servicio en la nube, que luego opera y entrega los resultados especificados.
-      .col-12.col-md-4.col-lg-5.col-xl-5.mb-3
-        img(src="@/assets/curso/images/tema2/img_ex.svg")
+      .col-12.col-md-4.col-lg-3.col-xl-3.mb-3
+        img(src="@/assets/curso/images/tema2/img_ex.svg" alt="AvatarTop", style="width:390px; display:block; margin:auto 9rem;")
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-1
@@ -84,10 +83,10 @@
 
           p.mb-0 Las actividades del administrador de servicios en la nube del lado del cliente incluyen:
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-botones.mb-5
       .py-4.py-md-5(titulo="Realiza pruebas de servicio" :icono="require('@/assets/curso/images/tema2/ico_tab_1.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Realizar pruebas de servicio
             p  Realizar prueba de servicio: implica el uso de los servicios del proveedor para garantizar que el servicio en la nube sea adecuado para las necesidades comerciales del cliente. Los servicios en la nube se utilizan a modo de prueba, con mutuo acuerdo y entendimiento entre el proveedor y el cliente. Esta actividad implica:
               ul.lista-ul--color.mt-3
@@ -97,13 +96,13 @@
                 li
                   i.fas.fa-caret-right(style="color: #E2C140")
                   | otorgar acceso al servicio en la nube “de prueba“. La invocación del servicio en la nube “de prueba” que el cliente puede probar con fines comerciales.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_4.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_4.svg')
 
       .py-4.py-md-5(titulo="Servicio de monitoreo" :icono="require('@/assets/curso/images/tema2/ico_tab_2.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Servicio de monitoreo
             p.mb-3 Supervisa la calidad del servicio prestado con respecto a los niveles de servicio según se define en el acuerdo de nivel de servicio (SLA) entre el cliente y el proveedor. Como vimos en el modelo de arquitectura de capas y multicapa, esta actividad utiliza funciones intrínsecas del sistema en la nube. Esta actividad implica:
               ul.lista-ul--color.mt-3
@@ -122,13 +121,13 @@
                 li 
                   i.fas.fa-caret-right(style="color: #E2C140")
                   | Comparar la calidad del servicio real entregada con la acordada.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_5.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_5.svg')
         
       .py-4.py-md-5(titulo="Administrar la seguridad del servicio" :icono="require('@/assets/curso/images/tema2/ico_tab_3.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Administrar la seguridad del servicio
             p.mb-3 Esta actividad implica:
               ul.lista-ul--color.mt-3
@@ -147,21 +146,21 @@
                 li 
                   i.fas.fa-caret-right(style="color: #E2C140")
                   | Definir el manejo de cualquier información de identificación personal en los datos del cliente del servicio en la nube.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_6.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_6.svg')
 
       .py-4.py-md-5(titulo="Proporcionar informes de facturación y uso" :icono="require('@/assets/curso/images/tema2/ico_tab_4.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Proporcionar informes de facturación y uso
             p.mb-3 Esta actividad implica la preparación de informes del uso de los servicios en la nube por parte de la organización del cliente y los informes asociados de los datos de facturación que se relacionan con ese uso los cuales son entregados al gerente comercial del cliente.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_7.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
-      .py-4.py-md-5(titulo="Proporcionar informes de facturación y uso" :icono="require('@/assets/curso/images/tema2/ico_tab_5.svg')")
+              img(src='@/assets/curso/images/tema2/img_7.svg')
+      .py-4.py-md-5(titulo="Manejar informes de problemas" :icono="require('@/assets/curso/images/tema2/ico_tab_5.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Manejar informes de problemas
             p.mb-3 Esta actividad implica el manejo del lado del cliente de cualquier problema informado asociado con el uso de servicios en la nube. Esto incluye:
             ul.lista-ul--color.mt-3
@@ -180,12 +179,12 @@
               li 
                 i.fas.fa-caret-right(style="color: #E2C140")
                 | Problemas crecientes que no se solucionan dentro de los plazos acordados o que tienen serios impactos comerciales.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_8.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_8.svg')
       .py-4.py-md-5(titulo="Administrar los arrendamientos" :icono="require('@/assets/curso/images/tema2/ico_tab_6.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Administrar los arrendamientos
             p.mb-3 Esta actividad implica administrar los arrendamientos del cliente con el proveedor, incluyendo:
             ul.lista-ul--color.mt-3
@@ -204,9 +203,9 @@
               li 
                 i.fas.fa-caret-right(style="color: #E2C140")
                 | Definir políticas de cumplimiento para cada inquilino.
-          .col-md-6
+          .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_9.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_9.svg')
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-2
@@ -286,32 +285,32 @@
     p.mb-3 La actividad de conectar los sistemas de TIC a los servicios en la nube implica, además, la conexión de los componentes y aplicaciones TIC existentes del cliente con los servicios en la nube de destino, incluida la conexión de los sistemas de gestión y monitoreo del cliente con los de supervisión y el control de los servicios en la nube por parte del proveedor.
 
     p.mb-3 La conexión de los componentes y aplicaciones TIC existentes con los servicios en la nube de destino implica:
-    .row.justify-content-center.align-items-center.fondo-3
-      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4    
-        PasosA.color-acento-botones.mb-5(tipo="n")
-            div        
-              p.mb-0 Evaluar el impacto de los servicios en la nube en los procesos, sistemas y servicios existentes.
+    .row.justify-content-center.align-items-center.mb-3.fondo-3
+        .col-12.col-md-4.col-lg-10.col-xl-10   
+          PasosA.color-acento-botones.mb-5(tipo="n")
+              div        
+                p.mb-0 Evaluar el impacto de los servicios en la nube en los procesos, sistemas y servicios existentes.
 
-            div        
-              p.mb-0 Mapeo de datos comerciales entre los sistemas TIC existentes del cliente de servicios en la nube existentes y los servicios en la nube contratados.
+              div        
+                p.mb-0 Mapeo de datos comerciales entre los sistemas TIC existentes del cliente de servicios en la nube existentes y los servicios en la nube contratados.
 
-            div        
-              p.mb-0 Invocar operaciones de servicios en la nube desde componentes y aplicaciones TIC existentes con el suministro de datos de entrada y el manejo de datos de salida.
+              div        
+                p.mb-0 Invocar operaciones de servicios en la nube desde componentes y aplicaciones TIC existentes con el suministro de datos de entrada y el manejo de datos de salida.
 
-            div        
-              p.mb-0 Provisión de derechos de acceso para los usuarios de servicios en la nube.
+              div        
+                p.mb-0 Provisión de derechos de acceso para los usuarios de servicios en la nube.
 
-            div        
-              p.mb-0 Definir e implementar requisitos relacionados con la seguridad, incluida la confidencialidad e integridad de los flujos de datos.
-            
-            div        
-              p.mb-0 Integrar las infraestructuras del cliente para la administración de cuentas de usuario, roles de seguridad, identidades y permisos con las equivalentes de los servicios en la nube.
+              div        
+                p.mb-0 Definir e implementar requisitos relacionados con la seguridad, incluida la confidencialidad e integridad de los flujos de datos.
+              
+              div        
+                p.mb-0 Integrar las infraestructuras del cliente para la administración de cuentas de usuario, roles de seguridad, identidades y permisos con las equivalentes de los servicios en la nube.
 
-            div        
-              p.mb-0 Crear y monitorear cuentas de usuario e identidades específicas para el uso de interfaces de administración para servicios en la nube.
+              div        
+                p.mb-0 Crear y monitorear cuentas de usuario e identidades específicas para el uso de interfaces de administración para servicios en la nube.
 
-            div        
-              p.mb-0  Integrar el registro y la gestión de incidentes de seguridad entre los servicios en la nube y la infraestructura de gestión y supervisión del cliente del servicio en la nube.
+              div        
+                p.mb-0  Integrar el registro y la gestión de incidentes de seguridad entre los servicios en la nube y la infraestructura de gestión y supervisión del cliente del servicio en la nube.
 
     Separador 
 
@@ -337,48 +336,49 @@
     p.mb-5 Las actividades de computación en la nube del gerente de operaciones en la nube incluyen:
 
     .row.justify-content-center.align-items-center.mb-3
-        ImagenInfografica.color-secundario.mb-5.tj
+      .col-12.col-md-4.col-lg-11.col-xl-11
+        ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img.m-3(src='@/assets/curso/images/tema2/info.svg' alt='')
+              img(src='@/assets/curso/images/tema2/info.svg' alt='')
           
-          .tarjeta.p-3.tarjeta-violeta(x="18%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="16%" y="41%" numero="")
             p.text-white.mb-5 Evaluar el impacto de la implementación de nuevos servicios o el aumento en el uso de los servicios existentes.
         
-          .tarjeta.p-3.tarjeta-violeta(x="18%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="16%" y="48%" numero="")
             p.text-white.mb-5 Modificar o ampliar los recursos en el centro de datos para satisfacer las necesidades de nuevas implementaciones.
                      
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="41%" numero="")
             p.text-white.mb-5 Monitorear los servicios y la infraestructura del proveedor de servicios en la nube.
       
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="48%" numero="")
             p.text-white.mb-5 Capturar eventos y datos que son importantes para el negocio del proveedor y presentar estos datos en una forma que sea significativa para el gerente comercial del proveedor. Dicha información incluye elementos como el uso de los servicios en la nube por parte de los clientes y el costo de prestación de esos servicios.
 
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="55%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="55%" numero="")
             p.text-white.mb-5 Administrar la infraestructura de red, incluidos routers, servidores de nombres de dominio, direcciones IP, redes privadas virtuales (VPN), cortafuegos y filtrado de contenido.
             
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="62%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="62%" numero="")
             p.text-white.mb-5  Asignar y administrar el almacenamiento.
 
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="69%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="69%" numero="")
             p.text-white.mb-5 Administrar los privilegios del usuario y del sistema.
              
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="76%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="76%" numero="")
             p.text-white.mb-5 Configurar y mantener sistemas operativos e hipervisores.
 
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="83%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="83%" numero="")
             p.text-white.mb-5 Administrar un entorno de virtualización.
             
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="89%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="90%" numero="")
             p.text-white.mb-5  Supervisar el comportamiento del entorno TIC del proveedor para garantizar que esté funcionando correctamente y que los servicios en la nube proporcionados cumplan los términos del SLA.
 
-          .tarjeta.p-3.tarjeta-violeta(x="45%" y="97%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43%" y="98%" numero="")
             p.text-white.mb-5 Registrar problemas, informar los problemas de manera adecuada siguiendo los canales de comunicación con las partes establecido por el proveedor a nivel interno y con los roles externos del cliente y el partner y seguir los procesos de resolución de problemas hasta que se solucione el problema.
 
-          .tarjeta.p-3.tarjeta-violeta(x="72%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="71%" y="41%" numero="")
             p.text-white.mb-5  Realizar un seguimiento de todos los activos computacionales, de almacenamiento, de red y de <i>software</i>  y la relación entre ellos. Esto incluye aspectos de seguimiento como versiones y niveles de parcheo, además de información de configuración, cuando sea relevante.
 
-          .tarjeta.p-3.tarjeta-violeta(x="72%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="71%" y="48%" numero="")
             p.text-white.mb-5 Alta de nuevos activos y baja de activos antiguos. Esto puede incluir garantizar que los nuevos activos sean adecuados para su propósito y que se hayan verificado adecuadamente desde el punto de vista de la seguridad y la capacidad de gestión y puede incluir la eliminación segura de activos que ya no son necesarios considerando los datos que pueda contener.
 
           .tarjeta.p-3.tarjeta-violeta(x="99%" y="41%" numero="")
@@ -455,11 +455,12 @@
       
     p.mb-3 El gerente de servicios en la nube tiene la responsabilidad de garantizar que los servicios del proveedor estén disponibles para su uso por los clientes y que funcionen correctamente y cumplan con los objetivos especificados en el acuerdo de nivel de servicio.
 
-    p.mb-3 También es responsable de garantizar el buen funcionamiento del sistema de soporte comercial y del sistema de soporte operativo del proveedor, así como, del funcionamiento de las otras funcionalidades que se ofrecen a los clientes y partners para la gestión y administración, entre otras actividades, de la computación en la nube.
+    p.mb-3 También es responsable de garantizar el buen funcionamiento del sistema de soporte comercial y del sistema de soporte operativo del proveedor, así como, del funcionamiento de las otras funcionalidades que se ofrecen a los clientes y <i>partners</i> para la gestión y administración, entre otras actividades, de la computación en la nube.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-md-4.col-lg-6.col-xl-6
-        p.mb-0 Los componentes funcionales de la capa de acceso incluyen:
+        p.mb-0 Las actividades del gerente de servicios en la nube son las siguientes:
+
         LineaTiempoD.color-acento-contenido.mt-5
           p.text-small.color.line(numero="1" titulo="Proporcionar servicios") Esta actividad implica todos los pasos necesarios para ofrecer un servicio en la nube a sus clientes. La actividad de proporcionar servicios incluye aceptar y procesar las invocaciones de servicios del usuario con la autenticación asociada y la autorización de la identidad del usuario. El procesamiento de una invocación de servicio se realiza por medio de una instancia de la implementación del servicio que, a su vez, puede implicar la composición y llamada de otros servicios según lo determinado por el diseño y la configuración de la implementación del servicio.
 
@@ -482,7 +483,7 @@
                 | Gestionar las tendencias de rendimiento y capacidad a largo plazo.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Instalar, configurar y realizar actualizaciones de mantenimiento en el <i>hardware</i> requerido para las capacidades de computación, almacenamiento y red para el Datacenter del proveedor de servicios en la nube.
+                | Instalar, configurar y realizar actualizaciones de mantenimiento en el <i>hardware</i> requerido para las capacidades de computación, almacenamiento y red para el <i>datacenter</i> del proveedor de servicios en la nube.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Instalar y configurar el <i>software</i>  necesario para ejecutar y respaldar las implementaciones de servicios en la nube. Esto incluye la aplicación de correcciones, actualizaciones y mejoras a ese <i>software</i> , según sea necesario.
@@ -510,10 +511,12 @@
                 | Informar de un problema si no se puede mantener el cumplimiento.
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4
           img(src="@/assets/curso/images/tema2/img_17.svg" alt="AvatarTop",)
-            
+    p.mb-3 <b>Gerente comercial de servicios en la nube</b>
+
+    p.mb-3 Tiene la responsabilidad general en los aspectos comerciales y ofrecer servicios en la nube a los clientes. El gerente comercial de servicios en la nube crea y da seguimiento al plan comercial, define la estrategia de oferta de servicios y administra la relación comercial con los clientes. Las actividades de computación en la nube del proveedor: administrador comercial de servicios en la nube son:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Gestionar el plan de negocios")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6
           p.mb-3 Esta actividad para proporcionar servicios en la nube implica:
             ul.lista-ul--color.mt-3
               li 
@@ -529,13 +532,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Preparar un plan de negocios y ajustar el plan de negocios para brindar servicios en la nube.ar que se logren los objetivos financieros del proveedor de servicios en la nube.
       
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_18.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_18.svg' alt='' style="width:400px; display:block; margin:2rem 3rem;")
 
 
       div.row(titulo="Gestionar las relaciones con los clientes")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6
           p.mb-3 Gestionar las relaciones con los clientes
           p.mb-3 Esta actividad implica la gestión de la relación comercial del proveedor con el cliente en la nube, que incluye: 
             ul.lista-ul--color.mt-3
@@ -555,13 +558,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Procesar solicitudes de cambio (por ejemplo, cambios de derechos).
       
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_19.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_19.svg'  alt='' style="width:400px; display:block; margin:2rem 3rem;")
 
 
       .row(titulo="Gestionar el procesamiento financiero")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6
           p.mb-3 Esta actividad implica:
             ul.lista-ul--color.mt-3
               li 
@@ -574,9 +577,9 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Gestionar la recepción de pagos del cliente del servicio en la nube y su contabilidad.
       
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_20.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_20.svg'  alt='' style="width:400px; display:block; margin:2rem 3rem;")
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-7
@@ -594,7 +597,7 @@
           p.mb-3 Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
     br
     .contenedor-total
-      .contenedor-text
+      .contenedor-text-3
         .row.justify-content-center.p-4
           .col-auto
             p.aling.mb-3 Se puede proporcionar a los clientes una variedad de medios para comunicarse, desde foros a través del correo electrónico, sistemas de soporte al cliente o portales web hasta comunicación en tiempo real con el personal de soporte del proveedor.
@@ -603,14 +606,14 @@
       .tema1-1 
         .bloque-texto-a.color-custom-3.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-8
+            .col-lg-9
               .bloque-texto-a__texto.p-4
-                p.mb-3 En atención a las buenas prácticas de marcos ampliamente aplicados como ITIL, recomiendan la concentración de peticiones e incidentes en un único punto (Single Point of Contact) lo que facilita la rentabilidad de esfuerzos en la atención al cliente y permite una trazabilidad en el tratamiento de las peticiones mediante el registro de un ticket y el soporte de herramientas que incorporan, adicionalmente y de manera integrada, los procesos de gestión de incidentes, problemas, cambios y entregas (releases también traducido como liberaciones o despliegues).
-            .col-lg-4.mb-4.mb-lg-0
+                p.mb-3 En atención a las buenas prácticas de marcos ampliamente aplicados como ITIL, recomiendan la concentración de peticiones e incidentes en un único punto <i>(Single Point of Contact)</i> lo que facilita la rentabilidad de esfuerzos en la atención al cliente y permite una trazabilidad en el tratamiento de las peticiones mediante el registro de un <i>ticket</i> y el soporte de herramientas que incorporan, adicionalmente y de manera integrada, los procesos de gestión de incidentes, problemas, cambios y entregas (<i>releases</i> también traducido como liberaciones o despliegues).
+            .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema2/img_21.png' alt='')
+                img(src='@/assets/curso/images/tema2/img_21.png' alt='' style="width:260px; display:block; margin:0 auto;")
 
-    p.mb-3 Estas herramientas permiten la extracción de datos para informes relevantes, alarmas asociadas a tickets próximos o que han sobrepasado tiempos límite de atención, escalados automáticos a diferentes niveles de atención, bases de datos con errores conocidos.
+    p.mb-3 Estas herramientas permiten la extracción de datos para informes relevantes, alarmas asociadas a <i>tickets</i> próximos o que han sobrepasado tiempos límite de atención, escalados automáticos a diferentes niveles de atención, bases de datos con errores conocidos.
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-10
@@ -618,7 +621,7 @@
 
     .row.align-items-center.mb-5.fondo-3
       .col-12.col-md-8.col-lg-5.col-xl-5
-        p.mb-3  Los proveedores de servicio de <i>cloud</i>pueden depender de uno o más proveedores “pares” (peer) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
+        p.mb-3  Los proveedores de servicio de <i>cloud</i>pueden depender de uno o más proveedores “pares” (<i>peer</i>) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-2
         .cajon.color-custom.p-3 
           p Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
@@ -653,7 +656,7 @@
         .col-12.col-md-4.col-lg-5.col-xl-5.mb-3
           img(src="@/assets/curso/images/tema2/img_22.svg" alt="AvatarTop")
 
-      h5.aling.mb-3 Realizar peering, federación, intermediación, agregación y arbitraje: esta actividad implica el uso de los servicios en la nube del proveedor homólogos de todas estas maneras particulares y que se explican a continuación:
+      h5.aling.mb-3 Realizar <i>peering</i>, federación, intermediación, agregación y arbitraje: esta actividad implica el uso de los servicios en la nube del proveedor homólogos de todas estas maneras particulares y que se explican a continuación:
 
     .row.mb-5.ps-2
         .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
@@ -662,7 +665,7 @@
           ul.lista-ul--color
             li 
               i.fas.fa-caret-right(style="color: #FF2C9C")
-              | Peering es el uso de servicios en la nube de un proveedor homólogo.
+              | <i>peering</i> es el uso de servicios en la nube de un proveedor homólogo.
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
               | La federación implica el uso de los servicios en la nube de un grupo de proveedores homólogos que combinan mutuamente sus capacidades de servicio para proporcionar el conjunto de servicios en la nube requeridos por los clientes.
@@ -736,7 +739,7 @@
       .col-8.col-lg-3.bg-color-11
         h3.mb-0.text-white Proveedor de red
 
-    p.mb-3 El proveedor de red puede proporcionar conectividad de red entre sistemas dentro del Datacenter del proveedor o proporcionar conectividad de red entre los sistemas del proveedor y los sistemas fuera del Datacenter del proveedor, por ejemplo, sistemas de clientes o sistemas que pertenecen a otros proveedores homólogos.
+    p.mb-3 El proveedor de red puede proporcionar conectividad de red entre sistemas dentro del <i>datacenter</i> del proveedor o proporcionar conectividad de red entre los sistemas del proveedor y los sistemas fuera del <i>datacenter</i>  del proveedor, por ejemplo, sistemas de clientes o sistemas que pertenecen a otros proveedores homólogos.
 
     p.mb-5 Las actividades de computación en la nube del proveedor de red, son:
 
@@ -753,7 +756,7 @@
       div.row(titulo="Prestar servicios de red.")
         .col-md-6.mb-4.mb-md-0
           p.mb-3 Gestionar las relaciones con los clientes
-          p.mb-3 Esta actividad implica la prestación de servicios relacionados con la red, como firewalls o equilibrio de carga.
+          p.mb-3 Esta actividad implica la prestación de servicios relacionados con la red, como <i>firewalls</i> o equilibrio de carga.
         .col-md-6
           figure
             img(src='@/assets/curso/images/tema2/img_25.png' alt='')
@@ -788,7 +791,7 @@
 
     p.mb-3 Por tanto, las actividades de un partner pueden ser muy diversas según el tipo de socio de que se trate y de sus relaciones con el cliente y/o el proveedor.
 
-    p.mb-3 Por ejemplo, siguiendo el modelo de proveedores en nube pública, algunos de los tipos de partners que se pueden encontrar son:
+    p.mb-3 Por ejemplo, siguiendo el modelo de proveedores en nube pública, algunos de los tipos de <i>partners</i> que se pueden encontrar son:
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -802,7 +805,7 @@
             
           p.text-small(numero="3" titulo="Revendedores") Socio que brinda acceso a los servicios de nube pública a través de su propia consola. También se ocupan de la facturación y brindan soporte administrativo relacionado con la facturación.
          
-    p.mb-5 Entre los beneficios típicos destacados por los propios partners a los clientes se encuentran:
+    p.mb-5 Entre los beneficios típicos destacados por los propios <i>partners</i> a los clientes se encuentran:
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Optimización de gastos y más flexibilidad")
@@ -816,7 +819,7 @@
             img(src='@/assets/curso/images/tema2/img_28.png' alt='')
 
 
-      div.row(titulo="El socio se ocupa de tu Cloud")
+      div.row(titulo="El socio se ocupa de tu <i>cloud</i>")
         .col-md-6.mb-4.mb-md-0
           p.mb-3 Los proveedores desarrollan una red de asociaciones con el objetivo de crear centros de excelencia. Un socio calificado tiene un amplio conocimiento de los diferentes servicios ofrecidos por el proveedor y puede asesorarlo sobre las mejores prácticas y brindarle soporte de migración y planificación arquitectónica. 
 
@@ -839,7 +842,7 @@
         .col-md-6.mb-4.mb-md-0
           p.mb-0 Los socios pueden ofrecer asistencia las 24 horas, los 7 días de la semana en el idioma local y dentro de su zona horaria. 
           p.mb-0 L El soporte de un socio es proporcionado por consultores y arquitectos certificados y capacitados y su objetivo es resolver el problema sin necesidad de planteárselo al proveedor. 
-          p.mb-0 L En último término, un socio puede presentar el ticket en nombre del cliente directamente con el proveedor y escalar el problema a instancias superiores dentro de la organización de soporte del proveedor si es necesario. 
+          p.mb-0 L En último término, un socio puede presentar el <i>ticket</i> en nombre del cliente directamente con el proveedor y escalar el problema a instancias superiores dentro de la organización de soporte del proveedor si es necesario. 
           p.mb-0 L Existe una gran variedad de programas de atención al cliente disponibles con la planificación proactiva de las actividades futuras con el cliente en los más avanzados.
 
         .col-md-6
@@ -857,7 +860,7 @@
           figure
             img(src='@/assets/curso/images/tema2/img_32.png' alt='')
 
-    p.mb-3 A modo de clasificación general resumida, únicamente como ayuda para la identificación de las actividades principales en un mercado competitivo entre socios cada vez más diverso y variado, a continuación, se indican los roles y actividades principales de los partners.  El objetivo de esta introducción es la de diferenciar la labor de los partners con respecto al rol y actividades de los proveedores de forma más clara.
+    p.mb-3 A modo de clasificación general resumida, únicamente como ayuda para la identificación de las actividades principales en un mercado competitivo entre socios cada vez más diverso y variado, a continuación, se indican los roles y actividades principales de los <i>partners</i>.  El objetivo de esta introducción es la de diferenciar la labor de los <i>partners</i> con respecto al rol y actividades de los proveedores de forma más clara.
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Partner como proveedor" :icono="require('@/assets/curso/images/tema2/ico_tab_13.svg')")
@@ -1016,7 +1019,7 @@
                 | Garantizar la interoperabilidad con los servicios en la nube proporcionados por un proveedor de servicios en la nube homólogo
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Pruebas que deben incluir la verificación de que las conexiones a los sistemas de soporte operativo del proveedor de servicios en la nube funcionan correctamente. Como resultado, normalmente es necesario realizar algunas de las pruebas en un área de prueba del Datacenter del proveedor de servicios en la nube.
+                | Pruebas que deben incluir la verificación de que las conexiones a los sistemas de soporte operativo del proveedor de servicios en la nube funcionan correctamente. Como resultado, normalmente es necesario realizar algunas de las pruebas en un área de prueba del <i>Datacenter</i> del proveedor de servicios en la nube.
 
         .col-md-6
           figure

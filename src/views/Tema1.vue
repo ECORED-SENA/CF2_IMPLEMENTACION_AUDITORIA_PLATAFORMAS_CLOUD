@@ -723,10 +723,10 @@
         .tema1-1 
           .bloque-texto-a.color-custom-1.p-3.p-md-5
             .row.m-0.align-items-center
-              .col-lg-4.mb-4.mb-lg-0
+              .col-lg-3.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/images/tema1/img_27.png' alt='')
-              .col-lg-8
+              .col-lg-9
                 .bloque-texto-a__texto.p-3
                   p.mb-3 Las prácticas de gobierno individuales aplicadas de manera continua por los clientes y los proveedores, van desde lo más sencillo hasta lo sofisticado y están encapsuladas dentro de cada rol. Por tanto, es responsabilidad de cada rol implementar la gobernanza de acuerdo con sus necesidades. 
 
@@ -745,15 +745,15 @@
     h3 Control de versiones
     
     .row.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-8.col-xl-8
+      .col-12.col-md-8.col-lg-7.col-xl-7
         p.mb-0 El mantenimiento puede tener lugar por una variedad de razones, incluida la necesidad de reparar fallas y también la necesidad de actualizar o ampliar las instalaciones, estos procesos de mantenimiento pueden cambiar el comportamiento de los servicios en la nube, por ejemplo, afectando el funcionamiento de un servicio cuando lo utiliza un cliente, por estos motivos es un elemento importante relacionado con la gobernanza tanto por las actividades en sí mismas como por los recursos subyacentes relacionados con estas acciones.
-      .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
+      .col-12.col-md-4.col-lg-5.col-xl-5.mb-3
         img(src="@/assets/curso/images/tema1/img_28.svg" alt="AvatarTop")
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-md-4.col-lg-12.col-xl-12
         .cajon.color-custom-2.p-3
-          p.mb-3 Se debe diferenciar los mantenimientos desarrollados por cliente de los desarrollados por el proveedor de servicios en la nube especialmente dependerá del tipo de servicio al cual se le programa, por ejemplo. para el caso de un servicio SaaS prácticamente todas las acciones de mantenimiento se espera que sean realizadas por el proveedor mientras que, en el caso de los servicios IaaS y PaaS, los componentes de la aplicación pertenecen al cliente y consecuentemente será el responsable del mantenimiento de esos componentes que podrá realizar con personal propio o mediante un partner asociado que proporcione servicios gestionados en su portfolio. 
+          p.mb-3 Se debe diferenciar los mantenimientos desarrollados por cliente de los desarrollados por el proveedor de servicios en la nube especialmente dependerá del tipo de servicio al cual se le programa, por ejemplo. para el caso de un servicio SaaS prácticamente todas las acciones de mantenimiento se espera que sean realizadas por el proveedor mientras que, en el caso de los servicios IaaS y PaaS, los componentes de la aplicación pertenecen al cliente y consecuentemente será el responsable del mantenimiento de esos componentes que podrá realizar con personal propio o mediante un partner asociado que proporcione servicios gestionados en su portafolio. 
 
     p.mb-3 En cualquier caso, el proveedor es responsable del entorno en el que se ejecutan los componentes de la aplicación, que varía según los detalles del servicio pero que puede incluir elementos como los recursos de <i>hardware</i>, el sistema operativo o el middleware.
 
@@ -768,12 +768,12 @@
       .tema1-1
         .bloque-texto-a.color-custom-3.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-8
+            .col-lg-9
               .bloque-texto-a__texto.p-4
-                p.mb-3 El denominado versionado se refiere al etiquetado adecuado de un servicio o de los propios componentes que lo componen según su nivel de complejidad y/o atomización (p.ej. típicas de arquitecturas de micro servicios o realizada en función de las capas que lo componen como el nivel de sistema operativo utilizado en un servicio IaaS), de tal modo que el cliente tenga claro qué se está utilizando en una versión en particular. 
+                p.mb-3 El denominado versionado se refiere al etiquetado adecuado de un servicio o de los propios componentes que lo componen según su nivel de complejidad y/o atomización (p.ej. típicas de arquitecturas de microservicios o realizada en función de las capas que lo componen como el nivel de sistema operativo utilizado en un servicio IaaS), de tal modo que el cliente tenga claro qué se está utilizando en una versión en particular. 
 
                 p Es importante que el servicio reciba una etiqueta de nueva versión cuando se realiza el mantenimiento de un servicio en la nube para poder aplicar actividades eficaces de control de versiones de manera adecuada y según procesos garantistas basados en buenas prácticas ampliamente conocidas y aplicadas como modelos (ITIL).
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/images/tema1/img_29.svg' alt='')
 
@@ -784,28 +784,28 @@
     
     p.mb-3 Este aspecto es importante considerando que los potenciales clientes están interesados en evitar quedar cautivos del proveedor cuando eligen utilizar los servicios en la nube. 
 
-    .row.justify-content-center.align-items-center.mb-3.fondo-3.p-3
+    .row.justify-content-center.align-items-center.mb-5.fondo-3.p-3
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
           .bloque-texto-a.color-custom-1.p-3.p-md-5
             .row.m-0.align-items-center
-              .col-lg-4.mb-4.mb-lg-0
+              .col-lg-3.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/images/tema1/img_30.svg' alt='')
-              .col-lg-8
+              .col-lg-9
                 .bloque-texto-a__texto.p-3
                   p.mb-3 Los clientes necesitan saber que pueden transferir sus datos o aplicaciones entre múltiples proveedores a un nivel de costes y de interrupción aceptables y que puede variar según el tipo específico de servicio en la nube.
 
                   p Un ejemplo típico es la portabilidad de una organización en su rol de cliente que pueda considerar pasar de su proveedor actual en IaaS a otro alternativo. En este escenario y para el aspecto de portabilidad que se está tratando, el cliente debería poder tomar sus datos y las imágenes de sus máquinas virtuales (VM) y ponerlos en funcionamiento en un servicio IaaS equivalente de una manera relativamente sencilla. 
-
+        br
         p.mb-3 De forma similar cuando un cliente desea trasladar o cambiar de proveedor de servicios SaaS, debería poder llevar sus datos consigo, pero hay que considerar los costes relacionados a costes asociados a las actividades de exportar, mapear e importar los datos en la aplicación SaaS del nuevo proveedor.
 
         p.mb-3  Un nivel más o menos elevado de costes asociados a estas actividades va a quedar determinado por el grado de alineación de los modelos y formatos de datos de los SaaS de ambos proveedores considerados. Idealmente estos SaaS deberían adoptar formatos de intercambio de datos estándar relevantes según el dominio de aplicación. El cambio entre aplicaciones SaaS también puede implicar que el cliente se adapte a una nueva interfaz de servicio y que está relacionada con la interoperabilidad del servicio como se ha indicado.
-
+        h3 Portabilidad 
         .row.justify-content-center.align-items-center.mb-3
           .col-12.col-md-4.col-lg-12.col-xl-12
             .cajon.color-custom.p-3
-              p.mb-3 En la portabilidad de aplicaciones en la nube se permite la migración de elementos de un modo similar a instancias de máquina virtual completamente detenida o una Imágen de máquina (servicio IaaS) de un proveedor a otro o la migración de componentes de aplicaciones (servicio PaaS) desde un proveedor u otro.
+              p.mb-3 En la portabilidad de aplicaciones en la nube se permite la migración de elementos de un modo similar a instancias de máquina virtual completamente detenida o una imágen de máquina (servicio IaaS) de un proveedor a otro o la migración de componentes de aplicaciones (servicio PaaS) desde un proveedor u otro.
         
         p.mb-3 En ambos casos, existe un aspecto importante a considerar relacionado con la portabilidad de los metadatos relacionados con los componentes de la aplicación que proporcionan información sobre las relaciones de los componentes de la aplicación y sobre la infraestructura requerida asociada, por ejemplo, la configuración de balanceo de cargas o la configuración del <i>firewall.</i>
 
@@ -823,13 +823,13 @@
       .tema1-1
         .bloque-texto-a.color-custom-3.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-8
+            .col-lg-9
               .bloque-texto-a__texto.p-4
                 p.mb-3 Ya en el mundo entero y en particular en Colombia existe regulación y normatividad que obliga a los proveedores de servicios a garantizar la información de datos personales, los requisitos legales, reglamentarios y estatutarios varían según el sector del mercado y la jurisdicción y pueden cambiar, en consecuencia, las responsabilidades tanto de los clientes como de los proveedores de servicios en la nube. El cumplimiento de tales requisitos a menudo está relacionado con las actividades de gobierno y gestión de riesgos y puede llegar a ser una labor cada vez más compleja según se incrementa la diversidad del cliente.
 
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema1/img_31.svg' alt='')
+                img(src='@/assets/curso/images/tema1/img_31.svg' alt='' style="width:220px; display:block; margin:0 2rem;")
 
     h3 Resiliencia 
 
@@ -837,27 +837,30 @@
 
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
+        h4.aling Describe
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/1.svg' alt='')
+          img(src='@/assets/curso/images/tema1/1.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .text-white.p-4
               p.aling.text-white La resiliencia describe el conjunto de procesos de monitoreo, preventivos y de respuesta que permiten que un servicio en la nube brinde operaciones continuadas, con cortes predecibles y verificables, a través de acciones de falla y recuperación. 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/2.svg' alt='')
+        h4.aling  Fallas
+        .tarjeta-avatar 
+          img(src='@/assets/curso/images/tema1/2.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
               p.aling.text-white Estos procesos, pueden incluir fallas de <i>hardware</i>, comunicaciones y/o <i>software</i> y pueden ocurrir como incidentes aislados o en combinación, incluyendo fallas en serie en forma de efecto dominó. 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
+        h4.aling Acciones
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/3.svg' alt='')
+          img(src='@/assets/curso/images/tema1/3.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
-              p.aling.text-white También pueden incluir acciones tanto automáticas como manuales, que generalmente abarcan múltiples sistemas y, por lo tanto, su descripción y realización son parte de la infraestructura de nube en global y no una función.Está ligado a temas de seguridad ya que se buscará siempre encontrar el lugar más débil o menos resilientes. 
+              p.aling.text-white También pueden incluir acciones tanto automáticas como manuales, que generalmente abarcan múltiples sistemas y, por lo tanto, su descripción y realización son parte de la infraestructura de nube en global y no una función. Está ligado a temas de seguridad ya que se buscará siempre encontrar el lugar más débil o menos resilientes. 
 
-    h3 Reservisibilidad
+    h3 Reversibilidad
 
     p.mb-3 Este aspecto es un término relacionado con el proceso para que los clientes de servicios en la nube recuperen sus datos de cliente y componentes de aplicaciones en la nube.
 
