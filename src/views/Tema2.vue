@@ -52,6 +52,13 @@
         p.aling-9.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor #[br] de servicios para el uso de unos servicios específicos, adicionalmente, un cliente #[br] de servicios  en la nube puede mantener una relación comercial con un socio de servicios #[br]en la nube para una variedad de propósitos.
 
         p.aling-9.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+        p.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente #[br] de servicios  en la nube puede mantener una relación comercial con un socio de servicios #[br]en la nube para una variedad de propósitos.
+
+        p.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
     br
     .row.ps-2
       .col-8.col-lg-3.bg-color-6.mb-4
@@ -595,6 +602,7 @@
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-2
         .cajon.color-custom-2.p-3
           p.mb-3 Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
+          p Manejo de solicitudes de soporte, informes e incidentes de clientes de servicios en la nube, independientemente de cómo se reciban. 
     br
     .contenedor-total
       .contenedor-text-3
@@ -606,34 +614,34 @@
       .tema1-1 
         .bloque-texto-a.color-custom-3.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
-            .col-lg-9
+            .col-lg-8
               .bloque-texto-a__texto.p-4
                 p.mb-3 En atención a las buenas prácticas de marcos ampliamente aplicados como ITIL, recomiendan la concentración de peticiones e incidentes en un único punto <i>(Single Point of Contact)</i> lo que facilita la rentabilidad de esfuerzos en la atención al cliente y permite una trazabilidad en el tratamiento de las peticiones mediante el registro de un <i>ticket</i> y el soporte de herramientas que incorporan, adicionalmente y de manera integrada, los procesos de gestión de incidentes, problemas, cambios y entregas (<i>releases</i> también traducido como liberaciones o despliegues).
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema2/img_21.png' alt='' style="width:260px; display:block; margin:0 auto;")
+                img(src='@/assets/curso/images/tema2/img_21.png' alt='' style="width:280px; display:block; margin:0 auto;")
 
-    p.mb-3 Estas herramientas permiten la extracción de datos para informes relevantes, alarmas asociadas a <i>tickets</i> próximos o que han sobrepasado tiempos límite de atención, escalados automáticos a diferentes niveles de atención, bases de datos con errores conocidos.
+    p.mb-5 Estas herramientas permiten la extracción de datos para informes relevantes, alarmas asociadas a <i>tickets</i> próximos o que han sobrepasado tiempos límite de atención, escalados automáticos a diferentes niveles de atención, bases de datos con errores conocidos.
 
-    .row.mb-5.ps-2
+    .row.mb-2.ps-2
       .col-8.col-lg-3.bg-color-10
         h3.mb-0.text-white Proveedor entre nubes
 
-    .row.align-items-center.mb-5.fondo-3
+    .row.align-items-center.mb-5.fondo-3.p-4
       .col-12.col-md-8.col-lg-5.col-xl-5
         p.mb-3  Los proveedores de servicio de <i>cloud</i>pueden depender de uno o más proveedores “pares” (<i>peer</i>) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-2
+      .col-12.col-md-4.col-lg-7.col-xl-7
         .cajon.color-custom.p-3 
           p Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
+      
+      p.my-5 El objetivo es que, desde el punto de vista del proveedor de servicios de <i>cloud</i> principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
 
-      p.mb-3 El objetivo es que, desde el punto de vista del proveedor de servicios de <i>cloud</i> principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
-
-      p.mb-3 Las actividades del proveedor entre nubes incluyen:
+      p.mb-5 Las actividades del proveedor entre nubes incluyen:
 
       h5.aling.mb-5 Gestionar servicios en la nube de pares: esta actividad consiste en administrar el uso de los servicios en la nube de un proveedor homólogo, implica:
 
       .row.align-items-center.mb-5
-        .col-12.col-md-8.col-lg-7.col-xl-7
+        .col-12.col-md-8.col-lg-8.col-xl-8
           ul.lista-ul--color
             li 
               i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -653,36 +661,38 @@
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
               | Coordinar las credenciales de identidad y seguridad entre el cliente y todos los proveedores homólogos.
-        .col-12.col-md-4.col-lg-5.col-xl-5.mb-3
+        .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
           img(src="@/assets/curso/images/tema2/img_22.svg" alt="AvatarTop")
 
-      h5.aling.mb-3 Realizar <i>peering</i>, federación, intermediación, agregación y arbitraje: esta actividad implica el uso de los servicios en la nube del proveedor homólogos de todas estas maneras particulares y que se explican a continuación:
+      h5.aling.mb-5 Realizar <i>peering</i>, federación, intermediación, agregación y arbitraje: esta actividad implica el uso de los servicios en la nube del proveedor homólogos de todas estas maneras particulares y que se explican a continuación:
 
-    .row.mb-5.ps-2
-        .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
-          img(src="@/assets/curso/images/tema2/img_23.svg" alt="AvatarTop")
-        .col-12.col-md-8.col-lg-8.col-xl-8
-          ul.lista-ul--color
-            li 
-              i.fas.fa-caret-right(style="color: #FF2C9C")
-              | <i>peering</i> es el uso de servicios en la nube de un proveedor homólogo.
-            li
-              i.fas.fa-caret-right(style="color: #FF2C9C")
-              | La federación implica el uso de los servicios en la nube de un grupo de proveedores homólogos que combinan mutuamente sus capacidades de servicio para proporcionar el conjunto de servicios en la nube requeridos por los clientes.
-            li
-              i.fas.fa-caret-right(style="color: #FF2C9C")
-              | La intermediación consiste en una oferta desde un proveedor que ofrece un servicio en la nube acondicionando o mejorando el servicio en la nube de un proveedor original similar, por ejemplo, incluyendo la gestión del acceso a los servicios en la nube, proporcionando un frontal web más atractivo con una interfaz de programación de aplicaciones (API) de servicios en la nube, gestión de identidades, informes de rendimiento, seguridad mejorada, entre otros posibles.
-            li
-              i.fas.fa-caret-right(style="color: #FF2C9C")
-              | La agregación se produce cuando la oferta de un servicio en la nube por un proveedor se ha compuesto mediante un conjunto de servicios proporcionados por proveedores pares.
-            li
-              i.fas.fa-caret-right(style="color: #FF2C9C")
-              | El arbitraje involucra a los proveedores que ofrecen un servicio en la nube que se fundamenta en la selección de una única oferta de servicios seleccionada de entre un grupo de proveedores homólogos.
+      .row.mb-5.ps-2
+          .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
+            img(src="@/assets/curso/images/tema2/img_23.svg" alt="AvatarTop")
+          .col-12.col-md-8.col-lg-8.col-xl-8
+            ul.lista-ul--color
+              li 
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | <i>peering</i> es el uso de servicios en la nube de un proveedor homólogo.
+              li
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | La federación implica el uso de los servicios en la nube de un grupo de proveedores homólogos que combinan mutuamente sus capacidades de servicio para proporcionar el conjunto de servicios en la nube requeridos por los clientes.
+              li
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | La intermediación consiste en una oferta desde un proveedor que ofrece un servicio en la nube acondicionando o mejorando el servicio en la nube de un proveedor original similar, por ejemplo, incluyendo la gestión del acceso a los servicios en la nube, proporcionando un frontal web más atractivo con una interfaz de programación de aplicaciones (API) de servicios en la nube, gestión de identidades, informes de rendimiento, seguridad mejorada, entre otros posibles.
+              li
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | La agregación se produce cuando la oferta de un servicio en la nube por un proveedor se ha compuesto mediante un conjunto de servicios proporcionados por proveedores pares.
+              li
+                i.fas.fa-caret-right(style="color: #FF2C9C")
+                | El arbitraje involucra a los proveedores que ofrecen un servicio en la nube que se fundamenta en la selección de una única oferta de servicios seleccionada de entre un grupo de proveedores homólogos.
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-8
         h3.mb-0.text-white Gestor de riesgos y seguridad del servicio en la nube
   
-    p.mb-5 Tiene la responsabilidad de garantizar que el proveedor gestione adecuadamente los riesgos asociados con el desarrollo, la entrega, el uso y el soporte de los servicios en la nube, esto incluye garantizar la alineación de las políticas de seguridad de la información del cliente y el proveedor para cumplir, en último término, con los requisitos de seguridad establecidos en el SLA.
+    p.mb-3 Tiene la responsabilidad de garantizar que el proveedor gestione adecuadamente los riesgos asociados con el desarrollo, la entrega, el uso y el soporte de los servicios en la nube, esto incluye garantizar la alineación de las políticas de seguridad de la información del cliente y el proveedor para cumplir, en último término, con los requisitos de seguridad establecidos en el SLA.
+
+    p.mb-5 Las actividades del gestor de riesgos y seguridad del servicio en la nube incluyen:
 
     .row.mb-3
       .col-12.col-md-8.col-lg-2.col-xl-2
@@ -690,8 +700,8 @@
       .col-12.col-md-4.col-lg-10.col-xl-10.mb-3
         h5 Gestionar la seguridad y los riesgos. Esta actividad consiste en la gestión de la seguridad y los riesgos asociados con el desarrollo, la entrega, el uso y el soporte de los servicios en la nube, como puede verse a continuación:
 
-    .row.justify-content-center.align-items-center.fondo-3.mb-3
-      .col-12.col-md-8.col-lg-12.col-xl-12.mb-4    
+    .row.justify-content-center.align-items-center.mb-3.fondo-3
+      .col-12.col-md-4.col-lg-10.col-xl-10   
         PasosA.color-acento-botones.mb-5(tipo="n")
             div        
               p.mb-0 Definir la política de seguridad de la información, teniendo en cuenta los requisitos del servicio, los requisitos legales y reglamentarios y las obligaciones contractuales y SLA.
@@ -753,7 +763,7 @@
             img(src='@/assets/curso/images/tema2/img_24.png' alt='')
 
 
-      div.row(titulo="Prestar servicios de red.")
+      div.row(titulo="Prestar servicios de red")
         .col-md-6.mb-4.mb-md-0
           p.mb-3 Gestionar las relaciones con los clientes
           p.mb-3 Esta actividad implica la prestación de servicios relacionados con la red, como <i>firewalls</i> o equilibrio de carga.
@@ -795,15 +805,15 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-8.col-lg-5.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-3.col-xl-3.mb-4
           img(src="@/assets/curso/images/tema2/img_27.svg" alt="AvatarTop",)
       .col-12.col-md-4.col-lg-7.col-xl-7
         LineaTiempoD.color-acento-contenido.mt-5
-          p.text-small.color.line(numero="1" titulo="Consultor") Socio que cuenta con un equipo técnico capacitado, certificado por el proveedor y que es capaz de brindar consultoría en cuanto a la mejor utilización de los recursos de la nube pública, servicios de optimización de costos, integración de <i>software</i>  de terceros, arquitectura para diferentes cargas de trabajo, entre otro tipo de apoyos.
+          p.text-small.color.line.mt-3(numero="1" titulo="Consultor") Socio que cuenta con un equipo técnico capacitado, certificado por el proveedor y que es capaz de brindar consultoría en cuanto a la mejor utilización de los recursos de la nube pública, servicios de optimización de costos, integración de <i>software</i>  de terceros, arquitectura para diferentes cargas de trabajo, entre otro tipo de apoyos.
 
-          p.text-small(numero="2" titulo="Proveedor de servicios gestionados (MSP)") Socio que realmente se ocupa del entorno de nube pública del cliente y actúa como un equipo de infraestructura o <i>DevOps</i> externo, de acuerdo con los principios de confiabilidad del sitio.
+          p.text-small.mt-3(numero="2" titulo="Proveedor de servicios gestionados (MSP)") Socio que realmente se ocupa del entorno de nube pública del cliente y actúa como un equipo de infraestructura o <i>DevOps</i> externo, de acuerdo con los principios de confiabilidad del sitio.
             
-          p.text-small(numero="3" titulo="Revendedores") Socio que brinda acceso a los servicios de nube pública a través de su propia consola. También se ocupan de la facturación y brindan soporte administrativo relacionado con la facturación.
+          p.text-small.mt-3(numero="3" titulo="Revendedores") Socio que brinda acceso a los servicios de nube pública a través de su propia consola. También se ocupan de la facturación y brindan soporte administrativo relacionado con la facturación.
          
     p.mb-5 Entre los beneficios típicos destacados por los propios <i>partners</i> a los clientes se encuentran:
 
@@ -865,7 +875,7 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Partner como proveedor" :icono="require('@/assets/curso/images/tema2/ico_tab_13.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Partner como proveedor
             p
               ul.lista-ul--color
@@ -882,13 +892,13 @@
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Cobra tarifas a los clientes.
 
-          .col-md-6
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema2/img_33.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_33.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
       .py-4.py-md-5(titulo="Partner como comprador" :icono="require('@/assets/curso/images/tema2/ico_tab_14.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Partner como comprador
             p
               ul.lista-ul--color
@@ -904,30 +914,30 @@
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Proporciona soporte al servicio en nube.
-          .col-md-6
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema2/img_34.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_34.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
         
       .py-4.py-md-5(titulo="Partner como soporte" :icono="require('@/assets/curso/images/tema2/ico_tab_15.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Partner como soporte
             p
               ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Actúa como comerciante vendiendo el <i>software</i> e del proveedor a sus clientes nuevos y existentes.
+                  p Actúa como comerciante vendiendo el <i>software</i> del proveedor a sus clientes nuevos y existentes.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Trabaja con un cliente para instalar y respaldar la infraestructura tecnológica necesaria para ejecutar un servicio en la nube (por ejemplo, red y alojamiento). Mientras que el proveedor de servicios en la nube crea y actualiza el <i>software</i> , el socio gestiona las relaciones entre el proveedor y los clientes.
+                  p Trabaja con un cliente para instalar y respaldar la infraestructura tecnológica necesaria para ejecutar un servicio en la nube (por ejemplo, red y alojamiento). Mientras que el proveedor de servicios en la nube crea y actualiza el <i>software</i> , el socio gestiona las relaciones entre el proveedor y los clientes.
               
-          .col-md-6
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema2/img_35.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_35.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
       .py-4.py-md-5(titulo="Partner como orquestador de segundo nivel" :icono="require('@/assets/curso/images/tema2/ico_tab_16.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Partner como orquestador de segundo nivel
             p
               ul.lista-ul--color
@@ -944,9 +954,9 @@
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Diseña portales web fáciles de usar con gestión de identidad para el cliente.
               
-          .col-md-6
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema2/img_36.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_36.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
     Separador 
 
@@ -961,12 +971,12 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       .row(titulo="Diseñar, crear y mantener componentes de servicio")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-5
           p.mb-3 Esta actividad implica:
             ul.lista-ul--color.mt-3
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Diseñar y crear componentes de <i>software</i>  que son parte de la implementación de un servicio.
+                p Diseñar y crear componentes de <i>software</i>  que son parte de la implementación de un servicio.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Crear la funcionalidad que se ofrece a los usuarios del servicio, lo que también implica conectar los componentes del servicio a los sistemas de soporte operativo del proveedor, de modo que la implementación del servicio pueda ser monitoreada y controlada.
@@ -980,13 +990,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Proporcionar mejoras a las implementaciones de servicios.
       
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_37.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_37.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
 
       div.row(titulo="Redactar servicios")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-5
           p.mb-3 Esta actividad consiste en la composición de servicios utilizando servicios existentes e implica:
             ul.lista-ul--color.mt-3
               li 
@@ -1002,13 +1012,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Realizar una composición que pueda implicar la intermediación, agregación o arbitraje de los servicios existentes.
           
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_38.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_38.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
 
       div.row(titulo="Servicios de prueba/test")
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-5
           p.mb-3 Esta actividad tiene por objetivo probar los componentes y servicios creados por el desarrollador de servicios en la nube. Esta actividad implica:
             ul.lista-ul--color.mt-3
               li 
@@ -1019,22 +1029,22 @@
                 | Garantizar la interoperabilidad con los servicios en la nube proporcionados por un proveedor de servicios en la nube homólogo
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Pruebas que deben incluir la verificación de que las conexiones a los sistemas de soporte operativo del proveedor de servicios en la nube funcionan correctamente. Como resultado, normalmente es necesario realizar algunas de las pruebas en un área de prueba del <i>Datacenter</i> del proveedor de servicios en la nube.
+                p Pruebas que deben incluir la verificación de que las conexiones a los sistemas de soporte operativo del proveedor de servicios en la nube funcionan correctamente. Como resultado, normalmente es necesario realizar algunas de las pruebas en un área de prueba del <i>Datacenter</i> del proveedor de servicios en la nube.
 
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_39.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_39.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
     Separador 
 
     #t_2_5.titulo-segundo
       .h4 2.5 Auditor de servicios en la nube
     
-    .row.justify-content-center.align-items-center.fondo-3
+    .row.justify-content-center.align-items-center.fondo-3.p-4
       .col-lg-12.mb-3
         p El auditor de la nube es el responsable de realizar una auditoría de la provisión y uso de los servicios en la nube, una auditoría de la nube generalmente cubre las operaciones, el rendimiento y la seguridad y examina si se cumple un conjunto específico de criterios de auditoría. 
           .cajon.color-custom-2.p-3
-            p.mb-3 Los criterios de auditoría son el conjunto de requisitos a verificar y que pueden proceder de normas internacionales (por ejemplo: normas ISO), regulatorias (por ejemplo: del propio sector económico o industrial en el que la organización desarrolla sus actividades de negocio principales), normativas (por ejemplo: políticas internas de la organización), legales (por ejemplo: leyes para el almacenamiento, intercambio y/o tratamientos de datos como el artículo 2 de la Ley 1581 de 2012, de propiedad intelectual, de privacidad como el artículo 4 de la Ley 1581 de 2012) y/o contractuales (por ejemplo: compromisos en los contratos).
+            p.mb-3 Los criterios de auditoría son el conjunto de requisitos a verificar y que pueden proceder de <b>normas internacionales</b> (por ejemplo: normas ISO), <b>regulatorias</b> (por ejemplo: del propio sector económico o industrial en el que la organización desarrolla sus actividades de negocio principales), normativas (por ejemplo: políticas internas de la organización), <b>legales</b> (por ejemplo: leyes para el almacenamiento, intercambio y/o tratamientos de datos como el artículo 2 de la Ley 1581 de 2012, de propiedad intelectual, de privacidad como el artículo 4 de la Ley 1581 de 2012) y/o <b>contractuales</b> (por ejemplo: compromisos en los contratos).
       
       p.mb-3 En el área de las normas internacionales, se ha mencionado la relevancia en el cumplimiento de los criterios para la seguridad de la información indicados en la norma ISO/IEC 27001.
 
@@ -1043,12 +1053,12 @@
       h5.aling.mb-5 Las actividades de computación en la nube del auditor de servicios en la nube incluyen:
 
 
-      .row.mb-5.ps-2
+      .row.ps-4
         .col-8.col-lg-3.bg-color-10
           h3.mb-0.text-white Realizar una auditoría
 
-      .row.justify-content-center.align-items-center
-        .col-md-6.mb-4.mb-md-0
+      .row.align-items-center
+        .col-lg-6
             ul.lista-ul--color
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -1065,9 +1075,9 @@
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Comparar la evidencia de auditoría obtenida con los criterios de auditoría descritos por el esquema o estándar de auditoría que se está utilizando.
-        .col-md-6
+        .col-lg-4
           figure
-            img(src='@/assets/curso/images/tema2/img_40.svg' alt='')
+            img(src='@/assets/curso/images/tema2/img_40.svg'  alt='' style="width:400px; display:block; margin:3rem 2rem")
 
       .row.mb-5.ps-2
         .col-8.col-lg-3.bg-color-9

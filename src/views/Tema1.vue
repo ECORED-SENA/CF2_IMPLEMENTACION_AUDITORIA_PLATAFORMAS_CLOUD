@@ -13,6 +13,11 @@
       .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
         p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
 
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+         p.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
     Separador 
     
     .row.fondo-1
@@ -590,6 +595,11 @@
       .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
         p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista #[br] del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios #[br]de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre #[br]  los roles, actividades y componentes funcionales que aplican a roles y sub-roles #[br] en la vista del usuario y deben considerarse en las actividades que #[br] desempeñan directa o indirectamente.
 
+    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img.my-3(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
+      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+         p.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista # del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
     
     .row.align-items-center.mb-5.fondo-3.p-3
       .col-12.col-md-8.col-lg-8.col-xl-8
@@ -708,9 +718,9 @@
                    img(src='@/assets/curso/images/tema1/img_26.svg' alt='' style="width:220px; display:block; margin:0 auto;")
 
         h3.mb-3 Gobernanza
-        p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
+          p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
 
-        p.mb-3 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
+          p.mb-3 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
 
 
         .row.justify-content-center.align-items-center.mb-5

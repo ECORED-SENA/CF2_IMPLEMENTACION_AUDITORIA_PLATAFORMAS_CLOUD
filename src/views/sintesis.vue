@@ -3,8 +3,6 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
-        span 3
       h1  Síntesis
 
     .row.justify-content-center.align-items-center.fondo-9
@@ -18,7 +16,7 @@
     .jumbotron.mb-5
       p.p-4 Con el fin de verificar y hacer seguimiento en la entrega de los servicios que se venden, así como los recibidos, es importante tener presente la auditoría, que es un requisito indispensable para la mejora y optimización de la prestación y venta. Es seguro que ha sido interesante el contenido presente, así que se invita a revisar el siguiente mapa conceptual, el cual condensa los puntos más importantes de este componente formativo:
 
-    .row.justify-content-center
+    .row.justify-content-center.fondo-17.p-4
       .col-lg-12.mb-4
         img(src="@/assets/curso/images/tema3/info_1.svg" alt="AvatarTop")
 
