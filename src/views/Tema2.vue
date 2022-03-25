@@ -349,49 +349,49 @@
             figure
               img(src='@/assets/curso/images/tema2/info.svg' alt='')
           
-          .tarjeta.p-3.tarjeta-violeta(x="16%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="16%" y="41.2%" numero="")
             p.text-white.mb-5 Evaluar el impacto de la implementación de nuevos servicios o el aumento en el uso de los servicios existentes.
         
           .tarjeta.p-3.tarjeta-violeta(x="16%" y="48%" numero="")
             p.text-white.mb-5 Modificar o ampliar los recursos en el centro de datos para satisfacer las necesidades de nuevas implementaciones.
                      
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="41%" numero="")
             p.text-white.mb-5 Monitorear los servicios y la infraestructura del proveedor de servicios en la nube.
       
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="48%" numero="")
             p.text-white.mb-5 Capturar eventos y datos que son importantes para el negocio del proveedor y presentar estos datos en una forma que sea significativa para el gerente comercial del proveedor. Dicha información incluye elementos como el uso de los servicios en la nube por parte de los clientes y el costo de prestación de esos servicios.
 
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="55%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="55.5%" numero="")
             p.text-white.mb-5 Administrar la infraestructura de red, incluidos routers, servidores de nombres de dominio, direcciones IP, redes privadas virtuales (VPN), cortafuegos y filtrado de contenido.
             
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="62%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="62.5%" numero="")
             p.text-white.mb-5  Asignar y administrar el almacenamiento.
 
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="69%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="69.5%" numero="")
             p.text-white.mb-5 Administrar los privilegios del usuario y del sistema.
              
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="76%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="76.5%" numero="")
             p.text-white.mb-5 Configurar y mantener sistemas operativos e hipervisores.
 
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="83%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="83.5%" numero="")
             p.text-white.mb-5 Administrar un entorno de virtualización.
             
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="90%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="90.5%" numero="")
             p.text-white.mb-5  Supervisar el comportamiento del entorno TIC del proveedor para garantizar que esté funcionando correctamente y que los servicios en la nube proporcionados cumplan los términos del SLA.
 
-          .tarjeta.p-3.tarjeta-violeta(x="43%" y="98%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="43.2%" y="98%" numero="")
             p.text-white.mb-5 Registrar problemas, informar los problemas de manera adecuada siguiendo los canales de comunicación con las partes establecido por el proveedor a nivel interno y con los roles externos del cliente y el partner y seguir los procesos de resolución de problemas hasta que se solucione el problema.
 
-          .tarjeta.p-3.tarjeta-violeta(x="71%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="71.2%" y="41%" numero="")
             p.text-white.mb-5  Realizar un seguimiento de todos los activos computacionales, de almacenamiento, de red y de <i>software</i>  y la relación entre ellos. Esto incluye aspectos de seguimiento como versiones y niveles de parcheo, además de información de configuración, cuando sea relevante.
 
-          .tarjeta.p-3.tarjeta-violeta(x="71%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="71.2%" y="48%" numero="")
             p.text-white.mb-5 Alta de nuevos activos y baja de activos antiguos. Esto puede incluir garantizar que los nuevos activos sean adecuados para su propósito y que se hayan verificado adecuadamente desde el punto de vista de la seguridad y la capacidad de gestión y puede incluir la eliminación segura de activos que ya no son necesarios considerando los datos que pueda contener.
 
-          .tarjeta.p-3.tarjeta-violeta(x="99%" y="41%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="98.4%" y="41%" numero="")
             p.text-white.mb-5  Crear y enviar información de auditoría adecuada a partir de registros, entre otras fuentes de información.
 
-          .tarjeta.p-3.tarjeta-violeta(x="99%" y="48%" numero="")
+          .tarjeta.p-3.tarjeta-violeta(x="98.4%" y="48%" numero="")
             p.text-white.mb-5 Redactar información de cualquier registro u otros datos que puedan contener información confidencial.
 
     .row.mb-5.ps-2
