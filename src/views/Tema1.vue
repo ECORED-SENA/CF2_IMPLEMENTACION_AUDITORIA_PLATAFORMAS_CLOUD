@@ -55,7 +55,7 @@
 
       p.mb-0 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
 
-    .row.justify-content-center.align-items-center.fondo-3.mb-3
+    .row.justify-content-center.align-items-center.fondo-3.mb-3.p-4
       .col-12.col-md-4.col-lg-6.col-xl-6
         p.aling-5.mb-0 En términos generales los servicios más importantes son: servicios de computo, almacenamiento y redes, a continuación de mencionan de manera general algunos de los servicios más comunes o de mayor demanda por parte de los clientes:
 
@@ -87,7 +87,7 @@
 
     #t_1_2.titulo-segundo
       .h4 1.2 Capas funcionales: usuario, acceso, servicio y recursos
-    .row.fondo-14
+    .row.fondo-14.p-3
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
           .bloque-texto-a.color-custom-3.p-2.p-md-5.mb-5 
@@ -718,9 +718,9 @@
                    img(src='@/assets/curso/images/tema1/img_26.svg' alt='' style="width:220px; display:block; margin:0 auto;")
 
         h3.mb-3 Gobernanza
-          p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
+        p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
 
-          p.mb-3 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
+        p.mb-3 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
 
 
         .row.justify-content-center.align-items-center.mb-5

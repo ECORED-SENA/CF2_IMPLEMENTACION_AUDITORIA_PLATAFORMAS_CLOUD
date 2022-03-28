@@ -412,16 +412,16 @@
               ul.lista-ul--color.mt-3
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Definir el entorno técnico requerido en términos de recursos informáticos, de almacenamiento y de red, las dependencias del <i>software</i>, incluida la configuración.
+                  p Definir el entorno técnico requerido en términos de recursos informáticos, de almacenamiento y de red, las dependencias del <i>software</i>, incluida la configuración.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Definir políticas y procesos para ampliar y reducir el uso de recursos en respuesta a la demanda de uso cambiante.
+                  p Definir políticas y procesos para ampliar y reducir el uso de recursos en respuesta a la demanda de uso cambiante.
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Asegurar que el servicio en la nube se adhiera a los estándares apropiados relacionados con la seguridad y el cumplimiento comercial.
+                  p Asegurar que el servicio en la nube se adhiera a los estándares apropiados relacionados con la seguridad y el cumplimiento comercial.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Definir los procesos a seguir cuando el servicio se está ejecutando, incluidos los planes de reparación, actualización y migración.
+                  p Definir los procesos a seguir cuando el servicio se está ejecutando, incluidos los planes de reparación, actualización y migración.
 
           .col-md-6
             figure
