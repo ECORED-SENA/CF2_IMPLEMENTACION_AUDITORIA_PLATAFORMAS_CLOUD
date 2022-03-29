@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Arquitectura y servicios en la nube',
+    componenteFormativo: 'Arquitectura y servicios <br> en la nube',
     descripcionCurso:
       'La computación en la nube es cada vez más utilizada y con mayor frecuencia por empresas y particulares, es necesario conocer que existen diferentes tipos de servicios ofrecidos a través de la nube, así como formas y características de acceso a estos servicios, además de las funciones y responsabilidades que registran tanto para el cliente como para el proveedor.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
@@ -30,7 +30,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Tipos de servicios y modelos Cloud',
+            titulo: 'Tipos de servicios y modelos <i>Cloud</i>',
             hash: 't_1_1',
           },
           {
@@ -71,7 +71,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.4',
+            numero: '',
             titulo: 'Interoperabilidad',
             hash: 't_1_4_4',
           },
@@ -95,7 +95,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4.8',
+            numero: '',
             titulo: 'Resiliencia',
             hash: 't_1_4_8',
           },
@@ -129,7 +129,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Roles y actividades asociadas a los partners',
+            titulo: 'Roles y actividades asociadas a los <i>partners</i>',
             hash: 't_2_3',
           },
           {

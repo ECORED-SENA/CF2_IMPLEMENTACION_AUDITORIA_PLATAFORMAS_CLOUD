@@ -8,10 +8,10 @@
       h1  Arquitectura <i>Cloud Computing</i>
 
     .row.align-items-center.fondo-11.mb-5
-      .col-12.col-md-8.col-lg-4.col-xl-4 
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:400px; display:block; margin:-1rem 10rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
-        p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
+      .col-12.col-md-8.col-lg-5.col-xl-5
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:425px; display:block; margin:-1rem 8rem;").mb-3
+      .col-12.col-md-4.col-lg-6.col-xl-6.mb-3
+        p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes #[br] tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo, robusteciendo los puntos fuertes y minimizando los puntos débiles.
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
@@ -26,34 +26,34 @@
       
       p.mb-5.aling Los servicios tradicionales se categorizan en tres tipos
       
-      .row.justify-content-center.align-items-center.mb-3
-        .col-3.mb-4.d-flex
+      .row.justify-content-center.align-items-center.mb-5
+        .col-3.d-flex
           .tarjeta--sencilla.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center
               .col-7
                 figure
-                  img(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
-            h3.aling.mb-4 Pass
-              p.mb-0.text-small Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, <i>framework</i> de desarrollo, bases de datos entre otros.
+                  img.my-1(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
+            h3.aling Pass
+              p.mb-0.text-small.mt-3 Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, <i>framework</i> de desarrollo, bases de datos entre otros.
                 
-        .col-3.mb-4.d-flex
+        .col-3.d-flex
           .tarjeta--sencilla.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center
               .col-7
                 figure
                   img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar')
-            h3.aling.mb-4  SaaS
-              p.mb-0.text-small Es el acceso a aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
-        .col-3.mb-4.d-flex
+            h3.aling  SaaS
+              p.text-small.mt-3 Es el acceso a aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
+        .col-3.d-flex
           .tarjeta--sencilla.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center
               .col-7
                 figure
                   img.my-3(src='@/assets/curso/images/tema1/ico_3.svg', alt='icono-avatar')
             h3.aling IdaS
-              p.mb-5.text-small Proporciona el <i>hardware</i> virtualizado en forma de máquinas virtuales en diferentes instancias de Sistemas operativos o Contenedores generalmente <i>docker</i>, incluye de igual manera el <i>networking</i>.
+              p.mb-3.text-small.mt-3 Proporciona el <i>hardware</i> virtualizado en forma de máquinas virtuales en diferentes instancias de Sistemas operativos o Contenedores generalmente <i>docker</i>, incluye de igual manera el <i>networking</i>.
 
-      p.mb-0 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
+    p.aling-10 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
 
     .row.justify-content-center.align-items-center.fondo-3.mb-3.p-4
       .col-12.col-md-4.col-lg-6.col-xl-6
@@ -87,19 +87,20 @@
 
     #t_1_2.titulo-segundo
       .h4 1.2 Capas funcionales: usuario, acceso, servicio y recursos
+      
     .row.fondo-14.p-3
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
-          .bloque-texto-a.color-custom-3.p-2.p-md-5.mb-5 
-            .row.m-0.align-items-center.justify-content-between
-              .col-lg-9
+          .bloque-texto-a.color-custom-3.p-3.mb-5 
+            .row.m-0.align-items-center
+              .col-lg-8
                 .bloque-texto-a__texto.p-4
                   p.mb-3 Cada proveedor de servicios <i>cloud</i> dispone de una arquitectura propia como elemento diferenciador del resto de competidores de mercado y/o para adaptarse mejor a la evolución de sus propios servicios tradicionales y necesidades de sus clientes actuales y potenciales. 
 
                   p Si bien existen diferencias marcadas entre las nubes públicas o privadas, a continuación se mencionan los diferentes componentes funcionales de alto nivel presentes en una arquitectura de nube en términos generales o genérica.
-              .col-lg-3.mb-4.mb-lg-0
+              .col-lg-4.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_4.svg' alt='' style="width:250px; display:block; margin:auto 0;")
+                  img(src='@/assets/curso/images/tema1/img_4.svg' alt='' style="width:350px; display:block; margin:auto 0;")
 
       .row.justify-content-center.align-items-center
         .col-12.col-md-8.col-lg-12.col-xl-12.mb-4        
@@ -115,9 +116,9 @@
             h4 Capa de usuario
             p  La capa de usuario es la interfaz de usuario a través de la cual un cliente de servicios en la nube interactúa con el proveedor de servicios en la nube y con los servicios en la nube, realiza actividades administrativas relacionadas con el cliente y monitorea los servicios adquiridos por su organización.
         
-          .col-lg-4
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema1/img_5.svg')
+              img(src='@/assets/curso/images/tema1/img_5.svg' alt='' style="width:300px; display:block; margin:auto 3rem;")
 
       .py-4.py-md-5(titulo="Capa de acceso" :icono="require('@/assets/curso/images/tema1/ico_tab_2.svg')")
         .row
@@ -139,9 +140,9 @@
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Transmite solicitudes validadas a los componentes de la capa de servicios. La capa de acceso acepta las solicitudes del cliente o del proveedor para el consumo de los servicios en la nube, y así acceder a los servicios y recursos de los proveedores de servicios.  
-          .col-lg-4
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema1/img_6.svg')
+              img(src='@/assets/curso/images/tema1/img_6.svg' alt='' style="width:300px; display:block; margin:auto 3rem;")
         
       .py-4.py-md-5(titulo="Capa de servicios" :icono="require('@/assets/curso/images/tema1/ico_tab_3.svg')")
         .row
@@ -150,9 +151,9 @@
             p.mb-3 Contiene la implementación de los servicios que proporciona el proveedor. Esta capa contiene y controla los componentes de <i>software</i>  que implementan los servicios, sin incluir aquellos componentes subyacentes como los hipervisores, los sistemas operativos, los controladores de dispositivos, entre otros; y se encarga de ofrecer los servicios en la nube a los usuarios a través de la capa de acceso.
             p El <i>software</i>  de implementación de servicios en esta capa, a su vez, se basa en las capacidades disponibles en la capa de recursos, para proporcionar los servicios que se ofrecen y así garantizar que se cumplan los requisitos de cualquier acuerdo de nivel de servicio (SLA-Service Level Agreement), por ejemplo, mediante el uso de suficientes recursos.
         
-          .col-lg-4
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema1/img_7.svg')
+              img(src='@/assets/curso/images/tema1/img_7.svg' alt='' style="width:300px; display:block; margin:auto 3rem;")
 
       .py-4.py-md-5(titulo="Capa de recursos" :icono="require('@/assets/curso/images/tema1/ico_tab_4.svg')")
         .row
@@ -162,51 +163,51 @@
             p.mb-3 La capa de recursos también representa y aloja la funcionalidad de la red de transporte en la nube, necesaria para la conectividad de red subyacente entre el proveedor de servicios en la nube y los usuarios, así como en la parte interna del propio proveedor de servicios en la nube y sus proveedores de servicios de soporte asociados en la cadena de provisión.
             p.mb-3 Tenga en cuenta que para que un proveedor de servicios en la nube proporcione servicios consistentes con el SLA, puede requerir conexiones dedicadas y/o seguras entre los usuarios y el proveedor de servicios en la nube.
         
-          .col-lg-4
+          .col-lg-3
             figure
-              img(src='@/assets/curso/images/tema1/img_8.svg')
+              img(src='@/assets/curso/images/tema1/img_8.svg' alt='' style="width:300px; display:block; margin:auto 3rem;")
     
     p.mb-3 <b>Funciones multicapa.</b> Las funciones multicapa incluyen una serie de componentes funcionales que interactúan con los componentes funcionales de las cuatro capas anteriores para proporcionar capacidades de apoyo que incluyen, entre otras:
 
     .row.justify-content-center.align-items-center.fondo-5.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-4
-          .col-12.col-lg-6.col-md-5
-            p.aling-7.mb-5 Capacidades de los <b>sistemas de soporte operativo</b> #[br](Administración, monitoreo, aprovisionamiento #[br]y mantenimiento en tiempo de ejecución)
-          .col-12.col-lg-6.col-md-5.mb-4.mb-md-0
+          .col-12.col-lg-4.col-md-5
+            p.mb-5 Capacidades de los <b>sistemas de soporte operativo</b> #[br](Administración, monitoreo, aprovisionamiento #[br]y mantenimiento en tiempo de ejecución)
+          .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
             figure
-              img.mx-3(src='@/assets/curso/images/tema1/img_9.svg', alt='')
+              img(src='@/assets/curso/images/tema1/img_9.svg', alt='', style="width:400px; display:block; margin:0 4rem;")
         .row.justify-content-center.align-items-center
-          .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+          .col-12.col-lg-5
             figure
-              img(src='@/assets/curso/images/tema1/img_10.svg',  alt='', style="width:500px; display:block; margin:0 2rem;")
-          .col-12.col-lg-6
+              img(src='@/assets/curso/images/tema1/img_10.svg', alt='', style="width:400px; display:block; margin:0 -1rem;")
+          .col-12.col-lg-4
             p.aling-8.mb-5 Capacidades de los <b>sistemas de soporte empresarial</b> #[br] (catálogo de productos, facturación y gestión).
           
         
         .row.justify-content-center.align-items-center
-          .col-12.col-lg-6
+          .col-12.col-lg-4
             p.aling-8.mb-5 Capacidades de los <b>sistemas de seguridad</b> #[br](autenticación, autorización, auditoría, validación, cifrado).
-          .col-12.col-lg-6
+          .col-12.col-lg-5
             figure
-              img(src='@/assets/curso/images/tema1/img_11.svg')
+              img(src='@/assets/curso/images/tema1/img_11.svg' alt='', style="width:400px; display:block; margin:0 4rem;")
 
               
         .row.justify-content-center.align-items-center
-          .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+          .col-12.col-lg-5
             figure
-              img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:400px; display:block; margin:0 auto;")
+              img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:400px; display:block; margin:0 -4rem;")
 
-          .col-10.col-lg-6.col-md-5
+          .col-10.col-lg-4.col-md-5
             p.mb-0 Capacidades de <b>integración</b> #[br] (vinculación de diferentes componentes para lograr la funcionalidad requerida).
             
 
         .row.justify-content-center.align-items-center
-          .col-10.col-lg-5.col-md-5
+          .col-10.col-lg-4.col-md-5
             p.mb-5 Capacidades de <b>apoyo al desarrollo </b> (que implican la creación, prueba y gestión del ciclo de vida de servicios y componentes de servicio).
-          .col-11.col-lg-6.col-md-5.mb-4.mb-md-0
+          .col-12.col-lg-5
             figure
-              img(src='@/assets/curso/images/tema1/img_13.svg', alt='')
+              img(src='@/assets/curso/images/tema1/img_13.svg', alt='', style="width:400px; display:block; margin:0 4rem;")
 
     Separador
 

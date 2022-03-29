@@ -15,7 +15,7 @@
       .contenedor-text-4
         .row.justify-content-center.p-4
           .col-auto
-            p.mb-3.p-4 Se da la bienvenida al componente formativo <b>“Arquitectura y servicios en la nube”</b>. Para comenzar el recorrido por el mismo, se debe visitar el recurso didáctico que se muestra a continuación:
+            p.mb-3.p-2 Se da la bienvenida al componente formativo <b>“Arquitectura y servicios en la nube”</b>. Para comenzar el recorrido por el mismo, se debe visitar el recurso didáctico que se muestra a continuación:
   
     
     figure.mb-5
