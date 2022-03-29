@@ -226,8 +226,8 @@
           p.text-small Una actividad de computación en la nube se define como una búsqueda o un conjunto de tareas específicas, las cuales deben tener un propósito y generar uno o más resultados y se llevan a cabo utilizando componentes funcionales.
 
     .row.mb-4.ps-3
-      .col-8.col-lg-3.bg-color-1
-        h3.mb-0.text-white Roles y subroles
+      .col-8.col-lg-7.bg-color-11
+        h3.mb-0.text-white Roles y sub-roles
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-8.col-lg-12.col-xl-12 
@@ -357,18 +357,18 @@
 
     .col-lg-12.mx-auto.mb-5
       .tema1-1 
-        .bloque-texto-a.color-custom-1.p-2.p-md-5
+        .bloque-texto-a.color-custom-1.p-3.md-5
           .row.m-0.align-items-center
-            .col-lg-3.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema1/img_15.png' alt='' style="width:280px; display:block; margin:auto -3rem;")
-            .col-lg-9
-              .bloque-texto-a__texto.p-4
+                img(src='@/assets/curso/images/tema1/img_15.png' alt='' style="width:350px; display:block; margin:auto -1rem;")
+            .col-lg-8
+              .bloque-texto-a__texto.p-5
                 p.mb-0 Este punto de vista funcional trata de aportar una visión similar al del modelo OSI (<i>Open Systems Interconnection</i>) de “Interconexión de Sistemas Abiertos” en el ámbito de los protocolos de comunicación de las redes informáticas, es decir, las funcionalidades que cada capa debe aportar en relación a las dependencias entre funciones.
 
     p.mb-3 Esto permite situar a los fabricantes y sus tecnologías específicas dentro de los objetivos de funcionalidad concretos dentro de cada capa para que todos los componentes de todas las capas del sistema tengan sentido encajando unos con otros según lo esperado e independientemente de las diferencias particulares en prestaciones, fiabilidad, calidad, rendimiento, entre otras que cada vendedor incorpore en su caso particular.
 
-    p Según este sentido, los conceptos presentes en la vista funcional son: las capas y los componentes funcionales. Se ampliará la información sobre cada uno de ellos.
+    p.mb-5 Según este sentido, los conceptos presentes en la vista funcional son: las capas y los componentes funcionales. Se ampliará la información sobre cada uno de ellos.
 
     .row.mb-4.ps-2
       .col-8.col-lg-3.bg-color-2
@@ -414,7 +414,7 @@
       div.row(titulo="Capa de recursos")
         .col-lg-5
           h3 Capa de recursos
-          p  Capa de recursos Incluye los componentes funcionales que representan los recursos necesarios para implementar el sistema de computación en la nube.
+          p  Incluye los componentes funcionales que representan los recursos necesarios para implementar el sistema de computación en la nube.
       
         .col-lg-7
           figure
@@ -425,12 +425,12 @@
         h3.mb-0.text-white Componentes funcionales
 
       .row.justify-content-center.align-items-center.mb-3.mt-4
-          .col-12.col-md-4.col-lg-8.col-xl-8
+          .col-12.col-md-4.col-lg-9.col-xl-9
             .cajon.color-custom.p-3
               p.mb-3 Un componente funcional es un bloque de construcción funcional necesario para participar en una actividad, respaldado por una implementación. Las capacidades de un sistema de computación en la nube están completamente definidas por el conjunto de componentes funcionales implementados.
 
               P Existen funciones multicapa que proporcionan capacidades que se utilizan en múltiples capas funcionales y que se agrupan en subconjuntos, entre ellos se puede encontrar:
-          .col-12.col-md-4.col-lg-4.col-xl-4
+          .col-12.col-md-4.col-lg-3.col-xl-3
             ul.lista-ul--color
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -487,7 +487,7 @@
     p.mb-3 Los componentes funcionales de la capa de usuario incluyen:
 
     .row.justify-content-center.align-items-center.mb-3.fondo-14
-      .col-lg-11
+      .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema1/ico_8.svg', alt="", style="width:100px; display:block; margin:0 1rem;").tj
           .tarjeta.color-tarjeta-1
@@ -497,14 +497,15 @@
 
               p En algunos casos, este componente funcional podría ser tan simple como un navegador que se ejecuta en un dispositivo de usuario. En otros casos, podría implicar un sistema empresarial sofisticado que ejecute procesos de negocio, aplicaciones, <i>middleware</i> e infraestructura asociada.
     
-      .col-lg-11
+      .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema1/ico_9.svg', alt="", style="width:100px; display:block; margin:0 1rem;").tj
           .tarjeta.color-tarjeta-1
             .p-4
               h4 La función comercial
               p Apoya las actividades de computación en la nube del gerente comercial del cliente de servicios en la nube, incluida la selección y compra de servicios, la gestión contable y la financiera relacionada con el uso de servicios en la nube, generalmente las capacidades comerciales se ofrecen a través de servicios en la nube.
-      .col-lg-11
+
+      .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema1/ico_10.svg', alt="", style="width:100px; display:block; margin:0 1rem;").tj
           .tarjeta.color-tarjeta-1
@@ -561,7 +562,8 @@
           .col-8
             img.mb-4(src='@/assets/curso/images/tema1/ico_11.svg' alt='Volver arriba' style="width:85px; display:block; margin:0 auto;")
         h3.aling.text-white Capacidades de servicio
-        p.aling.text-white.text-small Se debe proporcionar control de acceso a los servicios en la nube, los recursos de los que dependen y las funciones de control relacionadas, por tanto, este componente funcional limita el uso a los servicios particulares de los usuarios, implica la autenticación de un usuario a través de la plataforma de acceso, validación de credenciales, seguida de la autorización de este usuario autenticado para utilizar servicios específicos, es fundamental en este componente la gestión de identidades.
+        p.aling.text-white.mb-5 Consiste en el software necesario para implementar el servicio ofrecido a los proveedores de servicios cloud, despliega y entrega la interfaz del servicio, es decir, la interfaz ofrecida a los clientes, independientemente del modo o tipo de implementación del servicio.
+
 
       .tarjeta.sp1.p-4
         .row.justify-content-center.mb-3
@@ -570,6 +572,7 @@
         h3.aling.text-white Capacidades comerciales
         p.aling.text-white Proporciona un conjunto de capacidades para acceder a la función comercial relacionada con la prestación de servicios en la nube. La función empresarial en sí está contenida dentro de los componentes funcionales de los sistemas de soporte empresarial.
 
+
       .tarjeta.sp1.p-4
         .row.justify-content-center.mb-3
           .col-8
@@ -577,12 +580,14 @@
         h3.aling.text-white Capacidades de administración
         p.aling.text-white.tslyder Suministra capacidades para acceder a la función de administración relacionada con la prestación de servicios en la nube.
 
+
       .tarjeta.sp1.p-4
         .row.justify-content-center.mb-3
           .col-8
             img.mb-4(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop' style="width:80px; display:block; margin:0 auto;")
         h3.aling.text-white Orquestación de servicio
         p.aling.text-white.tslyder Proporciona coordinación, agregación y composición de múltiples componentes de servicios para brindar el servicio en la nube.
+
         
 
     Separador
@@ -592,9 +597,9 @@
 
     .row.align-items-center.fondo-12.mb-5
       .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:390px; display:block; margin:-1rem 7rem;").mb-3
-      .col-12.col-md-4.col-lg-8.col-xl-8.mb-3
-        p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista #[br] del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios #[br]de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre #[br]  los roles, actividades y componentes funcionales que aplican a roles y sub-roles #[br] en la vista del usuario y deben considerarse en las actividades que #[br] desempeñan directa o indirectamente.
+        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:390px; display:block; margin:-5rem 6.5rem;").mb-3
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la #[br] vista del usuario como en la arquitectura  y en lo funcional del lado del proveedor #[br] de servicios de computación en la nube. Estos aspectos transversales son #[br] cuestiones compartidas entre  los roles, actividades y componentes funcionales #[br] que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las #[br] actividades que desempeñan directa o indirectamente.
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
@@ -718,8 +723,8 @@
                   figure
                    img(src='@/assets/curso/images/tema1/img_26.svg' alt='' style="width:220px; display:block; margin:0 auto;")
 
-        h3.mb-3 Gobernanza
-        p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
+      h3.mb-3 Gobernanza
+      p.mb-3 Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
 
         p.mb-3 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
 
