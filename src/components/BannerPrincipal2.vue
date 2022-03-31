@@ -17,7 +17,7 @@
 
       
     
-    .d-none.d-lg-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.svg")
+    .d-none.d-lg-block.imagen_flotante_5: img(src="@/assets/curso/images/header/banner-principal.svg").mx-5
   //-  .imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/float4.png")
     .imagen_flotante_6.d-none.d-xl-block: img(src="@/assets/curso/float5.png")
     .imagen_flotante_7: img(src="@/assets/curso/float2.png")
@@ -51,6 +51,7 @@ export default {
   width: 100%
 .banner-principal__info
   margin-right: 25rem
+  margin-top: 30px
   z-index: 3
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
@@ -58,9 +59,13 @@ export default {
 
   .tarjeta
     background-color: $color-banner-fondo
-    background-size: cover
+    background-size: conver
     background-position: center
-    height: 27rem
+    height: 30rem
+    border-top-right-radius: 2rem
+    border-bottom-right-radius: 2rem
+    border-top-left-radius: 2rem
+    border-bottom-left-radius: 2rem
 
   &__info
     display: flex

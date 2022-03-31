@@ -9,7 +9,7 @@
 
     .row.align-items-center.fondo-11.mb-5
       .col-12.col-md-8.col-lg-5.col-xl-5
-        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:425px; display:block; margin:-1rem 8rem;").mb-3
+        img(src="@/assets/curso/images/tema1/img_1.svg" alt="AvatarTop", style="width:425px; display:block; margin:-1rem 7.5rem;").mb-3
       .col-12.col-md-4.col-lg-6.col-xl-6.mb-3
         p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes #[br] tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo, robusteciendo los puntos fuertes y minimizando los puntos débiles.
 
@@ -91,16 +91,16 @@
     .row.fondo-14.p-3
       .col-lg-12.mx-auto.mb-5
         .tema1-1 
-          .bloque-texto-a.color-custom-3.p-3.mb-5 
+          .bloque-texto-a.color-custom-3.p-4.mb-5 
             .row.m-0.align-items-center
-              .col-lg-8
+              .col-lg-9
                 .bloque-texto-a__texto.p-4
                   p.mb-3 Cada proveedor de servicios <i>cloud</i> dispone de una arquitectura propia como elemento diferenciador del resto de competidores de mercado y/o para adaptarse mejor a la evolución de sus propios servicios tradicionales y necesidades de sus clientes actuales y potenciales. 
 
                   p Si bien existen diferencias marcadas entre las nubes públicas o privadas, a continuación se mencionan los diferentes componentes funcionales de alto nivel presentes en una arquitectura de nube en términos generales o genérica.
-              .col-lg-4.mb-4.mb-lg-0
+              .col-lg-3.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/images/tema1/img_4.svg' alt='' style="width:350px; display:block; margin:auto 0;")
+                  img(src='@/assets/curso/images/tema1/img_4.svg' alt='' style="width:35  0px; display:block; margin:auto 0;")
 
       .row.justify-content-center.align-items-center
         .col-12.col-md-8.col-lg-12.col-xl-12.mb-4        
@@ -172,42 +172,42 @@
     .row.justify-content-center.align-items-center.fondo-5.mb-5
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center.p-4
-          .col-12.col-lg-4.col-md-5
-            p.mb-5 Capacidades de los <b>sistemas de soporte operativo</b> #[br](Administración, monitoreo, aprovisionamiento #[br]y mantenimiento en tiempo de ejecución)
-          .col-12.col-lg-5.col-md-5.mb-4.mb-md-0
+          .col-12.col-lg-6.col-md-5
+            p.aling-7.mb-5 Capacidades de los <b>sistemas de soporte operativo</b> #[br](Administración, monitoreo, aprovisionamiento #[br]y mantenimiento en tiempo de ejecución)
+          .col-12.col-lg-6.col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema1/img_9.svg', alt='', style="width:400px; display:block; margin:0 4rem;")
+              img(src='@/assets/curso/images/tema1/img_9.svg', alt='', style="width:400px; display:block; margin:0 3rem;")
         .row.justify-content-center.align-items-center
-          .col-12.col-lg-5
+          .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_10.svg', alt='', style="width:400px; display:block; margin:0 -1rem;")
-          .col-12.col-lg-4
-            p.aling-8.mb-5 Capacidades de los <b>sistemas de soporte empresarial</b> #[br] (catálogo de productos, facturación y gestión).
+              img(src='@/assets/curso/images/tema1/img_10.svg', alt='', style="width:400px; display:block; margin:0 3rem;")
+          .col-12.col-lg-6
+            p.aling-11.mb-5 Capacidades de los <b>sistemas de soporte empresarial</b> #[br] (catálogo de productos, facturación y gestión).
           
         
         .row.justify-content-center.align-items-center
-          .col-12.col-lg-4
+          .col-12.col-lg-6
             p.aling-8.mb-5 Capacidades de los <b>sistemas de seguridad</b> #[br](autenticación, autorización, auditoría, validación, cifrado).
-          .col-12.col-lg-5
+          .col-12.col-lg-6
             figure
               img(src='@/assets/curso/images/tema1/img_11.svg' alt='', style="width:400px; display:block; margin:0 4rem;")
 
               
         .row.justify-content-center.align-items-center
-          .col-12.col-lg-5
+          .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:400px; display:block; margin:0 -4rem;")
+              img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:400px; display:block; margin:0 3rem;")
 
-          .col-10.col-lg-4.col-md-5
+          .col-10.col-lg-6.col-md-5
             p.mb-0 Capacidades de <b>integración</b> #[br] (vinculación de diferentes componentes para lograr la funcionalidad requerida).
             
 
         .row.justify-content-center.align-items-center
-          .col-10.col-lg-4.col-md-5
-            p.mb-5 Capacidades de <b>apoyo al desarrollo </b> (que implican la creación, prueba y gestión del ciclo de vida de servicios y componentes de servicio).
-          .col-12.col-lg-5
+          .col-10.col-lg-6.col-md-5
+            p.aling-11.mb-5 Capacidades de <b>apoyo al desarrollo </b> (que implican la creación, prueba y gestión del ciclo de vida de servicios y componentes de servicios).
+          .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_13.svg', alt='', style="width:400px; display:block; margin:0 4rem;")
+              img(src='@/assets/curso/images/tema1/img_13.svg', alt='', style="width:450px; display:block; margin:0 4rem;")
 
     Separador
 
@@ -354,16 +354,16 @@
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-2
         h3.mb-0.text-white La vista funcional
-
+    
     .col-lg-12.mx-auto.mb-5
       .tema1-1 
-        .bloque-texto-a.color-custom-1.p-3.md-5
+        .bloque-texto-a.color-custom-1.p-4.md-5
           .row.m-0.align-items-center
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-3.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/images/tema1/img_15.png' alt='' style="width:350px; display:block; margin:auto -1rem;")
-            .col-lg-8
-              .bloque-texto-a__texto.p-5
+                img(src='@/assets/curso/images/tema1/img_15.png' alt='' style="width:360px; display:block; margin:auto -1rem;")
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
                 p.mb-0 Este punto de vista funcional trata de aportar una visión similar al del modelo OSI (<i>Open Systems Interconnection</i>) de “Interconexión de Sistemas Abiertos” en el ámbito de los protocolos de comunicación de las redes informáticas, es decir, las funcionalidades que cada capa debe aportar en relación a las dependencias entre funciones.
 
     p.mb-3 Esto permite situar a los fabricantes y sus tecnologías específicas dentro de los objetivos de funcionalidad concretos dentro de cada capa para que todos los componentes de todas las capas del sistema tengan sentido encajando unos con otros según lo esperado e independientemente de las diferencias particulares en prestaciones, fiabilidad, calidad, rendimiento, entre otras que cada vendedor incorpore en su caso particular.
@@ -420,7 +420,7 @@
           figure
             img(src='@/assets/curso/images/tema1/img_19.png' alt='')
     
-    .row.mb-5.ps-2.fondo-15
+    .row.mb-5.ps-5.fondo-15
       .col-8.col-lg-3.bg-color-5
         h3.mb-0.text-white Componentes funcionales
 
@@ -448,11 +448,11 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Sistemas de apoyo empresarial.
 
-      #menu1.row.justify-content-center.mb-3
+      #menu1.row.justify-content-center
         .col-lg-12
           .contenedor-total
             figure
-              img.mx-auto(src='@/assets/curso/images/tema1/img_20.png' alt='', style="width:1000px; display:block; margin:0 auto;")
+              img.mx-auto(src='@/assets/curso/images/tema1/img_20.png')
             .contenedor-text.cd 
               .row.justify-content-center.p-4
                 .col-auto
@@ -462,31 +462,32 @@
             .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
               a(href="#1", title="Capa de usuario") 
                 figure
-                  img(src='@/assets/curso/images/tema1/ico_menu_1.svg' alt='1').mb-3
+                  img(src='@/assets/curso/images/tema1/ico_menu_1.svg' alt='1' style="width:200px; display:block; margin:auto 7rem;").mb-3
                 .indicador-click(v-if="mostrarIndicador")
             .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
               a(href="#2", title="Capa de acceso") 
                 figure
-                  img(src='@/assets/curso/images/tema1/ico_menu_2.svg' alt='1').mb-3
+                  img(src='@/assets/curso/images/tema1/ico_menu_2.svg' alt='2' style="width:200px; display:block; margin:auto 3rem;").mb-3
                 .indicador--click(v-if="mostrarIndicador")      
             .col-sm-6.col-lg-3.mb-4.mb-lg-0.btn.mb-5
               a(href="#3", title="Capa de servicio") 
                 figure
-                  img(src='@/assets/curso/images/tema1/ico_menu_3.svg' alt='1')
+                  img(src='@/assets/curso/images/tema1/ico_menu_3.svg' alt='3' style="width:200px; display:block; margin:auto -1rem;")
                 .indicador--click(v-if="mostrarIndicador")  
+   
     br
     #1.pRelative
       .backtoTop
         a(href="#menu1", title="Capa de usuario") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 auto;")
-  
+    
     .row.mb-5.ps-2
       .col-8.col-lg-2.bg-color-11
         h3.mb-0.text-white Capa de usuario
 
     p.mb-3 Los componentes funcionales de la capa de usuario incluyen:
-
-    .row.justify-content-center.align-items-center.mb-3.fondo-14
+  .container.bg-white.p-4.p-md-5.fondo-16
+    .row.justify-content-center.align-items-center.mb-botton
       .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema1/ico_8.svg', alt="", style="width:100px; display:block; margin:0 1rem;").tj
@@ -505,6 +506,7 @@
               h4 La función comercial
               p Apoya las actividades de computación en la nube del gerente comercial del cliente de servicios en la nube, incluida la selección y compra de servicios, la gestión contable y la financiera relacionada con el uso de servicios en la nube, generalmente las capacidades comerciales se ofrecen a través de servicios en la nube.
 
+    
       .col-lg-10
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/images/tema1/ico_10.svg', alt="", style="width:100px; display:block; margin:0 1rem;").tj
@@ -513,37 +515,40 @@
               h4 La función comercial
               p.mb-3   Este componente funcional es compatible con las actividades de computación en la nube del administrador de servicios en la nube del cliente. 
 
-              p Esto incluye funciones para la administración de identidades y perfiles de usuarios, el monitoreo de la actividad y el uso del servicio, el manejo de eventos y la notificación de problemas.
-    hr
-    .row.fondo-16    
-      #2.pRelative_2
-        .backtoTop-2
-          a(href="#menu1", title="Capas de acceso") 
-            img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 -2rem;")
     
-      .row.mb-5.ps-2
-        .col-8.col-lg-2.bg-color-11
-          h3.mb-0.text-white Capas de acceso
+              p Esto incluye funciones para la administración de identidades y perfiles de usuarios, el monitoreo de la actividad y el uso del servicio, el manejo de eventos y la notificación de problemas.
+      hr 
+    
+    #2.pRelative_2
+      .backtoTop-2
+        a(href="#menu1", title="Capas de acceso") 
+          img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 -2rem;")
+  
+    .row.mb-5.ps-2
+      .col-8.col-lg-2.bg-color-11
+        h3.mb-0.text-white Capas de acceso
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-md-4.col-lg-6.col-xl-7
-          p.mb-0 Los componentes funcionales de la capa de acceso incluyen:
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-4.col-lg-6.col-xl-7
+        p.mb-0 Los componentes funcionales de la capa de acceso incluyen:
 
-          LineaTiempoD.color-acento-contenido.mt-5
-            p.text-small.color.line(numero="1" titulo="Control de acceso") Se debe proporcionar control de acceso a los servicios en la nube, los recursos de los que dependen y las funciones de control relacionadas, por tanto, este componente funcional limita el uso a los servicios particulares de los usuarios, implica la autenticación de un usuario a través de la plataforma de acceso, validación de credenciales, seguida de la autorización de este usuario autenticado para utilizar servicios específicos, es fundamental en este componente la gestión de identidades.
+        LineaTiempoD.color-acento-contenido.mt-5
+          p.text-small.color.line(numero="1" titulo="Control de acceso") Se debe proporcionar control de acceso a los servicios en la nube, los recursos de los que dependen y las funciones de control relacionadas, por tanto, este componente funcional limita el uso a los servicios particulares de los usuarios, implica la autenticación de un usuario a través de la plataforma de acceso, validación de credenciales, seguida de la autorización de este usuario autenticado para utilizar servicios específicos, es fundamental en este componente la gestión de identidades.
 
-            p.text-small(numero="2" titulo="Acceso al servicio") Proporciona acceso a los servicios en la nube ofrecidos por el proveedor de servicios.
-              
-            p.text-small(numero="3" titulo="Acceso comercial") Este componente funcional proporciona acceso a las capacidades empresariales ofrecidas por el proveedor y adquiridas por el cliente, incluye sistemas y mecanismos de soporte de tipo empresarial.
+          p.text-small(numero="2" titulo="Acceso al servicio") Proporciona acceso a los servicios en la nube ofrecidos por el proveedor de servicios.
+            
+          p.text-small(numero="3" titulo="Acceso comercial") Este componente funcional proporciona acceso a las capacidades empresariales ofrecidas por el proveedor y adquiridas por el cliente, incluye sistemas y mecanismos de soporte de tipo empresarial.
 
-            p.text-small(numero="4" titulo="Administración acceso") Proporciona acceso a las capacidades de administración ofrecidas por el proveedor, son las interfaces de gestión y administración de los accesos con que cuenta cada usuario al adquirir un servicio en la nube.
+          p.text-small(numero="4" titulo="Administración acceso") Proporciona acceso a las capacidades de administración ofrecidas por el proveedor, son las interfaces de gestión y administración de los accesos con que cuenta cada usuario al adquirir un servicio en la nube.
 
-            p.text-small(numero="5" titulo="Acceso al desarrollo") Capacidades dentro del sistema ofrecidas por el proveedor de servicios en la nube, que respalda el desarrollo, la prueba y el mantenimiento de las implementaciones de servicios adquiridos.
+          p.text-small(numero="5" titulo="Acceso al desarrollo") Capacidades dentro del sistema ofrecidas por el proveedor de servicios en la nube, que respalda el desarrollo, la prueba y el mantenimiento de las implementaciones de servicios adquiridos.
 
-            p.text-small(numero="6" titulo="Gestión de conexiones") Este componente funcional proporciona la aplicación de las políticas de QoS con respecto al tráfico desde y/o hacia los componentes funcionales de la capa de usuario. El componente funcional de gestión de la conexión interactúa con las funciones de múltiples capas para recuperar las políticas almacenadas allí y las aplica localmente en la capa de acceso.
+          p.text-small(numero="6" titulo="Gestión de conexiones") Este componente funcional proporciona la aplicación de las políticas de QoS con respecto al tráfico desde y/o hacia los componentes funcionales de la capa de usuario. El componente funcional de gestión de la conexión interactúa con las funciones de múltiples capas para recuperar las políticas almacenadas allí y las aplica localmente en la capa de acceso.
 
-        .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
-          img(src="@/assets/curso/images/tema1/img_21.png" alt="AvatarTop",)
+      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+        img(src="@/assets/curso/images/tema1/img_21.png" alt="AvatarTop",)
+  
+  .container.bg-white.p-4.p-md-5.container-bottom
     hr
     #3.pRelative
       .backtoTop-1
@@ -595,36 +600,36 @@
     #t_1_4.titulo-segundo
       .h4 1.4 Consideraciones operativas de los servicios en la nube
 
-    .row.align-items-center.fondo-12.mb-5
+    .row.align-items-center.fondo-12
       .col-12.col-md-8.col-lg-4.col-xl-4
-        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:390px; display:block; margin:-5rem 6.5rem;").mb-3
-      .col-12.col-md-4.col-lg-7.col-xl-7.mb-3
+        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:430px; display:block; margin:-3rem 6.5rem;").mb-3
+      .col-12.col-md-4.col-lg-6.col-xl-6
         p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la #[br] vista del usuario como en la arquitectura  y en lo funcional del lado del proveedor #[br] de servicios de computación en la nube. Estos aspectos transversales son #[br] cuestiones compartidas entre  los roles, actividades y componentes funcionales #[br] que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las #[br] actividades que desempeñan directa o indirectamente.
 
     .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
-      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
+      .col-12.col-md-8.col-lg-6.col-xl-5
         img.my-3(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
+      .col-12.col-md-4.col-lg-6.col-xl-7
          p.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista # del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
-    
-    .row.align-items-center.mb-5.fondo-3.p-3
+  .container.bg-white.p-4.p-md-5.fondo-15
+    .row.align-items-center.mb-5.p-3
       .col-12.col-md-8.col-lg-8.col-xl-8
         p.mb-3 Un ejemplo de aspecto transversal es la seguridad porque aplica a la infraestructura, los servicios, los proveedores de servicios en la nube, los clientes de servicios en la nube y los socios de servicios en la nube (auditores de la nube, desarrolladores de servicios en la nube, etc.).
 
         p Aunque la seguridad es transversal, el proceso, implementación y gestión de esta es distinta dependiendo de la capa del servicio y del nivel funcional, (figura 1). A continuación, se mencionarán de manera general los diferentes aspectos que de manera transversal intervienen en la computación en la nube.
-      .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
-        img(src="@/assets/curso/images/tema1/img_23.svg" alt="AvatarTop")
-
-      .row.justify-content-center
-        .col-lg-12
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 1 
-            span  Servicios en la nube
+      .col-12.col-md-4.col-lg-3.col-xl-3
+        img(src="@/assets/curso/images/tema1/img_23.svg" alt="AvatarTop" style="width:300px; display:block; margin:auto 2rem;")
+  
+    .row.justify-content-center
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1 
+          span  Servicios en la nube
       
       .col-12.col-md-4.col-lg-12.col-xl-12.mb-3
           img(src="@/assets/curso/images/tema1/fig_1.svg" alt="AvatarTop")
-
-    h3 Auditabilidad 
+  .container.bg-white.p-4.p-md-5.container-bottom
+    h3.mb-5 Auditabilidad 
 
     .row.align-items-center.mb-5
       .col-12.col-md-4.col-lg-4.col-xl-4.mb-3
