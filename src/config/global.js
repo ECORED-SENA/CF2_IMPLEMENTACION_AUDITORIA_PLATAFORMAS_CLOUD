@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Arquitectura y servicios <br> en la nube',
     descripcionCurso:
       'La computación en la nube es cada vez más utilizada y con mayor frecuencia por empresas y particulares, es necesario conocer que existen diferentes tipos de servicios ofrecidos a través de la nube, así como formas y características de acceso a estos servicios, además de las funciones y responsabilidades que registran tanto para el cliente como para el proveedor.',
-    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
   menuPrincipal: {
@@ -96,7 +96,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {

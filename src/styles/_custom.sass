@@ -192,7 +192,10 @@
   background-image: url('../assets/curso/images/tema1/back_slyder.svg')
   background-size: cover
   background-repeat: no-repeat 
-  height: 480px
+  padding: 1.5rem
+  width: 100% 
+  z-index: 1
+  border-radius: 30px
 .fondo-6
   background-image: url('../assets/curso/images/tema1/back_6.svg')
   background-size: cover
@@ -291,6 +294,12 @@
   background-position: center
   margin-inline-start: 60px
   padding: 15px
+.fondo-19
+  background-image: url('../assets/curso/images/tema1/back_1.svg')
+  background-size: cover
+  background-repeat: no-repeat 
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
 .color-custom
   background-color: #FFDFF0
   &::before
@@ -307,6 +316,39 @@
 	background-color:#12263F
 	&::before
 		background-color: #F6F6F6 
+.linea-tiempo-d__item__content__title
+  font-size: 20px !important
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #F7F2DE  !important
+.tarjeta--gris
+  background-color: #F6F6F6 !important
+
+.linea-tiempo-d__item--selected  
+  .linea-tiempo-d__item__content__slot
+    background: #F7F2DE !important
+  .tarjeta--gris    
+    background: #F7F2DE !important
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background: #E2C140 !important
+
+.slyder-a__bullets__item 
+    width: 15px
+    height: 15px
+    background-color: rgb(3, 155, 229)
+    box-shadow: #E2C140 0px 0px 5px 0px;
+    cursor: pointer
+    opacity: 0.7
+    border-radius: 50%
+    margin: 0px 10px
+    transition: opacity 0.3s ease-in-out 0s, box-shadow 0.3s ease-in-out 0s
+    border-width: 1px
+    border-style: solid
+    border-color: #707070
+    border-image: initial
+
+
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
   width: 50
   height: 50px
@@ -467,6 +509,10 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
 .aling-11
   margin-top: 0.5rem
   margin-left: 3rem
+.aling-12
+  text-align: center  !important
+  margin-left: 8rem
+  margin-right: -5rem
 .aling-8.slyder-a__btn--sigt, .slyder-a__btn--atrs 
   width: 50
   height: 50px
@@ -594,7 +640,47 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   margin-top: -70px
 .mb-botton
   margin-bottom: 8rem
-
+.caja
+  background-color: white
+  color: black 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-weight: bold
+  width: 140px
+  height: 160px
+  text-align: center
+  margin: 5px
+  border-top-left-radius: 10px
+  border-top-right-radius: 10px
+  border-bottom-left-radius: 10px
+  border-bottom-right-radius: 10px
+  border: 1px solid #707070 !important
+  box-shadow: 3px 3px #ccc
+  z-index: 1
+.flex-container
+  display: flex
+  flex-wrap: nowrap
+  text-align: center
+  padding: 30px
+  flex-direction: row
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+  margin-top: -5rem !important
+  margin-left: 18rem !important
+  flex-flow: row 
+  z-index: 1
+  width: 94%
+  margin: 0 auto
+.tarjeta_white-1
+  background-color: white
+  border: 1px solid #707070 !important
+  box-shadow: 3px 3px #ccc
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+  z-index: 1
 
 
 

@@ -1,9 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
-      h1  Síntesis
 
     .row.justify-content-center.align-items-center.fondo-9
       .col-12.col-md-4.col-lg-6.col-xl-7.mb-5

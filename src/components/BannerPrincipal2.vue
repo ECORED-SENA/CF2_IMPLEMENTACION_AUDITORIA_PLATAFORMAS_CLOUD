@@ -59,9 +59,8 @@ export default {
 
   .tarjeta
     background-color: $color-banner-fondo
-    background-size: conver
-    background-position: center
-    height: 30rem
+    background-size: cover
+    height: 28rem
     border-top-right-radius: 2rem
     border-bottom-right-radius: 2rem
     border-top-left-radius: 2rem
@@ -83,7 +82,7 @@ export default {
       line-height: 1.1em
 
       @media (max-width: $bp-max-xs)
-        font-size: 3rem
+        font-size: 2rem
 
   &__descripcion
     margin-bottom: 20px
