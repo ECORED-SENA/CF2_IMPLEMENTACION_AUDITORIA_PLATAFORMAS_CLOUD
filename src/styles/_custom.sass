@@ -193,7 +193,6 @@
   background-size: cover
   background-repeat: no-repeat 
   padding: 1.5rem
-  width: 100% 
   z-index: 1
   border-radius: 30px
 .fondo-6
@@ -218,8 +217,11 @@
   background-image: url('../assets/curso/images/tema3/back_1.svg')
   background-size: cover
   background-repeat: no-repeat 
-  margin-inline-start: -30px !important
-  padding: 2.5rem
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
+@media screen and (max-width: 992px)
+  margin-inline-start: 0px !important
+  margin-inline-end: 0px !important
 .fondo-10
   background-image: url('../assets/curso/images/tema2/back_tema_2.svg')
   background-size: cover
@@ -261,7 +263,7 @@
   background-repeat: no-repeat 
   padding: 1rem
   margin-inline-start: -180px  !important
-  margin-inline-end: -1100px !important
+  margin-inline-end: -1300px !important
   height: 240px
   @media (max-width: 992px)
     position: absolute
@@ -318,20 +320,46 @@
 		background-color: #F6F6F6 
 .linea-tiempo-d__item__content__title
   font-size: 20px !important
+  background-color: #F6F6F6 !important
+ 
+.color-custom-10
+  border-top-color: #F7F2DE
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+  border-top-color: #F7F2DE!important
+
 
 .linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-    background-color: #F7F2DE  !important
-.tarjeta--gris
-  background-color: #F6F6F6 !important
+    background-color: #F7F2DE
 
-.linea-tiempo-d__item--selected  
+.linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content__slot
-    background: #F7F2DE !important
+    background: #F6F6F6 !important
+    &::before
+		  background-color: #F7F2DE !important 
+
   .tarjeta--gris    
     background: #F7F2DE !important
 
+
+  
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background: #E2C140 !important
+.linea-tiempo-d__item__dots::after 
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #D8ECFF
+
+.linea-tiempo-d__item__number 
+	display: flex
+	align-items: center
+	justify-content: center
+	min-width: 40px
+	height: 40px
+	cursor: pointer;
+	transition: background-color .3s ease-in-out, color .3s ease-in-out
+
 
 .slyder-a__bullets__item 
     width: 15px
@@ -440,6 +468,8 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   z-index: 1
 .sp1
   background: linear-gradient(0deg, rgba(0,57,149,1) 0%, rgba(5,139,204,1) 59%)
+  border: 1px solid #707070 !important
+  box-shadow: 2px 2px #ccc
 .pasos-a.color-acento-botones .pasos-a__circle div 
   color: #FFFF
 .text-center 
@@ -448,6 +478,10 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   text-align: left !important
 .aling
   text-align: center !important
+  top: 30px
+.aling-1
+  text-align: center !important
+  margin-right: -20rem
   top: 30px
 .tema1-1 .bloque-texto-a__texto     
   background-color: rgba(248, 248, 248, 0.904) !important
@@ -513,6 +547,21 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   text-align: center  !important
   margin-left: 8rem
   margin-right: -5rem
+.aling-13
+  text-align: center  !important
+  margin-left: 7rem
+.aling-14
+  text-align: left  !important
+  margin-left: 4.5rem
+  margin-bottom: -1rem
+.aling-15
+  text-align: justify !important
+  margin-left: -1rem
+  margin-bottom: -4rem
+.aling-16
+  text-align: justify !important
+  margin-top: -2.5rem
+  margin-left: 1rem
 .aling-8.slyder-a__btn--sigt, .slyder-a__btn--atrs 
   width: 50
   height: 50px
@@ -549,12 +598,19 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   box-shadow: #FFF
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   cursor: pointer
+.mg-slyder
+  margin-inline-start: -47px !important
+  margin-inline-end: -50px !important
+@media screen and (max-width: 992px)
+  margin-inline-start: 0px !important
+  margin-inline-end: 0px !important
 .cd
   width: 94%
   height: 160px
   bottom: -130px
 .elemento 
   color: #FF2C9C
+  width: 150% !important
 .tarjeta-avatar .tarjeta 
   display: inline-block
   padding-top: 60px !important
@@ -612,6 +668,8 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   box-shadow: #FFF
   transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
   cursor: pointer
+.slyder-a__bullets__item--active
+  background-color: #E2C140
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
   width: 50px
   height: 50px
@@ -681,6 +739,74 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   border-bottom-left-radius: 20px
   border-bottom-right-radius: 20px
   z-index: 1
+.pe-3 
+  padding-right: -5rem !important
+.pe-3 
+  padding-left: -5rem !important
+
+.esquina
+  background-image: url('../assets/curso/images/tema1/esquina.png')    
+  background-repeat: no-repeat
+  background-position: bottom left
+.bg-tema1-4
+  background-image: url('../assets/curso/images/tema1/back_new.png')
+  background-position: 50% 38%
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem    
+  @media screen and (min-width: 1398px)
+    background-size: 100% 80%
+    background-position: 60% 44%
+.bg-tema2-1
+  background-image: url('../assets/curso/images/tema2/tema2-1-bg1.png')
+  background-position: 50% 38%
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem    
+  @media screen and (min-width: 1398px)
+    background-size: 100% 80%
+    background-position: 50% 34%
+.bg-tema-1
+  background-image: url('../assets/curso/images/tema2/tema2-1-bg1.png')
+  background-position: 50% 38%
+  background-size: 100% 80%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem    
+  @media screen and (min-width: 1398px)
+    background-size: 100% 80%
+    background-position: 50% 34%
+
+.pasos-a__linea__esquina__linea 
+  border: 3px solid
+    border-top-color: currentcolor
+    border-right-color: currentcolor
+    border-bottom-color: currentcolor
+    border-left-color: currentcolor
+  width: 100%
+  position: relative
+  border-radius: 0px
+.pasos-a__circle 
+  width: 70px
+  height: 59px
+  min-width: 60px
+  border-radius: 50%
+  z-index: 2
+  position: relative
+  font-size: 1.3rem
+.tabs-b.color-acento-contenido .tabs-b__tab--active 
+  border-top-color: #FF2C9C !important
+
+
+
 
 
 

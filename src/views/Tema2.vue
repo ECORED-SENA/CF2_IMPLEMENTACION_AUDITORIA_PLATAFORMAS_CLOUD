@@ -13,8 +13,10 @@
       .contenedor-text-2
         .row.justify-content-center.p-4
           .col-auto
-            p.aling.mb-3 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
-    .row.justify-content.fondo-10.p-4
+            p.mb-3 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
+      
+    .row.justify-content-center.fondo-10.p-4
+      .col-lg-10  
         .tema1-1 
           .bloque-texto-a.color-custom-1.p-4.p-md-5.mb-4
             .row.m-0.align-items-center.justify-content-between
@@ -23,13 +25,13 @@
               .col-lg-8(data-aos="fade-left")
                 .bloque-texto-a__texto.p-4
                   p.mb-3 La definición de roles y responsabilidades asociadas a la adquisición y uso de servicios en la nube tiene relación adicional directa con las competencias que las personas designadas deben disponer para un desarrollo eficaz de las actividades.
-
+      .col-lg-12
         .row.justify-content-center.align-items-center.mb-4
           .col-12.col-md-8.col-lg-12.col-xl-12(data-aos="fade")
             .cajon.color-custom-2.p-4
               p Cuanto mayor y/o más compleja se vuelve una organización, un mayor nivel de formalización y documentación asociada a la descripción y designación de los roles y responsabilidades que intervienen en los procesos se pueden encontrar y que además habilitan a la organización para el desarrollo de las competencias, alcanzar mayores grados de coordinación y eficiencia o, la incorporación de nuevo personal y rotación de este a nivel interno.
 
-        .row.align-items-center.mb-5
+        .row.align-items-center.mb-5.p-4
           .col-12.col-md-8.col-lg-6.col-xl-6(data-aos="fade-right")
             p.mb-5 Por todos estos motivos, si la definición de los roles, responsabilidades y autoridad asociada al primer término son importantes en el funcionamiento interno de una organización lo son, aún más, en el caso de la externalización de servicios de soporte esenciales para la entrega de los productos y servicios a proveedores de nube.
 
@@ -43,28 +45,21 @@
 
     #t_2_1.titulo-segundo
       .h2 2.1 	Roles asociados al cliente
-    br
-    br
-    .row.align-items-center.fondo-13.mb-5
-      .col-12.col-md-8.col-lg-3.col-xl-3(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:390px; display:block; margin:-5rem 7rem;").mb-3
-      .col-12.col-md-4.col-lg-9.col-xl-9.mb-3(data-aos="fade-left")
-        p.aling-9.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor #[br] de servicios para el uso de unos servicios específicos, adicionalmente, un cliente #[br] de servicios  en la nube puede mantener una relación comercial con un socio de servicios #[br]en la nube para una variedad de propósitos.
-
-        p.aling-9.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
-    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
-      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
-        img.my-3(src="@/assets/curso/images/tema2/img_3.svg" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
-        p.text-white.mb-3 Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente #[br] de servicios  en la nube puede mantener una relación comercial con un socio de servicios #[br]en la nube para una variedad de propósitos.
-
-        p.text-white Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
+   
+    .row.bg-tema2-1.mb-5.mb-md-0
+      .col-lg-12.px-lg-2.px-4.py-4.pb-md-5
+        .row.align-items-center.justify-content-evenly
+          .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+            img(src='@/assets/curso/images/tema2/img_3.png' alt='Imagen decorativa')
+          .col-lg-7.col-md-7.text-white.esquina.p-3(data-aos="fade-left")
+            p Un cliente de servicios en la nube mantiene una relación comercial con un proveedor de servicios para el uso de unos servicios específicos, adicionalmente, un cliente de servicios  en la nube puede mantener una relación comercial con un socio de servicios en la nube para una variedad de propósitos.
+            p.mb-0 Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
     br
     .row.ps-2
       .col-8.col-lg-3.bg-color-6.mb-4
         h3.mb-0.text-white Usuarios
       
-    .row.align-items-center.mb-3
+    .row.align-items-center.mb-3.p-5
       .col-12.col-md-8.col-lg-6.col-xl-6(data-aos="fade-right")
         p Corresponde a una persona física o entidad que actúa en su nombre, pero asociado con un cliente del servicio en la nube, las actividades de computación en la nube del usuario del servicio incluyen, principalmente, el uso de los servicios en la nube contratado por el cliente a un proveedor de servicios en la nube para realizar algunas tareas que generalmente implica:
         ul.lista-ul--color
@@ -74,8 +69,8 @@
           li
             i.fas.fa-caret-right(style="color: #FF2C9C")
             | La invocación del servicio en la nube, que luego opera y entrega los resultados especificados.
-      .col-12.col-md-4.col-lg-3.col-xl-3.mb-3(data-aos="fade-left")
-        img(src="@/assets/curso/images/tema2/img_ex.svg" alt="AvatarTop", style="width:390px; display:block; margin:auto 9rem;")
+      .col-12.col-md-4.col-lg-4.col-xl-4.mb-3(data-aos="fade-left")
+        img(src="@/assets/curso/images/tema2/img_ex.svg")
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-1
@@ -225,7 +220,7 @@
     TabsB.color-acento-contenido.mb-5(data-aos="fade")
       .py-4.py-md-5(titulo="Realizar la administración comercial" :icono="require('@/assets/curso/images/tema2/ico_tab_7.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Realizar la administración comercial
             p  Esta actividad implica la gestión de los aspectos comerciales del uso de servicios en la nube, incluida la gestión contable y financiera, incluyendo:
               ul.lista-ul--color.mt-3
@@ -248,13 +243,13 @@
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Llevar cuentas en relación con el uso de servicios en la nube.
 
-          .col-md-6
+          .col-lg-5
             figure
               img(src='@/assets/curso/images/tema2/img_10.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
 
       .py-4.py-md-5(titulo="Seleccionar y adquirir el servicio" :icono="require('@/assets/curso/images/tema2/ico_tab_8.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Seleccionar y adquirir el servicio
             p.mb-3 Esta actividad implica:
               ul.lista-ul--color.mt-3
@@ -268,18 +263,18 @@
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Aceptar el contrato del servicio en la nube y realizar el registro con el proveedor del servicio en la nube.
-          .col-md-6
+          .col-lg-5
             figure
               img(src='@/assets/curso/images/tema2/img_11.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
         
       .py-4.py-md-5(titulo="Solicitar informe de auditoría" :icono="require('@/assets/curso/images/tema2/ico_tab_9.svg')")
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-7
             h4 Solicitar informe de auditoría
             p.mb-3 Implica que el cliente del servicio en la nube solicite el informe de una auditoría del servicio, normalmente conforme a un esquema o estándar de auditoría en particular (por ejemplo ISO 27017).
 
             p.mb-0 El cliente del servicio en la nube puede solicitar el informe a un auditor de la nube, o posiblemente al proveedor del servicio en la nube, aunque se espera que el informe de auditoría sea preparado por una entidad independiente del proveedor del servicio en la nube antes de que se complete una compra y también periódicamente a lo largo de uso del servicio.
-          .col-md-6
+          .col-lg-5
             figure
               img(src='@/assets/curso/images/tema2/img_12.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
 
@@ -344,7 +339,7 @@
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-md-4.col-lg-11.col-xl-11(data-aos="fade")
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/images/tema2/info.svg' alt='')
@@ -490,7 +485,7 @@
                 p Gestionar las tendencias de rendimiento y capacidad a largo plazo.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                p Instalar, configurar y realizar actualizaciones de mantenimiento en el requerido #[i hardware] requerido para las capacidades de computación, almacenamiento y red para el datacenter del proveedor de servicios en la nube.
+                p Instalar, configurar y realizar actualizaciones de mantenimiento en el requerido #[i hardware] requerido para las capacidades de computación, almacenamiento y red para el <i>datacenter</i> del proveedor de servicios en la nube.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 p Instalar y configurar el #[i software] necesario para ejecutar y respaldar las implementaciones de servicios en la nube. Esto incluye la aplicación de correcciones, actualizaciones y mejoras a ese #[i software], según sea necesario.
@@ -517,12 +512,12 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Informar de un problema si no se puede mantener el cumplimiento.
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-left")
-          img(src="@/assets/curso/images/tema2/img_17.svg" alt="AvatarTop",)
+          img.mt-3(src="@/assets/curso/images/tema2/img_17.svg" alt="AvatarTop",)
     p.mb-3 <b>Gerente comercial de servicios en la nube</b>
 
     p.mb-3 Tiene la responsabilidad general en los aspectos comerciales y ofrecer servicios en la nube a los clientes. El gerente comercial de servicios en la nube crea y da seguimiento al plan comercial, define la estrategia de oferta de servicios y administra la relación comercial con los clientes. Las actividades de computación en la nube del proveedor: administrador comercial de servicios en la nube son:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade")
-      .row(titulo="Gestionar el plan de negocios")
+      .row(titulo="Gestionar el plan de negocios").p-5
         .col-lg-6
           p.mb-3 Esta actividad para proporcionar servicios en la nube implica:
             ul.lista-ul--color.mt-3
@@ -539,14 +534,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Preparar un plan de negocios y ajustar el plan de negocios para brindar servicios en la nube.ar que se logren los objetivos financieros del proveedor de servicios en la nube.
       
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
-            img(src='@/assets/curso/images/tema2/img_18.svg' alt='' style="width:400px; display:block; margin:2rem 3rem;")
+            img(src='@/assets/curso/images/tema2/img_18.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
 
-      div.row(titulo="Gestionar las relaciones con los clientes")
+      div.row(titulo="Gestionar las relaciones con los clientes").p-5
         .col-lg-6
-          p.mb-3 Gestionar las relaciones con los clientes
           p.mb-3 Esta actividad implica la gestión de la relación comercial del proveedor con el cliente en la nube, que incluye: 
             ul.lista-ul--color.mt-3
               li 
@@ -565,12 +559,13 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Procesar solicitudes de cambio (por ejemplo, cambios de derechos).
       
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
-            img(src='@/assets/curso/images/tema2/img_19.svg'  alt='' style="width:400px; display:block; margin:2rem 3rem;")
+            img(src='@/assets/curso/images/tema2/img_19.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
 
-      .row(titulo="Gestionar el procesamiento financiero")
+
+      .row(titulo="Gestionar el procesamiento financiero").p-5
         .col-lg-6
           p.mb-3 Esta actividad implica:
             ul.lista-ul--color.mt-3
@@ -584,9 +579,9 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Gestionar la recepción de pagos del cliente del servicio en la nube y su contabilidad.
       
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
-            img(src='@/assets/curso/images/tema2/img_20.svg'  alt='' style="width:400px; display:block; margin:2rem 3rem;")
+            img(src='@/assets/curso/images/tema2/img_20.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
     .row.mb-5.ps-2
       .col-8.col-lg-3.bg-color-7
@@ -696,9 +691,9 @@
     p.mb-5 Las actividades del gestor de riesgos y seguridad del servicio en la nube incluyen:
 
     .row.mb-3
-      .col-12.col-md-8.col-lg-2.col-xl-2(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema2/nube.svg" , alt='' style="width:40px; display:block; margin:auto 5rem;")
-      .col-12.col-md-4.col-lg-10.col-xl-10.mb-3(data-aos="fade-left")
+      .col-12.col-md-8.col-lg-1.col-xl-1(data-aos="fade-right")
+        img(src="@/assets/curso/images/tema2/nube.svg" , alt='' style="width:30px; display:block; margin:auto 3rem;")
+      .col-12.col-md-4.col-lg-11.col-xl-11.mb-3(data-aos="fade-left")
         h5 Gestionar la seguridad y los riesgos. Esta actividad consiste en la gestión de la seguridad y los riesgos asociados con el desarrollo, la entrega, el uso y el soporte de los servicios en la nube, como puede verse a continuación:
 
     .row.justify-content-center.align-items-center.mb-3.fondo-3
@@ -877,54 +872,54 @@
       .py-4.py-md-5(titulo="Partner como proveedor" :icono="require('@/assets/curso/images/tema2/ico_tab_13.svg')")
         .row
           .col-lg-6
-            h4 Partner como proveedor
-            p
+            h4.aling-14 Partner como proveedor
               ul.lista-ul--color
-                li 
-                  i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Utiliza su experiencia para analizar modelos comerciales.
+                p
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Crea servicios en la nube personalizados para satisfacer las necesidades de negocio de los clientes.
-                li 
-                  i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Admite solicitudes de usuarios finales.
+                  p Utiliza su experiencia para analizar modelos comerciales.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Cobra tarifas a los clientes.
+                  p Crea servicios en la nube personalizados para satisfacer las necesidades de negocio de los clientes.
+                li 
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  p Admite solicitudes de usuarios finales.
+                li
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  p obra tarifas a los clientes.
 
-          .col-lg-3
+          .col-7.col-md-6.col-lg-3.p-4.d-flex
             figure
               img(src='@/assets/curso/images/tema2/img_33.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
       .py-4.py-md-5(titulo="Partner como comprador" :icono="require('@/assets/curso/images/tema2/ico_tab_14.svg')")
         .row
           .col-lg-6
-            h4 Partner como comprador
-            p
+            h4.aling-14 Partner como comprador
               ul.lista-ul--color
+                p
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Asesora a los clientes para garantizar que una solución en la nube se utilice en todo su potencial.
+                  p Asesora a los clientes para garantizar que una solución en la nube se utilice en todo su potencial.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Aprovecha recursos propios de valor añadido (una red extensa, una marca de renombre y escala) para comprar servicios en la nube que se ajustan al modelo comercial de un cliente.
+                  p Aprovecha recursos propios de valor añadido (una red extensa, una marca de renombre y escala) para comprar servicios en la nube que se ajustan al modelo comercial de un cliente.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Trabaja junto con un cliente para la instalación de la aplicación de servicio en la nube que compra.
+                  p Trabaja junto con un cliente para la instalación de la aplicación de servicio en la nube que compra.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Proporciona soporte al servicio en nube.
-          .col-lg-3
+                  p Proporciona soporte al servicio en nube.
+          .col-7.col-md-6.col-lg-3.p-4.d-flex
             figure
               img(src='@/assets/curso/images/tema2/img_34.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
         
       .py-4.py-md-5(titulo="Partner como soporte" :icono="require('@/assets/curso/images/tema2/ico_tab_15.svg')")
         .row
           .col-lg-6
-            h4 Partner como soporte
-            p
+            h4.aling-14 Partner como soporte
               ul.lista-ul--color
+                p
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   p Actúa como comerciante vendiendo el <i>software</i> del proveedor a sus clientes nuevos y existentes.
@@ -932,30 +927,30 @@
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   p Trabaja con un cliente para instalar y respaldar la infraestructura tecnológica necesaria para ejecutar un servicio en la nube (por ejemplo, red y alojamiento). Mientras que el proveedor de servicios en la nube crea y actualiza el <i>software</i> , el socio gestiona las relaciones entre el proveedor y los clientes.
               
-          .col-lg-3
+          .col-7.col-md-6.col-lg-3.p-4.d-flex
             figure
               img(src='@/assets/curso/images/tema2/img_35.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
       .py-4.py-md-5(titulo="Partner como orquestador de segundo nivel" :icono="require('@/assets/curso/images/tema2/ico_tab_16.svg')")
         .row
           .col-lg-6
-            h4 Partner como orquestador de segundo nivel
-            p
+            h4.aling-14 Partner como orquestador de segundo nivel
               ul.lista-ul--color
+                p
                 li 
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Trabaja en estrecha colaboración con los proveedores para agregar e integrar varios servicios en la nube para un cliente.
+                  p Trabaja en estrecha colaboración con los proveedores para agregar e integrar varios servicios en la nube para un cliente.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Interactúa con sus clientes únicamente a través de un ecosistema de segundo nivel
+                  p Interactúa con sus clientes únicamente a través de un ecosistema de segundo nivel
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Proporciona recomendaciones para servicios en la nube o para obtener el máximo valor de un servicio según los datos de uso del cliente.
+                  p Proporciona recomendaciones para servicios en la nube o para obtener el máximo valor de un servicio según los datos de uso del cliente.
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | Diseña portales web fáciles de usar con gestión de identidad para el cliente.
+                  p Diseña portales web fáciles de usar con gestión de identidad para el cliente.
               
-          .col-lg-3
+          .col-7.col-md-6.col-lg-3.p-4.d-flex
             figure
               img(src='@/assets/curso/images/tema2/img_36.svg', alt='' style="width:400px; display:block; margin:auto 6rem;")
 
@@ -991,7 +986,7 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Proporcionar mejoras a las implementaciones de servicios.
       
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
             img(src='@/assets/curso/images/tema2/img_37.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
@@ -1013,7 +1008,7 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Realizar una composición que pueda implicar la intermediación, agregación o arbitraje de los servicios existentes.
           
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
             img(src='@/assets/curso/images/tema2/img_38.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
@@ -1032,7 +1027,7 @@
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 p Pruebas que deben incluir la verificación de que las conexiones a los sistemas de soporte operativo del proveedor de servicios en la nube funcionan correctamente. Como resultado, normalmente es necesario realizar algunas de las pruebas en un área de prueba del <i>Datacenter</i> del proveedor de servicios en la nube.
 
-        .col-lg-4
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           figure
             img(src='@/assets/curso/images/tema2/img_39.svg' alt='' style="width:400px; display:block; margin:3rem 7rem")
 
@@ -1055,11 +1050,11 @@
 
 
       .row.ps-4
-        .col-8.col-lg-3.bg-color-10
+        .col-8.col-lg-3.bg-color-10.aling-14
           h3.mb-0.text-white Realizar una auditoría
 
       .row.align-items-center
-        .col-lg-6(data-aos="fade-right")
+        .col-lg-6.aling-14(data-aos="fade-right")
             ul.lista-ul--color
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -1081,15 +1076,15 @@
             img(src='@/assets/curso/images/tema2/img_40.svg'  alt='' style="width:400px; display:block; margin:3rem 2rem")
 
       .row.mb-5.ps-2
-        .col-8.col-lg-3.bg-color-9
+        .col-8.col-lg-3.bg-color-9.aling-14
           h3.mb-0.text-white Informar los resultados de la auditoría
 
       .row.justify-content-center.align-items-center
-        .col-md-6(data-aos="fade-right")
+        .col-lg-4.aling-14(data-aos="fade-right")
           figure
-            img(src='@/assets/curso/images/tema2/img_41.png' alt='')
+            img(src='@/assets/curso/images/tema2/img_41.png'  alt='' style="width:450px; display:block; margin:auto -5rem")
 
-        .col-md-6.mb-4.mb-md-0(data-aos="fade-left")
+        .col-lg-6(data-aos="fade-left")
           p.mb-3 El informe documentado y la forma de entrega, puede ser prescrito por el esquema de auditoría que se está utilizando. Los resultados de la auditoría pueden entregarse al proveedor de servicios en la nube, o posiblemente a solicitud de un CSP, según la situación comercial o el contexto legal. Esta actividad implica:
             
             ul.lista-ul--color.mt-3

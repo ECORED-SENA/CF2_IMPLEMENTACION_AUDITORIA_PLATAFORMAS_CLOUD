@@ -6,18 +6,15 @@
       .titulo-principal__numero
         span 1
       h1  Arquitectura <i>Cloud Computing</i>
+    
+    .row.bg-tema-1.mb-5.mb-md-0
+      .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
+        .row.align-items-center.justify-content-evenly
+          .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+            img(src='@/assets/curso/images/tema1/img_1.png' alt='Imagen decorativa')
+          .col-lg-7.col-md-7.text-white.esquina.p-3(data-aos="fade-left")
+            p La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo, robusteciendo los puntos fuertes y minimizando los puntos débiles.
 
-    .row.align-items-center.fondo-11.mb-5
-      .col-12.col-md-8.col-lg-5.col-xl-5(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema1/img_1.png" alt="AvatarTop", style="width:425px; display:block; margin:-1rem 7.5rem;").mb-3
-      .col-12.col-md-4.col-lg-6.col-xl-6.mb-3(data-aos="fade-left")
-        p.aling-4.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes #[br] tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo, robusteciendo los puntos fuertes y minimizando los puntos débiles.
-
-    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
-      .col-12.col-md-8.col-lg-6.col-xl-5.mb-4
-        img.my-3(src="@/assets/curso/images/tema1/img_1.png" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-      .col-12.col-md-4.col-lg-6.col-xl-7.mb-3
-         p.text-white La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo,  robusteciendo los puntos fuertes y minimizando los puntos débiles.
     Separador 
     
     .row.fondo-1
@@ -27,29 +24,29 @@
       p.mb-5.aling Los servicios tradicionales se categorizan en tres tipos
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-3.d-flex
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
                 figure
-                  img.my-1(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
+                  img.my-3(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
             h3.aling Pass
               p.mb-0.text-small.mt-3 Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, <i>framework</i> de desarrollo, bases de datos entre otros.
                 
-        .col-3.d-flex
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
                 figure
-                  img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar')
+                  img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar').mx-0
             h3.aling  SaaS
               p.text-small.mt-3 Es el acceso a aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
-        .col-3.d-flex
+        .col-7.col-md-6.col-lg-4.p-4.d-flex
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
                 figure
-                  img.my-3(src='@/assets/curso/images/tema1/ico_3.svg', alt='icono-avatar')
+                  img.my-3(src='@/assets/curso/images/tema1/ico_3.svg', alt='icono-avatar').mx-0
             h3.aling IdaS
               p.mb-3.text-small.mt-3 Proporciona el <i>hardware</i> virtualizado en forma de máquinas virtuales en diferentes instancias de Sistemas operativos o Contenedores generalmente <i>docker</i>, incluye de igual manera el <i>networking</i>.
 
@@ -67,21 +64,20 @@
           p.mb-0(numero="3" titulo="Servicios se <i>networking</i> (Acceso a Redes)") Los accesos a los servicios de la computación en la nube son alojados en internet para lograr acceder a los servicios contratados PaaS, SaaS, LaaS, se requiere contar con acceso desde y hacia redes externas, regularmente al crear un servicio en la nube se incluye la creación de una red virtual que permita la interconexión.
     
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",).mb-5
+        img.mt-3(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",).mb-5
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/images/tema1/img_3.png" alt="AvatarTop",)
       .col-12.col-md-4.col-lg-6.col-xl-6(data-aos="fade-left")
-        h3 Servicios de analítica
-        p.mb-3 El gran crecimiento en los datos que con lleva a la generación de la <i>big Data</i> obliga o posibilita que las empresas puedan adquirir servicios que realicen el análisis de los datos de tal manera que se facilite la inteligencia de negocios, aqui se incluyen las bodegas de datos, herramientas de transformación y extracción (ETL), y herramientas de <i>big Data.</i>  
-
         LineaTiempoD.color-acento-contenido.mt-5
-          p(numero="4" titulo="Servicios de autenticación o control de identidad").mt-3 Se ofrecen herramientas de control de acceso basado en roles, por supuesto la seguridad debe ser parte fundamental en el acceso a los servicios, por lo que el control de la identidad, se requiere mediante la gobernanza, autenticación, autorización en el control del acceso.
+          p(numero="4" titulo="Servicios de analítica") El gran crecimiento en los datos que con lleva a la generación de la <i>big Data</i> obliga o posibilita que las empresas puedan adquirir servicios que realicen el análisis de los datos de tal manera que se facilite la inteligencia de negocios, aqui se incluyen las bodegas de datos, herramientas de transformación y extracción (ETL), y herramientas de <i>big Data.</i>  
 
-          p(numero="5" titulo="Servicios IoT") Las tecnologías IoT precisamente se han convertido en un disparador de la generación de datos que deben ser capturados, almacenados y procesados, por esta razón los proveedores ofrecen motores de procesamiento de flujo que permiten el trabajo en tiempo real con los datos generados por estos dispositivos.
+          p(numero="5" titulo="Servicios de autenticación o control de identidad") Se ofrecen herramientas de control de acceso basado en roles, por supuesto la seguridad debe ser parte fundamental en el acceso a los servicios, por lo que el control de la identidad, se requiere mediante la gobernanza, autenticación, autorización en el control del acceso.
+
+          p(numero="6" titulo="Servicios IoT") Las tecnologías IoT precisamente se han convertido en un disparador de la generación de datos que deben ser capturados, almacenados y procesados, por esta razón los proveedores ofrecen motores de procesamiento de flujo que permiten el trabajo en tiempo real con los datos generados por estos dispositivos.
           
-          p(numero="6" titulo="Servicios de IA") En este tipo de servicios se incluye el aprendizaje profundo y automático, ofrece aplicaciones para crear, capacitar y probar modelos de aprendizaje automático, con soporte de GPU, en forma de servicios SaaS a los que se accede a través de un navegador.
+          p(numero="7" titulo="Servicios de IA") En este tipo de servicios se incluye el aprendizaje profundo y automático, ofrece aplicaciones para crear, capacitar y probar modelos de aprendizaje automático, con soporte de GPU, en forma de servicios SaaS a los que se accede a través de un navegador.
 
-          p(numero="7" titulo="Servicios de gestión y gobernanza") Incluyen funciones de recuperación ante desastres como copia de seguridad y replicación, servicios de regulación de implementación que hacen cumplir las reglas sobre los tipos y la configuración de servicios que se pueden usar, automatización de la configuración y servicios de monitoreo que brindan información (en algunos casos, en tiempo real o alertas casi en tiempo real) sobre problemas de rendimiento y seguridad.
+          p(numero="8" titulo="Servicios de gestión y gobernanza") Incluyen funciones de recuperación ante desastres como copia de seguridad y replicación, servicios de regulación de implementación que hacen cumplir las reglas sobre los tipos y la configuración de servicios que se pueden usar, automatización de la configuración y servicios de monitoreo que brindan información (en algunos casos, en tiempo real o alertas casi en tiempo real) sobre problemas de rendimiento y seguridad.
         
     Separador 
 
@@ -174,11 +170,11 @@
             p.aling-7.mb-5 Capacidades de los <b>sistemas de soporte operativo</b> #[br](Administración, monitoreo, aprovisionamiento #[br]y mantenimiento en tiempo de ejecución)
           .col-12.col-lg-6.col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/images/tema1/img_9.svg', alt='', style="width:400px; display:block; margin:0 3rem;")
+              img(src='@/assets/curso/images/tema1/img_9.svg')
         .row.justify-content-evenly.align-items-center
           .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_10.png', alt='', style="width:400px; display:block; margin:0 3rem;")
+              img(src='@/assets/curso/images/tema1/img_10.png')
           .col-12.col-lg-6
             p.aling-11.mb-5 Capacidades de los <b>sistemas de soporte empresarial</b> #[br] (catálogo de productos, facturación y gestión).
           
@@ -188,13 +184,12 @@
             p.aling-8.mb-5 Capacidades de los <b>sistemas de seguridad</b> #[br](autenticación, autorización, auditoría, validación, cifrado).
           .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_11.png' alt='', style="width:400px; display:block; margin:0 4rem;")
-
+              img(src='@/assets/curso/images/tema1/img_11.png')
               
         .row.justify-content-evenly.align-items-center
           .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:400px; display:block; margin:0 3rem;")
+              img(src='@/assets/curso/images/tema1/img_12.svg')
 
           .col-10.col-lg-6.col-md-5
             p.mb-0 Capacidades de <b>integración</b> #[br] (vinculación de diferentes componentes para lograr la funcionalidad requerida).
@@ -205,7 +200,7 @@
             p.aling-11.mb-5 Capacidades de <b>apoyo al desarrollo </b> (que implican la creación, prueba y gestión del ciclo de vida de servicios y componentes de servicios).
           .col-12.col-lg-6
             figure
-              img(src='@/assets/curso/images/tema1/img_13.png', alt='', style="width:450px; display:block; margin:0 4rem;")
+              img(src='@/assets/curso/images/tema1/img_13.png')
 
     Separador
 
@@ -233,7 +228,7 @@
           p Un rol es un conjunto de actividades de computación en la nube que tienen un propósito común. A continuación, se mencionarán tres roles esenciales:
 
     .row.mb-5(data-aos="fade")
-      .col-lg-3.d-flex
+      .col-7.col-md-6.col-lg-3.p-4.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -242,7 +237,7 @@
           h3.aling.mb-4 Cliente
             p.text-small.aling.mt-3 Cliente de servicio en la nube (CSC): usuario o empresa que mantiene una relación comercial con el propósito de utilizar servicios en la nube ofertados por un proveedor.
               
-      .col-lg-3.d-flex
+      .col-7.col-md-6.col-lg-3.p-4.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -251,7 +246,7 @@
           h3.aling Proveedor
             p.text-small.aling.mt-3 Proveedor de servicios en la nube (CSP): es la empresa quien ofrece y pone a disposición de los clientes un conjunto de servicios, en todas las categorías a fin de dar solución y respuesta a cada cliente de acuerdo a sus particularidades o necesidades.
       
-      .col-lg-3.d-flex
+      .col-7.col-md-6.col-lg-3.p-4.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -260,7 +255,7 @@
           h3.aling Partner
             p.text-small.aling.mt-3 Partner de servicios en la nube (CSN): parte que se dedica a proporcionar soporte o asistencia a las actividades del CSP, del CSC o de ambos.
 
-      .col-lg-3.d-flex
+      .col-7.col-md-6.col-lg-3.p-4.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -297,7 +292,7 @@
               p(numero="3" titulo="Infraestructura") En este, el cliente adquiere del proveedor externo todos los recursos. Normalmente se lleva a cabo mediante una plataforma de virtualización. De los tres tipos de servicios, es el que mayor control otorga al usuario y, por ende, el que tiene mayor complejidad de uso.
           
           .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-left")
-            img(src="@/assets/curso/images/tema1/img_14.png" alt="AvatarTop",).mb-image
+            img.mt-3(src="@/assets/curso/images/tema1/img_14.png" alt="AvatarTop",)
 
           .row.justify-content-center.align-items-center
             .col-12.col-md-4.col-lg-8.col-xl-8(data-aos="fade-right")
@@ -456,7 +451,7 @@
               .row.justify-content-center.p-4
                 .col-auto
                   p.mb-5 A continuación, se podrá observar en detalle los componentes funcionales por capa:
-        .row.d-none.d-lg-block.mt-2
+        .row.d-none.d-lg-block.mt-2.aling-13
           .flex-container
             a.caja.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
               img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
@@ -564,7 +559,7 @@
           p(numero="6" titulo="Gestión de conexiones") Este componente funcional proporciona la aplicación de las políticas de QoS con respecto al tráfico desde y/o hacia los componentes funcionales de la capa de usuario. El componente funcional de gestión de la conexión interactúa con las funciones de múltiples capas para recuperar las políticas almacenadas allí y las aplica localmente en la capa de acceso.
 
       .col-12.col-md-8.col-lg-6.col-xl-5.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/images/tema1/img_21.png" alt="AvatarTop",)
+        img.mt-3(src="@/assets/curso/images/tema1/img_21.png" alt="AvatarTop",)
   
   .container.bg-white.p-4.p-md-5.container-bottom
     hr
@@ -579,56 +574,55 @@
     
     p.mb-3  Los Componentes funcionales de la capa de servicio incluyen: 
     br
-    SlyderF.elemento.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade")
-      .tarjeta.sp1.p-3
-        .row.justify-content-center.mb-3
-          .col-8
-            img.mb-4(src='@/assets/curso/images/tema1/ico_11.svg' alt='Volver arriba' style="width:85px; display:block; margin:0 auto;")
-        h3.aling.text-white Capacidades de servicio
-        p.aling.text-white.mb-5 Consiste en el software necesario para implementar el servicio ofrecido a los proveedores de servicios cloud, despliega y entrega la interfaz del servicio, es decir, la interfaz ofrecida a los clientes, independientemente del modo o tipo de implementación del servicio.
+    .row.mg-slyder
+      SlyderF.elemento.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade")
+        .tarjeta.sp1.p-3
+          .row.justify-content-center.mb-3
+            .col-8.d-flex
+              img.mb-5(src='@/assets/curso/images/tema1/ico_11.svg' alt='Volver arriba' style="width:80px; display:block; margin:0 auto;").m-auto
+          h3.aling.text-white Capacidades de servicio
+          p.aling.text-white.mb-5 Consiste en el software necesario para implementar el servicio ofrecido a los proveedores de servicios cloud, despliega y entrega la interfaz del servicio, es decir, la interfaz ofrecida a los clientes, independientemente del modo o tipo de implementación del servicio.
+
+      
+        .tarjeta.sp1.p-3
+          .row.justify-content-center.mb-3
+            .col-8.d-flex
+              img.mb-5(src='@/assets/curso/images/tema1/ico_12.svg' alt='Volver arriba' style="width:80px; display:block; margin:0 auto;").m-auto
+          h3.aling.text-white.mb-5 Capacidades comerciales
+          p.aling.text-white Proporciona un conjunto de capacidades para acceder a la función comercial relacionada con la prestación de servicios en la nube. La función empresarial en sí está contenida dentro de los componentes funcionales de los sistemas de soporte empresarial.
 
 
-      .tarjeta.sp1.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/images/tema1/ico_12.svg' alt='Volver arriba' style="width:80px; display:block; margin:0 auto;")
-        h3.aling.text-white Capacidades comerciales
-        p.aling.text-white Proporciona un conjunto de capacidades para acceder a la función comercial relacionada con la prestación de servicios en la nube. La función empresarial en sí está contenida dentro de los componentes funcionales de los sistemas de soporte empresarial.
+        .tarjeta.sp1.p-4
+          .row.justify-content-center.mb-3
+            .col-8.d-flex
+              img.mb-5(src='@/assets/curso/images/tema1/ico_13.svg' alt='Volver arriba' style="width:78px; display:block; margin:0 auto;").m-auto
+          h3.aling.text-white Capacidades de administración
+          p.aling.text-white.tslyder Suministra capacidades para acceder a la función de administración relacionada con la prestación de servicios en la nube.
 
 
-      .tarjeta.sp1.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/images/tema1/ico_13.svg' alt='Volver arriba' style="width:80px; display:block; margin:0 auto;")
-        h3.aling.text-white Capacidades de administración
-        p.aling.text-white.tslyder Suministra capacidades para acceder a la función de administración relacionada con la prestación de servicios en la nube.
+        .tarjeta.sp1.p-4
+          .row.justify-content-center.mb-3
+            .col-8.d-flex
+              img.mb-4(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop' style="width:80px; display:block; margin:0 auto;")
+          h3.aling.text-white Orquestación de servicio
+          p.aling.text-white.tslyder Proporciona coordinación, agregación y composición de múltiples componentes de servicios para brindar el servicio en la nube.
 
-
-      .tarjeta.sp1.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img.mb-4(src='@/assets/curso/images/tema1/ico_14.svg' alt='AvatarTop' style="width:80px; display:block; margin:0 auto;")
-        h3.aling.text-white Orquestación de servicio
-        p.aling.text-white.tslyder Proporciona coordinación, agregación y composición de múltiples componentes de servicios para brindar el servicio en la nube.
-
-        
+      
 
     Separador
 
     #t_1_4.titulo-segundo
       .h2 1.4 Consideraciones operativas de los servicios en la nube
 
-    .row.align-items-center.fondo-12
-      .col-12.col-md-8.col-lg-4.col-xl-4(data-aos="fade-right")
-        img(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:430px; display:block; margin:-3rem 6.5rem;").mb-3
-      .col-12.col-md-4.col-lg-6.col-xl-6(data-aos="fade-left")
-        p.aling-2.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la #[br] vista del usuario como en la arquitectura  y en lo funcional del lado del proveedor #[br] de servicios de computación en la nube. Estos aspectos transversales son #[br] cuestiones compartidas entre  los roles, actividades y componentes funcionales #[br] que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las #[br] actividades que desempeñan directa o indirectamente.
 
-    .row.justify-content-center.align-items-center.d-block.d-lg-none.fondo-18.mb-5.mb-4
-      .col-12.col-md-8.col-lg-6.col-xl-5
-        img.my-3(src="@/assets/curso/images/tema1/img_22.png" alt="AvatarTop", style="width:370px; display:block; margin:-6rem -1rem;")
-      .col-12.col-md-4.col-lg-6.col-xl-7
-         p.text-white Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista # del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
+    .row.bg-tema1-4.mb-4.mb-md-0
+      .col-lg-12.px-lg-2.px-3.py-4.pb-md-5
+        .row.align-items-center.justify-content-evenly
+          .col-lg-5.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+            img(src='@/assets/curso/images/tema1/img_22.png' alt='Imagen decorativa',  style="width:440px; isplay:block; margin:-1rem 0;")
+          .col-lg-7.col-md-7.text-white.esquina(data-aos="fade-left")
+            p Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario #[br] como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre  los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en #[br] las actividades que desempeñan directa o indirectamente.
+
   .container.bg-white.p-4.p-md-5.fondo-15
     .row.align-items-center.mb-5.p-3
       .col-12.col-md-8.col-lg-8.col-xl-8(data-aos="fade-right")
@@ -660,44 +654,44 @@
       .col-12.col-md-4.col-lg-12.col-xl-12(data-aos="fade")
         .cajon.color-custom.p-3
           p.mb-3 Una auditoría generalmente produce como resultado final un informe de auditoría que incluye algún tipo de recomendación o aval de certificación final y que se pone a disposición de las partes de los acuerdos de servicios asociados, la auditoría en sí depende de la disponibilidad de datos y pruebas que sostienen la evidencia en el uso, el entorno, la disponibilidad y el rendimiento de los servicios y los recursos asociados.
+    .col-lg-8
+      .row.justify-content-center.mb-3.p-3
+        h5.aling.mb-3.text-center Como garantía de la auditabilidad esta información documentada debe recopilarse y mantenerse de manera segura, por tanto, el objetivo de la auditoría de la computación en la nube es:
 
-    .row.justify-content-center.align-items-center.fondo-3.mb-3.p-3
-      h5.aling.mb-3 Como garantía de la auditabilidad esta información documentada debe recopilarse y mantenerse de manera segura, por tanto, el objetivo de la auditoría de la computación en la nube es:
+    .row.justify-content-center.align-items-center.mb-3.fondo-3
+      .col-12.col-md-4.col-lg-10.col-xl-10
+        PasosA.color-acento-botones.mb-5(tipo="n")
+          div        
+            p.mb-0 Proporcionar a las partes interesadas una evaluación de la eficacia de los controles internos y la seguridad del proveedor de servicios de computación en la nube.
 
-      .row.justify-content-center.align-items-center.mb-3
-        .col-12.col-md-4.col-lg-10.col-xl-10(data-aos="fade")
-          PasosA.color-acento-botones.mb-5(tipo="n")
-            div        
-              p.mb-0 Proporcionar a las partes interesadas una evaluación de la eficacia de los controles internos y la seguridad del proveedor de servicios de computación en la nube.
+          div        
+            p.mb-0 Identificar las deficiencias del control interno dentro de la organización del cliente y su interfaz con el proveedor de servicios. 
 
-            div        
-              p.mb-0 Identificar las deficiencias del control interno dentro de la organización del cliente y su interfaz con el proveedor de servicios. 
+          div        
+            p.mb-0 Proporcionar a las partes interesadas de la auditoría una evaluación de la calidad y su capacidad para confiar en las certificaciones del proveedor de servicios con respecto a los controles internos.
 
-            div        
-              p.mb-0 Proporcionar a las partes interesadas de la auditoría una evaluación de la calidad y su capacidad para confiar en las certificaciones del proveedor de servicios con respecto a los controles internos.
+          div        
+            p.mb-0 La auditoría no está diseñada para reemplazar o enfocarse en aspectos de auditoría relacionados con procesos de aplicación específicos y excluye la garantía de la funcionalidad e idoneidad de una aplicación en sí misma.
 
-            div        
-              p.mb-0 La auditoría no está diseñada para reemplazar o enfocarse en aspectos de auditoría relacionados con procesos de aplicación específicos y excluye la garantía de la funcionalidad e idoneidad de una aplicación en sí misma.
-
-            div        
-              p.mb-0 El alcance de la auditoría se centrará esencialmente en aspectos relacionados con:
-                ul.lista-ul--color.mt-3
-                  li 
-                    i.fas.fa-caret-right(style="color: #FF2C9C")
-                    | La gobernanza que afecta a la computación en la nube.
-                  li
-                    i.fas.fa-caret-right(style="color: #FF2C9C")
-                    | El cumplimiento contractual entre el prestador de servicios y el cliente.
-                  li 
-                    i.fas.fa-caret-right(style="color: #FF2C9C")
-                    | Controlar problemas específicos de la computación en nube.
-            
-            div        
-              p.mb-0 Dado que las áreas bajo revisión dependen en gran medida de la efectividad de los controles generales de TI básicos, se suelen realizar revisiones de aseguramiento de las siguientes áreas previas a la ejecución de la revisión propiamente dicha de los servicios de nube. 
+          div        
+            p.mb-0 El alcance de la auditoría se centrará esencialmente en aspectos relacionados con:
+              ul.lista-ul--color.mt-3
+                li 
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  | La gobernanza que afecta a la computación en la nube.
+                li
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  | El cumplimiento contractual entre el prestador de servicios y el cliente.
+                li 
+                  i.fas.fa-caret-right(style="color: #FF2C9C")
+                  | Controlar problemas específicos de la computación en nube.
+          
+          div        
+            p.mb-0 Dado que las áreas bajo revisión dependen en gran medida de la efectividad de los controles generales de TI básicos, se suelen realizar revisiones de aseguramiento de las siguientes áreas previas a la ejecución de la revisión propiamente dicha de los servicios de nube. 
 
     p.mb-3 Entre estas áreas se destacan:
 
-    .row.align-items-center.fondo-3.mb-5.p-3
+    .row.align-items-center.fondo-3.mb-5.p-5
       .col-12.col-md-8.col-lg-7.col-xl-7(data-aos="fade-right")
         ul.lista-ul--color
           li 
@@ -727,7 +721,7 @@
       .col-12.col-md-4.col-lg-5.col-xl-5.mb-3(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_25.svg" alt="AvatarTop")
 
-    .row.fondo-3.p-3
+    .row.fondo-3.p-5
       h3 Disponibilidad
         br
         br
@@ -816,7 +810,7 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_29.png' alt='')
 
-    p.mb-3 Por ejemplo, cuando se realicen cambios significativos en un servicio de una versión a una nueva, la versión más antigua del servicio debería estar disponible en paralelo con la nueva versión durante un período de tiempo acordado.
+    p.mb-3 Por ejemplo, cuando se realicen cambios significativos en un servicio de una versión a una nueva, la versión más antigua del servicio debería estar disponible en paralelo con la nueva versión durante un periodo de tiempo acordado.
 
   
     h3 Portabilidad
@@ -837,18 +831,18 @@
 
                   p Un ejemplo típico es la portabilidad de una organización en su rol de cliente que pueda considerar pasar de su proveedor actual en IaaS a otro alternativo. En este escenario y para el aspecto de portabilidad que se está tratando, el cliente debería poder tomar sus datos y las imágenes de sus máquinas virtuales (VM) y ponerlos en funcionamiento en un servicio IaaS equivalente de una manera relativamente sencilla. 
         br
-        p.mb-3 De forma similar cuando un cliente desea trasladar o cambiar de proveedor de servicios SaaS, debería poder llevar sus datos consigo, pero hay que considerar los costes relacionados a costes asociados a las actividades de exportar, mapear e importar los datos en la aplicación SaaS del nuevo proveedor.
+        p.mb-3.p-4 De forma similar cuando un cliente desea trasladar o cambiar de proveedor de servicios SaaS, debería poder llevar sus datos consigo, pero hay que considerar los costes relacionados a costes asociados a las actividades de exportar, mapear e importar los datos en la aplicación SaaS del nuevo proveedor.
 
-        p.mb-3  Un nivel más o menos elevado de costes asociados a estas actividades va a quedar determinado por el grado de alineación de los modelos y formatos de datos de los SaaS de ambos proveedores considerados. Idealmente estos SaaS deberían adoptar formatos de intercambio de datos estándar relevantes según el dominio de aplicación. El cambio entre aplicaciones SaaS también puede implicar que el cliente se adapte a una nueva interfaz de servicio y que está relacionada con la interoperabilidad del servicio como se ha indicado.
-        h3 Portabilidad 
-        .row.justify-content-center.align-items-center.mb-3
+        p.mb-3.p-4  Un nivel más o menos elevado de costes asociados a estas actividades va a quedar determinado por el grado de alineación de los modelos y formatos de datos de los SaaS de ambos proveedores considerados. Idealmente estos SaaS deberían adoptar formatos de intercambio de datos estándar relevantes según el dominio de aplicación. El cambio entre aplicaciones SaaS también puede implicar que el cliente se adapte a una nueva interfaz de servicio y que está relacionada con la interoperabilidad del servicio como se ha indicado.
+        .h3.p-4 Portabilidad 
+        .row.justify-content-center.align-items-center.mb-3.p-4
           .col-12.col-md-4.col-lg-12.col-xl-12(data-aos="fade")
             .cajon.color-custom.p-3
-              p.mb-3 En la portabilidad de aplicaciones en la nube se permite la migración de elementos de un modo similar a instancias de máquina virtual completamente detenida o una imágen de máquina (servicio IaaS) de un proveedor a otro o la migración de componentes de aplicaciones (servicio PaaS) desde un proveedor u otro.
+              p.mb-3 En la portabilidad de aplicaciones en la nube se permite la migración de elementos de un modo similar a instancias de máquina virtual completamente detenida o una imagen de máquina (servicio IaaS) de un proveedor a otro o la migración de componentes de aplicaciones (servicio PaaS) desde un proveedor u otro.
         
-        p.mb-3 En ambos casos, existe un aspecto importante a considerar relacionado con la portabilidad de los metadatos relacionados con los componentes de la aplicación que proporcionan información sobre las relaciones de los componentes de la aplicación y sobre la infraestructura requerida asociada, por ejemplo, la configuración de balanceo de cargas o la configuración del <i>firewall.</i>
+        p.mb-3.p-4 En ambos casos, existe un aspecto importante a considerar relacionado con la portabilidad de los metadatos relacionados con los componentes de la aplicación que proporcionan información sobre las relaciones de los componentes de la aplicación y sobre la infraestructura requerida asociada, por ejemplo, la configuración de balanceo de cargas o la configuración del <i>firewall.</i>
 
-        p.mb-3 De forma similar a la pérdida de la tabla de indexación de una base de datos relacional, la conservación de los metadatos en un proceso de portabilidad es fundamental para poder materializarla.
+        p.mb-3.p-4 De forma similar a la pérdida de la tabla de indexación de una base de datos relacional, la conservación de los metadatos en un proceso de portabilidad es fundamental para poder materializarla.
 
     h3 Protección de la información de la identidad personal
     
@@ -879,7 +873,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling Describe
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/1.svg' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/1.png' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .text-white.p-4
               p.aling.text-white La resiliencia describe el conjunto de procesos de monitoreo, preventivos y de respuesta que permiten que un servicio en la nube brinde operaciones continuadas, con cortes predecibles y verificables, a través de acciones de falla y recuperación. 
@@ -887,7 +881,7 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling  Fallas
         .tarjeta-avatar 
-          img(src='@/assets/curso/images/tema1/2.svg' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/2.png' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
               p.aling.text-white Estos procesos, pueden incluir fallas de <i>hardware</i>, comunicaciones y/o <i>software</i> y pueden ocurrir como incidentes aislados o en combinación, incluyendo fallas en serie en forma de efecto dominó. 
@@ -895,21 +889,21 @@
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling Acciones
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/3.svg' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/3.png' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
               p.aling.text-white También pueden incluir acciones tanto automáticas como manuales, que generalmente abarcan múltiples sistemas y, por lo tanto, su descripción y realización son parte de la infraestructura de nube en global y no una función. Está ligado a temas de seguridad ya que se buscará siempre encontrar el lugar más débil o menos resilientes. 
-
-    h3 Reversibilidad
+    br
+    .h3 Reversibilidad
 
     p.mb-3 Este aspecto es un término relacionado con el proceso para que los clientes de servicios en la nube recuperen sus datos de cliente y componentes de aplicaciones en la nube.
 
-    p Desde el punto de vista del proveedor para que pueda eliminar todos los datos de un cliente, así como los datos derivados de la prestación del servicio de nube especificados contractualmente después de un período acordado.
+    p Desde el punto de vista del proveedor para que pueda eliminar todos los datos de un cliente, así como los datos derivados de la prestación del servicio de nube especificados contractualmente después de un periodo acordado.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-md-4.col-lg-12.col-xl-12(data-aos="fade")
         .cajon.color-custom-2.p-3
-          p.mb-0 El principio es el “derecho al olvido” en el sentido de que el cliente tiene derecho a esperar que, una vez que indique al proveedor que dejará de utilizar el servicio o los servicios, habrá un proceso ordenado para que el cliente recupere sus datos del servicio en la nube y sus componentes de aplicación y que el proveedor borrará finalmente todas las copias sin conservar ningún material que pertenezca al cliente después del transcurso de un período acordado.
+          p.mb-0 El principio es el “derecho al olvido” en el sentido de que el cliente tiene derecho a esperar que, una vez que indique al proveedor que dejará de utilizar el servicio o los servicios, habrá un proceso ordenado para que el cliente recupere sus datos del servicio en la nube y sus componentes de aplicación y que el proveedor borrará finalmente todas las copias sin conservar ningún material que pertenezca al cliente después del transcurso de un periodo acordado.
 
 
 

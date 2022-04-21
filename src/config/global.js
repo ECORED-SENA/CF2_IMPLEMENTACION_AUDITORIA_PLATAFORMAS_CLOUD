@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Arquitectura y servicios <br> en la nube',
+    componenteFormativo: 'Arquitectura y servicios en la nube',
     descripcionCurso:
       'La computación en la nube es cada vez más utilizada y con mayor frecuencia por empresas y particulares, es necesario conocer que existen diferentes tipos de servicios ofrecidos a través de la nube, así como formas y características de acceso a estos servicios, además de las funciones y responsabilidades que registran tanto para el cliente como para el proveedor.',
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
@@ -152,7 +152,7 @@ export default {
     },
     {
       referencia:
-        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3',
+        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3.',
       link:
         'https://www.researchgate.net/publication/309285232_The_Role_and_Value_of_a_Cloud_Service_Partner.',
     },
@@ -185,14 +185,14 @@ export default {
       significado: 'Google <i>Cloud Platform</i>.',
     },
     {
-      termino: 'Huella de Carbono',
+      termino: 'Huella de carbono',
       significado:
         'Representa el volumen total de gases de efecto invernadero (GEI) que producen las actividades económicas y cotidianas del ser humano.',
     },
     {
       termino: 'Hypervisor',
       significado:
-        'Un hipervisor, conocido también como monitor de máquina virtual (VMM), es un software que crea y ejecuta máquinas virtuales (VM) y que, además, aísla su sistema operativo y recursos de las máquinas virtuales y permite crearlas y gestionarlas.',
+        'Un hipervisor, conocido también como monitor de máquina virtual (VMM), es un <i>software</i> que crea y ejecuta máquinas virtuales (VM) y que, además, aísla su sistema operativo y recursos de las máquinas virtuales y permite crearlas y gestionarlas.',
     },
     {
       termino: 'IaaS',
@@ -203,17 +203,17 @@ export default {
       significado: 'Redes como servicio.',
     },
     {
-      termino: 'Nube Hibrida',
+      termino: 'Nube híbrida',
       significado:
         'Son nubes que combinan las características de dos nubes privadas, las nubes públicas o compartidas, se caracterizan por que permiten el poder compartir servicios e infraestructura entre ambas nubes.',
     },
     {
-      termino: 'Nube Privada',
+      termino: 'Nube privada',
       significado:
         'En este tipo de nube los servicios y la infraestructura es gestionada específicamente por una organización y no se ofrecen estos servicios al público en general.',
     },
     {
-      termino: 'Nube Publica',
+      termino: 'Nube pública',
       significado:
         'Los servicios e infraestructura son gestionados por un proveedor de tecnológico el cual ofrece estos servicios al público en general.',
     },
@@ -228,17 +228,12 @@ export default {
         'Socio u operador de servicios en la nube (CSN) es una parte que se dedica a respaldar o proporcionar actividades de soporte auxiliar a las actividades del cliente o proveedor de servicios <i>cloud.</i>',
     },
     {
-      termino: 'Nube Hibrida',
-      significado:
-        'Son nubes que combinan las características de dos nubes privadas, las nubes públicas o compartidas, se caracterizan por que permiten el poder compartir servicios e infraestructura entre ambas nubes.',
-    },
-    {
       termino: 'PaaS',
       significado: 'Plataforma como servicio.',
     },
     {
       termino: 'SaaS',
-      significado: 'Software como servicio.',
+      significado: '<i>Software</i> como servicio.',
     },
   ],
   creditos: {
@@ -286,11 +281,6 @@ export default {
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Edinson Eduardo Mantilla Cuadros',
