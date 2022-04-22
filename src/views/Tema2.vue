@@ -1082,7 +1082,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-4.aling-14(data-aos="fade-right")
           figure
-            img(src='@/assets/curso/images/tema2/img_41.png'  alt='' style="width:450px; display:block; margin:auto -5rem")
+            img.mb-5(src='@/assets/curso/images/tema2/img_41.png'  alt='' style="width:450px; display:block; margin:auto -5rem")
 
         .col-lg-6(data-aos="fade-left")
           p.mb-3 El informe documentado y la forma de entrega, puede ser prescrito por el esquema de auditoría que se está utilizando. Los resultados de la auditoría pueden entregarse al proveedor de servicios en la nube, o posiblemente a solicitud de un CSP, según la situación comercial o el contexto legal. Esta actividad implica:
