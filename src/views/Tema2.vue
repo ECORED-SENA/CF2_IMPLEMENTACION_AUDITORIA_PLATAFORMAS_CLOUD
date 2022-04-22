@@ -1125,8 +1125,12 @@
 </template>
 
 <script>
+//import Tabsg from '../components/Tabsg'
 export default {
   name: 'Tema2',
+  //components: {
+  // Tabsg,
+  // },
   data: () => ({
     // variables de vue
   }),
