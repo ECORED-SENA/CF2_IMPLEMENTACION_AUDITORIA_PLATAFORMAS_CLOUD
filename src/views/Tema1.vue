@@ -451,20 +451,24 @@
               .row.justify-content-center.p-4
                 .col-auto
                   p.mb-5 A continuación, se podrá observar en detalle los componentes funcionales por capa:
-        .row.d-none.d-lg-block.mt-2.aling-13
+        .row.justify-content-center.d-none.d-lg-block.mt-4.z-in
           .flex-container
-            a.caja.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
-              img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              <b>Capa de usuario</b>
-              .indicador--click(v-if="mostrarIndicador")
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#2", title="Capa de acceso") <b>Modelos de referencia</b>
-              .indicador--click(v-if="mostrarIndicador")   
-            .caja 
-              img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-              a(href="#3", title="Modelo de referencia TCP /IP") <b>Capa de servicio</b>
-              .indicador--click(v-if="mostrarIndicador") 
+            .col-lg-2
+              a.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
+                .caja
+                  img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+                  <b>Capa de usuario</b>
+                .indicador--click(v-if="mostrarIndicador")
+            .col-lg-2
+              .caja 
+                img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+                a(href="#2", title="Capa de acceso") <b>Modelos de referencia</b>
+                .indicador--click(v-if="mostrarIndicador")   
+            .col-lg-2
+              .caja 
+                img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+                a(href="#3", title="Modelo de referencia TCP /IP") <b>Capa de servicio</b>
+                .indicador--click(v-if="mostrarIndicador") 
         .row.justify-content-center.mb-5.d-block.d-lg-none
           .col-7.col-md-6.col-lg-4.p-4.d-flex
             .tarjeta.tarjeta_white-1.p-4.aling-12

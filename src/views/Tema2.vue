@@ -868,7 +868,7 @@
 
     p.mb-3 A modo de clasificación general resumida, únicamente como ayuda para la identificación de las actividades principales en un mercado competitivo entre socios cada vez más diverso y variado, a continuación, se indican los roles y actividades principales de los <i>partners</i>.  El objetivo de esta introducción es la de diferenciar la labor de los <i>partners</i> con respecto al rol y actividades de los proveedores de forma más clara.
 
-    TabsB.color-acento-contenido.mb-5(data-aos="fade")
+    TabsB.color-acento-botones.mb-5(data-aos="fade")
       .py-4.py-md-5(titulo="Partner como proveedor" :icono="require('@/assets/curso/images/tema2/ico_tab_13.svg')")
         .row
           .col-lg-6
