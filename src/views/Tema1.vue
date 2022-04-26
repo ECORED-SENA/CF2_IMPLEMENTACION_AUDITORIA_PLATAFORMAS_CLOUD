@@ -828,25 +828,25 @@
 
     p.mb-4 Este aspecto se refiere a la capacidad de un sistema para proporcionar y mantener un nivel aceptable de servicio ante fallas (involuntarias, intencionales o causadas naturalmente) que afecten el funcionamiento normal.
 
-    .row.mb-5(data-aos="fade")
+    .row.tarjetas-tema1.mb-5(data-aos="fade")
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling Describe
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/1.png' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/1.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .text-white.p-4
               p.aling.text-white La resiliencia describe el conjunto de procesos de monitoreo, preventivos y de respuesta que permiten que un servicio en la nube brinde operaciones continuadas, con cortes predecibles y verificables, a través de acciones de falla y recuperación. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling  Fallas
         .tarjeta-avatar 
-          img(src='@/assets/curso/images/tema1/2.png' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/2.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
               p.aling.text-white Estos procesos, pueden incluir fallas de <i>hardware</i>, comunicaciones y/o <i>software</i> y pueden ocurrir como incidentes aislados o en combinación, incluyendo fallas en serie en forma de efecto dominó. 
       .col-md-6.col-lg.mb-5.mb-lg-0
         h4.aling Acciones
         .tarjeta-avatar
-          img(src='@/assets/curso/images/tema1/3.png' alt='' style="width:140px; display:block; margin:0 auto;")
+          img(src='@/assets/curso/images/tema1/3.svg' alt='' style="width:140px; display:block; margin:0 auto;")
           .tarjeta.sp1
             .p-4
               p.aling.text-white También pueden incluir acciones tanto automáticas como manuales, que generalmente abarcan múltiples sistemas y, por lo tanto, su descripción y realización son parte de la infraestructura de nube en global y no una función. Está ligado a temas de seguridad ya que se buscará siempre encontrar el lugar más débil o menos resilientes. 

@@ -113,7 +113,6 @@
   background-repeat: no-repeat
   background-size: cover
   background-image: url('../assets/curso/images/tema1/back_intro.svg')
-  //filter: drop-shadow(2px 4px 6px grey)
   display: flex
   align-items: center
   justify-content: center
@@ -145,6 +144,26 @@
     left: 50%
     height: auto
     transform: translateX(-50%) translateY(0%)
+.contenedor-text-tema2
+  position: absolute
+  bottom: -70%
+  left: 50%
+  transform: translateX(-50%) translateY(-50%)
+  width: 93%
+  height: 120px
+  background-repeat: no-repeat
+  background-size: cover
+  background-image: url('../assets/curso/images/tema1/back_intro.svg')
+  display: flex
+  align-items: center
+  justify-content: center
+  border-radius: 20px
+  @media (max-width: 992px)
+    position: relative
+    padding: 1rem
+    left: 50%
+    height: auto
+    transform: translateX(-50%) translateY(0%)
 .jumbotron
   background-color: #FFE597
   margin-top: -5rem
@@ -160,7 +179,6 @@
   border-top-right-radius: 10px
   border-bottom-right-radius: 10px
   border-bottom-left-radius: 10px
-  height: 285px
   width: 300px
 .fondo-1
   background-image: url('../assets/curso/images/tema1/back_1.svg')
@@ -720,7 +738,7 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
     background-position: 60% 44%
 .bg-tema2-1
   background-image: url('../assets/curso/images/tema2/tema2-1-bg1.png')
-  background-position: 50% 38%
+  background-position: 50% 75%
   background-size: 100% 80%
   background-repeat: no-repeat
   margin-inline: -3.4rem
@@ -729,7 +747,7 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
     margin-inline: -1.4rem    
   @media screen and (min-width: 1398px)
     background-size: 100% 80%
-    background-position: 50% 34%
+    background-position: 50% 75%
 .bg-tema-1
   background-image: url('../assets/curso/images/tema2/tema2-1-bg1.png')
   background-position: 50% 38%
@@ -774,6 +792,8 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   font-weight: bold
 .pos-relative
   position: relative  
+.border-10
+  border-radius: 10px
 
 .linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item .linea-tiempo-d__item__number
   font-size: 20px
@@ -811,3 +831,11 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   top: calc(51% - 3px)  
 .pasos-a .full::after
   left: 51%
+
+.tarjetas-tema1 img
+  border-radius: 50%
+  box-shadow: 2px 2px 4px 1px #b1b1b1a3 
+
+.bg-degrade-gris-horizontal 
+  background: rgb(222,222,222)
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)  
