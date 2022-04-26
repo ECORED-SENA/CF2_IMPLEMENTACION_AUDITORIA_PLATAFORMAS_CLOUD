@@ -422,7 +422,9 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   position: relative
   width: 300px
   background: #F2F4FC
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1)
+  -webkit-box-shadow: -1px 2px 8px 1px rgba(0,0,0,0.16);
+  -moz-box-shadow: -1px 2px 8px 1px rgba(0,0,0,0.16);
+  box-shadow: -1px 2px 8px 1px rgba(0,0,0,0.16);
 .tema1-1 .bloque-texto-a__texto     
   background-color: rgba(248, 248, 248, 0.904) !important
 .btn
@@ -434,12 +436,9 @@ button:hover, button:focus, [type="button"]:hover, [type="button"]:focus, [type=
   z-index: 1
 .sp1
   background: linear-gradient(0deg, rgba(0,57,149,1) 0%, rgba(5,139,204,1) 59%)
-  border: 1px solid #707070 !important
-  box-shadow: 2px 2px #ccc
+  box-shadow: 2px 3px 5px 3px #dfdfdf
 .pasos-a.color-acento-botones .pasos-a__circle div 
   color: #FFFF
-.text-center 
-  text-align: left !important
 .text-end 
   text-align: left !important
 .aling
@@ -664,19 +663,14 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
   margin-bottom: 8rem
 .caja
   background-color: white
-  color: black 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   font-weight: bold
-  width: 140px
-  height: 160px
   text-align: center
   margin: 5px
   border-top-left-radius: 10px
   border-top-right-radius: 10px
   border-bottom-left-radius: 10px
   border-bottom-right-radius: 10px
-  border: 1px solid #707070 !important
-  box-shadow: 3px 3px #ccc
+  box-shadow: 3px 3px 5px 2px #dddbdb
   z-index: 1
 .flex-container
   display: flex
@@ -751,21 +745,15 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
 
 .pasos-a__linea__esquina__linea 
   border: 3px solid
-    border-top-color: currentcolor
-    border-right-color: currentcolor
-    border-bottom-color: currentcolor
-    border-left-color: currentcolor
   width: 100%
   position: relative
   border-radius: 0px
 .pasos-a__circle 
-  width: 70px
-  height: 59px
-  min-width: 60px
-  border-radius: 50%
-  z-index: 2
-  position: relative
-  font-size: 1.3rem
+  width: 65px
+  height: 65px
+  min-width: 65px
+.pasos-a.color-acento-botones .pasos-a__circle div  
+  font-size: 30px
 
 
 .tarjeta--gris
@@ -780,3 +768,46 @@ slyder-a__btn--sigt, .slyder-a__btn--atrs
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background: #E2C140 !important
 
+
+/* --- AB --- */ 
+.text-bold
+  font-weight: bold
+.pos-relative
+  position: relative  
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item .linea-tiempo-d__item__number
+  font-size: 20px
+.linea-tiempo-d__item .linea-tiempo-d__item__content__title  
+  font-size: 19px
+  padding: 20px 0px
+  @media (max-width: 992px)
+    font-size: 16px
+
+.slyder-a__bullets__item     
+  background-color: #2A81A5
+  box-shadow: 0 0 0px 0px #039be5
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #E2C140
+
+.tarjeta-avatar-b img
+  position: absolute
+  top: 25%
+  left: -3%
+.tarjeta-avatar-b .tarjeta   
+  margin-left: 1%
+  padding-left: 10%
+
+.slyder-f .sp1
+  height: 427px
+.slyder-f__btn i 
+  color: #FF2C9C  
+
+.pasos-a__linea .hor-line 
+  top: 18px  
+.pasos-a__linea .left-bottom
+  top: calc(53% - 3px) 
+.pasos-a__linea .right-bottom
+  top: calc(51% - 3px)  
+.pasos-a .full::after
+  left: 51%

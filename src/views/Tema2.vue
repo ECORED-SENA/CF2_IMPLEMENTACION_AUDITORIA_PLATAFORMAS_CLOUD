@@ -245,7 +245,7 @@
 
           .col-lg-5
             figure
-              img(src='@/assets/curso/images/tema2/img_10.svg', alt='' style="width:400px; display:block; margin:auto 3rem;")
+              img(src='@/assets/curso/images/tema2/img_10.png', alt='' style="width:400px; display:block; margin:auto 3rem;")
 
       .py-4.py-md-5(titulo="Seleccionar y adquirir el servicio" :icono="require('@/assets/curso/images/tema2/ico_tab_8.svg')")
         .row
