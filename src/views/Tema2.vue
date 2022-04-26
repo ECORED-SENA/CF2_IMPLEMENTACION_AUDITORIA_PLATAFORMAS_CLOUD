@@ -19,7 +19,7 @@
         .tema1-1 
           .bloque-texto-a.color-custom-1.p-4.p-md-4.mb-4
             .row.m-0.align-items-center.justify-content-between
-              .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+              .col-lg-4.col-3.mb-4.mb-lg-0(data-aos="fade-right")
                 h4 <b>Roles y responsabilidades</b>
               .col-lg-8(data-aos="fade-left")
                 .bloque-texto-a__texto.p-4
@@ -53,9 +53,9 @@
             p.mb-0 Se Indica a continuación los cuatro sub-roles más habituales en el lado del cliente:
         
       
-    .row.justify-content-center.mb-3.p-5
+    .row.justify-content-center.mb-md-3.mb-4.p-md-5.p-2
       .col-12.col-md-6(data-aos="fade-right")
-        .col-8.mb-4.bg-color-1
+        .col-11.mb-4.bg-color-1
           h3.mb-0.text-white Usuarios
         p Corresponde a una persona física o entidad que actúa en su nombre, pero asociado con un cliente del servicio en la nube, las actividades de computación en la nube del usuario del servicio incluyen, principalmente, el uso de los servicios en la nube contratado por el cliente a un proveedor de servicios en la nube para realizar algunas tareas que generalmente implica:
         ul.lista-ul--color
@@ -66,7 +66,7 @@
             i.fas.fa-caret-right(style="color: #FF2C9C")
             | La invocación del servicio en la nube, que luego opera y entrega los resultados especificados.
       .col-md-1
-      .col-12.col-md-4.mb-3(data-aos="fade-left")
+      .col-10.col-md-4.mb-3(data-aos="fade-left")
         img(src="@/assets/curso/images/tema2/img_ex.svg")
       .col-md-1  
 
@@ -216,7 +216,7 @@
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade")
       .py-4.py-md-5(titulo="Realizar la administración comercial" :icono="require('@/assets/curso/images/tema2/ico_tab_7.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8
             h4 Realizar la administración comercial
             p Esta actividad implica la gestión de los aspectos comerciales del uso de servicios en la nube, incluida la gestión contable y financiera, incluyendo:
@@ -239,12 +239,12 @@
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Llevar cuentas en relación con el uso de servicios en la nube.
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/images/tema2/img_10.png', alt='')
 
       .py-4.py-md-5(titulo="Seleccionar y adquirir el servicio" :icono="require('@/assets/curso/images/tema2/ico_tab_8.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8
             h4 Seleccionar y adquirir el servicio
             p.mb-3 Esta actividad implica:
@@ -259,17 +259,17 @@
                 li
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Aceptar el contrato del servicio en la nube y realizar el registro con el proveedor del servicio en la nube.
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/images/tema2/img_11.svg', alt='' )
         
       .py-4.py-md-5(titulo="Solicitar informe de auditoría" :icono="require('@/assets/curso/images/tema2/ico_tab_9.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8
             h4 Solicitar informe de auditoría
             p.mb-3 Implica que el cliente del servicio en la nube solicite el informe de una auditoría del servicio, normalmente conforme a un esquema o estándar de auditoría en particular (por ejemplo ISO 27017).
-            p.mb-0 El cliente del servicio en la nube puede solicitar el informe a un auditor de la nube, o posiblemente al proveedor del servicio en la nube, aunque se espera que el informe de auditoría sea preparado por una entidad independiente del proveedor del servicio en la nube antes de que se complete una compra y también periódicamente a lo largo de uso del servicio.
-          .col-md-4
+            p El cliente del servicio en la nube puede solicitar el informe a un auditor de la nube, o posiblemente al proveedor del servicio en la nube, aunque se espera que el informe de auditoría sea preparado por una entidad independiente del proveedor del servicio en la nube antes de que se complete una compra y también periódicamente a lo largo de uso del servicio.
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/images/tema2/img_12.svg', alt='')
 
@@ -284,7 +284,7 @@
     p.mb-4 La conexión de los componentes y aplicaciones TIC existentes con los servicios en la nube de destino implica:
     
     .row.justify-content-center.align-items-center.mb-3.fondo-3
-        .col-12.col-md-4.col-lg-10.col-xl-10(data-aos="fade")   
+        .col-11.col-md-4.col-lg-10.col-xl-10(data-aos="fade")   
           PasosA.color-acento-botones.mb-5(tipo="n")
               div        
                 p.mb-0 Evaluar el impacto de los servicios en la nube en los procesos, sistemas y servicios existentes.
@@ -320,7 +320,7 @@
         p Un proveedor de servicios en la nube pone los servicios en la nube a disposición de los clientes de servicios en la nube, esta función (y todas sus sub-funciones) se centra en las actividades de computación necesarias en la nube para proporcionar un servicio allí y para garantizar su entrega al proveedor, así como el mantenimiento del servicio en la nube.
         p Adicionalmente a la propia prestación del servicio, el proveedor es responsable de gestionar la relación comercial con los clientes del servicio en la nube; se indica a continuación los sub-roles más habituales en el lado del proveedor con las actividades típicas relacionadas.
         p  A continuación, se mencionarán algunos de los roles más importantes y sus respectivas actividades.
-      .col-12.col-md-4.mb-3(data-aos="fade-left")
+      .col-11.col-md-4.mb-3(data-aos="fade-left")
         img(src="@/assets/curso/images/tema2/img_13.svg" alt="AvatarTop")
       .col-md-1
 
@@ -395,7 +395,7 @@
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade")
       .py-4.py-md-5(titulo="Definir el entorno y los procesos" :icono="require('@/assets/curso/images/tema2/ico_tab_10.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Definir el entorno y los procesos
             p  Esta actividad se centra en definir el entorno técnico necesario y los procesos operativos que se utilizan cuando se ejecuta un servicio e implica:
@@ -412,12 +412,12 @@
                 li.mb-1
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   p.mb-0 Definir los procesos a seguir cuando el servicio se está ejecutando, incluidos los planes de reparación, actualización y migración.
-          .col-md-4
+          .col-md-4.col-10
             figure
               img(src='@/assets/curso/images/tema2/img_14.svg', alt='')
 
       .py-4.py-md-5(titulo="Definir y recopilar métricas" :icono="require('@/assets/curso/images/tema2/ico_tab_11.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Definir y recopilar métricas
             p.mb-3 Esta actividad se centra en definir métricas y gestión del nivel de servicio e implica:
@@ -432,16 +432,16 @@
                 li.mb-1
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Definir cómo se informan y gestionan las métricas, en particular para garantizar que se cumplan los objetivos de SLA.
-          .col-md-4
+          .col-md-4.col-9
             figure
               img(src='@/assets/curso/images/tema2/img_15.svg', alt='')
         
       .py-4.py-md-5(titulo="Definir los pasos de implementación" :icono="require('@/assets/curso/images/tema2/ico_tab_12.svg')")
-        .row
+        .row.justify-content-center
           .col-md-8.mb-4.mb-md-0
             h4 Definir los pasos de implementación
             p.mb-3 Esta actividad implica describir cada uno de los pasos que deben seguir los equipos de operaciones y soporte para que la implementación del servicio se implemente y esté lista para ser utilizada por los clientes.
-          .col-md-4
+          .col-md-4.col-9
             figure
               img(src='@/assets/curso/images/tema2/img_16.svg', alt='')
 
@@ -612,21 +612,21 @@
         h3.mb-0.text-white Proveedor entre nubes
 
     .row.align-items-center.mb-3.fondo-3.p-4
-      .col-12.col-md-8.col-lg-5.col-xl-5
-        p.mb-3  Los proveedores de servicio de <i>cloud</i>pueden depender de uno o más proveedores “pares” (<i>peer</i>) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
-      .col-12.col-md-4.col-lg-7.col-xl-7
+      .col-12.col-md-8.col-lg-5.col-xl-5.px-md-0.px-4
+        p.mb-3 Los proveedores de servicio de <i>cloud</i> pueden depender de uno o más proveedores “pares” (<i>peer</i>) homólogos y encadenados para proporcionar parte o la totalidad de los servicios en la nube ofrecidos a los clientes.
+      .col-12.col-md-4.col-lg-7.col-xl-7.mb-4.mb-md-0.px-md-0.px-4
         .cajon.color-custom.p-3 
           p.mb-0 Las principales actividades del proveedor “entre nubes” son la intermediación, agregación, arbitraje, emparejamiento o federación de los servicios en la nube de los proveedores de servicios de nube pares y sus capacidades comerciales y de administración.
       
-      p El objetivo es que, desde el punto de vista del proveedor de servicios de <i>cloud</i> principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
+      p.px-md-0.px-4 El objetivo es que, desde el punto de vista del proveedor de servicios de <i>cloud</i> principal, los clientes solo utilicen su servicio, interfaces comerciales y de administración y, en ningún caso, las de los proveedores encadenados en el servicio del proveedor.
 
-      p.mb-5 Las actividades del proveedor entre nubes incluyen:
+      p.mb-5.px-md-0.px-4 Las actividades del proveedor entre nubes incluyen:
 
       h5.text-center.mb-4 Gestionar servicios en la nube de pares: esta actividad consiste en administrar el uso de los servicios en la nube de un proveedor homólogo, implica:
 
       .row.align-items-center.mb-5
         .col-12.col-md-8.col-lg-8.col-xl-8(data-aos="fade-right")
-          ul.lista-ul--color
+          ul.lista-ul--color.px-md-0.px-3
             li 
               i.fas.fa-caret-right(style="color: #FF2C9C")
               | Seleccionar y utilizar uno o más servicios de un proveedor de servicios de nube similares.
@@ -650,10 +650,10 @@
 
       h5.aling.mb-5 Realizar <i>peering</i>, federación, intermediación, agregación y arbitraje: esta actividad implica el uso de los servicios en la nube del proveedor homólogos de todas estas maneras particulares y que se explican a continuación:
 
-      .row.mb-5.ps-2
-        .col-12.col-md-4.mb-3(data-aos="fade-right")
+      .row.justify-content-center.mb-5.ps-2
+        .col-10.col-md-4.mb-3(data-aos="fade-right")
           img.px-md-4(src="@/assets/curso/images/tema2/img_23.svg" alt="AvatarTop")
-        .col-12.col-md-8(data-aos="fade-left")
+        .col-12.col-md-8.px-md-0.px-4(data-aos="fade-left")
           ul.lista-ul--color
             li 
               i.fas.fa-caret-right(style="color: #FF2C9C")
@@ -679,13 +679,13 @@
     p.mb-5 Las actividades del gestor de riesgos y seguridad del servicio en la nube incluyen:
 
     .row.mb-3
-      .col-12.col-md-8.col-lg-1.col-xl-1(data-aos="fade-right")
+      .col-2.col-md-1.col-xl-1(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/nube.svg" , alt='' style="width:30px; display:block; margin:0 auto;")
-      .col-12.col-md-4.col-lg-11.col-xl-11.mb-3(data-aos="fade-left")
+      .col-10.col-md-11.col-xl-11.mb-3(data-aos="fade-left")
         h5 Gestionar la seguridad y los riesgos. Esta actividad consiste en la gestión de la seguridad y los riesgos asociados con el desarrollo, la entrega, el uso y el soporte de los servicios en la nube, como puede verse a continuación:
 
     .row.justify-content-center.align-items-center.mb-3.fondo-3
-      .col-12.col-md-4.col-lg-10.col-xl-10(data-aos="fade")   
+      .col-11.col-md-4.col-lg-10.col-xl-10(data-aos="fade")   
         PasosA.color-acento-botones.mb-5(tipo="n")
             div        
               p.mb-0 Definir la política de seguridad de la información, teniendo en cuenta los requisitos del servicio, los requisitos legales y reglamentarios y las obligaciones contractuales y SLA.
@@ -711,14 +711,14 @@
             div        
               p.mb-0  Asegurar que los sistemas de soporte operativo y comercial brinden acceso a los datos al personal del proveedor en función de los inquilinos de los clientes, en particular a los que brindan un servicio.
     .row.mb-3
-      .col-12.col-md-1(data-aos="fade-right")
+      .col-2.col-md-1(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/nube.svg" , alt='' style="width:30px; display:block; margin: 0 auto;")
-      .col-12.col-md-11.mb-3(data-aos="fade-left")
+      .col-10.col-md-11.mb-3(data-aos="fade-left")
         h5 Diseñar e implementar la continuidad del servicio. Esta actividad implica considerar los modos potenciales de falla de un servicio en la nube y la infraestructura de soporte y poner en marcha procesos de recuperación que permitan que el servicio en la nube esté disponible dentro de los términos del SLA, a través de técnicas como la conmutación por error y la redundancia.
     .row.mb-3
-      .col-12.col-md-1(data-aos="fade-right")
+      .col-2.col-md-1(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/nube.svg" , alt='' style="width:30px; display:block; margin: 0 auto;")
-      .col-12.col-md-11.mb-3(data-aos="fade-left")
+      .col-10.col-md-11.mb-3(data-aos="fade-left")
         h5 Asegurar el cumplimiento. Esta actividad consiste en implementar el cumplimiento de normas y regulaciones e implica:
         p 
           ul.lista-ul--color
@@ -783,7 +783,7 @@
     p.mb-4 Por ejemplo, siguiendo el modelo de proveedores en nube pública, algunos de los tipos de <i>partners</i> que se pueden encontrar son:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-3.mb-4(data-aos="fade-right")
+      .col-10.col-md-3.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/images/tema2/img_27.svg" alt="AvatarTop",)
       .col-12.col-md-7(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido.mt-5
@@ -994,18 +994,18 @@
       .h2 2.5 Auditor de servicios en la nube
     
     .row.justify-content-center.align-items-center.fondo-3.p-4.px-md-5
-      .col-lg-12.mb-3(data-aos="fade")
+      .col-lg-12.mb-3.px-md-0.px-4(data-aos="fade")
         p El auditor de la nube es el responsable de realizar una auditoría de la provisión y uso de los servicios en la nube, una auditoría de la nube generalmente cubre las operaciones, el rendimiento y la seguridad y examina si se cumple un conjunto específico de criterios de auditoría. 
           .cajon.color-custom-2.p-3.px-md-4
             p.mb-0 Los criterios de auditoría son el conjunto de requisitos a verificar y que pueden proceder de <b>normas internacionales</b> (por ejemplo: normas ISO), <b>regulatorias</b> (por ejemplo: del propio sector económico o industrial en el que la organización desarrolla sus actividades de negocio principales), normativas (por ejemplo: políticas internas de la organización), <b>legales</b> (por ejemplo: leyes para el almacenamiento, intercambio y/o tratamientos de datos como el artículo 2 de la Ley 1581 de 2012, de propiedad intelectual, de privacidad como el artículo 4 de la Ley 1581 de 2012) y/o <b>contractuales</b> (por ejemplo: compromisos en los contratos).
       
-      p.mb-3 En el área de las normas internacionales, se ha mencionado la relevancia en el cumplimiento de los criterios para la seguridad de la información indicados en la norma ISO/IEC 27001.
+      p.mb-3.px-md-0.px-4 En el área de las normas internacionales, se ha mencionado la relevancia en el cumplimiento de los criterios para la seguridad de la información indicados en la norma ISO/IEC 27001.
 
-      p.mb-4 Este estándar se complementa con adaptaciones específicas en su interpretación a aspectos como los servicios en nube (ISO 27017), privacidad (ISO 27701) o en sectores de actividad de alta sensibilidad como sector hospitalario (ISO 27799) para la interpretación de controles en seguridad, entre otras guías de apoyo de la “serie 27000” de publicaciones relacionadas.
+      p.mb-4.px-md-0.px-4 Este estándar se complementa con adaptaciones específicas en su interpretación a aspectos como los servicios en nube (ISO 27017), privacidad (ISO 27701) o en sectores de actividad de alta sensibilidad como sector hospitalario (ISO 27799) para la interpretación de controles en seguridad, entre otras guías de apoyo de la “serie 27000” de publicaciones relacionadas.
 
-      h5.text-center.mb-2 Las actividades de computación en la nube del auditor de servicios en la nube incluyen:
+      h5.text-center.mb-4.mb-md-2 Las actividades de computación en la nube del auditor de servicios en la nube incluyen:
 
-      .row.align-items-center.justify-content-evenly.mb-4
+      .row.align-items-center.justify-content-evenly.mb-5.mb-md-4
         .col-md-6(data-aos="fade-right")
           .col-8.col-lg-3.bg-color-10.mb-4
             h3.mb-0.text-white Realizar una auditoría
@@ -1025,12 +1025,12 @@
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
               | Comparar la evidencia de auditoría obtenida con los criterios de auditoría descritos por el esquema o estándar de auditoría que se está utilizando.
-        .col-md-4(data-aos="fade-left")
+        .col-md-4.col-10(data-aos="fade-left")
           figure
             img(src='@/assets/curso/images/tema2/img_40.svg'  alt='' )
 
       .row.mb-5.ps-2
-        .col-8.col-lg-3.bg-color-9.aling-14
+        .col-11.col-lg-3.bg-color-9
           h3.mb-0.text-white Informar los resultados de la auditoría
 
       .row.justify-content-center.align-items-center
