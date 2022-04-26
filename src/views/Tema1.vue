@@ -7,10 +7,10 @@
         span 1
       h1  Arquitectura <i>Cloud Computing</i>
     
-    .row.bg-tema-1.mb-5.mb-md-0
+    .row.bg-tema-1
       .col-lg-12.px-lg-2.px-4.py-4.pb-md-5(data-aos="fade-right")
         .row.align-items-center.justify-content-evenly
-          .col-lg-4.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+          .col-lg-4.col-md-4.col-11.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
             img(src='@/assets/curso/images/tema1/img_1.png' alt='Imagen decorativa')
           .col-lg-7.col-md-7.text-white.esquina.p-3(data-aos="fade-left")
             p La arquitectura de la nube establece la forma en la que se integran las diferentes tecnologías para crear los entornos de TI, que extraen, agrupan y comparten los recursos escalables de una red, es decir es la organización de los componentes y las funciones que se necesitan para diseñar una nube y obtener una plataforma en línea en la que se puedan ejecutar las aplicaciones, de manera efectiva, y lógica, posibilitando de esta forma trabajar conjuntamente en un mismo objetivo, robusteciendo los puntos fuertes y minimizando los puntos débiles.
@@ -23,8 +23,8 @@
       
       p.mb-4.aling Los servicios tradicionales se categorizan en tres tipos
       
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-7.col-md-6.col-lg-3.d-flex
+      .row.justify-content-center.align-items-center.mb-2.mb-md-5(data-aos="fade-right")
+        .col-11.col-md-3.d-flex.mb-3.mb-md-0
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
@@ -32,7 +32,7 @@
                   img.my-3(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
             h3.aling Pass
               p.mb-0.text-small.mt-3 Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, <i>framework</i> de desarrollo, bases de datos entre otros.
-        .col-7.col-md-6.col-lg-3.d-flex
+        .col-11.col-md-3.d-flex.mb-3.mb-md-0
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
@@ -40,7 +40,7 @@
                   img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar').mx-0
             h3.aling  SaaS
               p.text-small.mt-3 Es el acceso a aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
-        .col-7.col-md-6.col-lg-3.d-flex
+        .col-11.col-md-3.d-flex.mb-3.mb-md-0
           .tarjeta--sencilla.p-4
             .row.justify-content-center
               .col-7
@@ -49,11 +49,11 @@
             h3.aling IdaS
               p.mb-3.text-small.mt-3 Proporciona el <i>hardware</i> virtualizado en forma de máquinas virtuales en diferentes instancias de Sistemas operativos o Contenedores generalmente <i>docker</i>, incluye de igual manera el <i>networking</i>.
 
-    p.aling-10 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
+    p.aling-10.px-3.px-md-0 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
 
     .row.justify-content-center.align-items-start.fondo-3.mb-3.p-4
       .col-12.col-md-4.col-lg-6.col-xl-6(data-aos="fade-right")
-        p.aling-5.mb-0 En términos generales los servicios más importantes son: servicios de computo, almacenamiento y redes, a continuación de mencionan de manera general algunos de los servicios más comunes o de mayor demanda por parte de los clientes:
+        p.aling-5.mb-0.px-3.px-md-0 En términos generales los servicios más importantes son: servicios de computo, almacenamiento y redes, a continuación de mencionan de manera general algunos de los servicios más comunes o de mayor demanda por parte de los clientes:
 
         LineaTiempoD.color-acento-contenido.mt-5.mb-4.mb-md-5
           p(numero="1" titulo="Servicios informáticos") Generalmente son los servicios más importantes, representan la columna vertebral para los clientes, acá se encuentra regularmente el acceso a máquinas virtuales, instancias de distintos tipos, contenedores <i>docker</i>, <i>clúster</i> de alto rendimiento, normalmente usados para el alojamiento de aplicaciones y servicios web.
@@ -90,12 +90,12 @@
                 figure
                   img(src='@/assets/curso/images/tema1/img_4.png' alt='' style="width:35  0px; display:block; margin:auto 0;")
 
-      .row.justify-content-center.align-items-center
-        .col-12.col-md-8.col-lg-12.col-xl-12.mb-4(data-aos="fade")        
-          .cajon.color-custom.p-4.mb-3
-            p.aling-6 Los componentes funcionales representan conjuntos de funciones que se requieren para realizar las actividades de computación en nube para los diversos roles y sub-roles involucrados, de acuerdo con una abstracción más general la arquitectura funcional define unos componentes funcionales divididos en capas en las cuales cada una determina unas funciones específicas y existe una conexión sucesiva entre cada capa dada a través de interfaces. 
+      .row.justify-content-center.align-items-center.p-0
+        .col-11.col-md-12.mb-4(data-aos="fade")        
+          .cajon.color-custom.p-md-4.p-3.mb-3
+            p.mb-0 Los componentes funcionales representan conjuntos de funciones que se requieren para realizar las actividades de computación en nube para los diversos roles y sub-roles involucrados, de acuerdo con una abstracción más general la arquitectura funcional define unos componentes funcionales divididos en capas en las cuales cada una determina unas funciones específicas y existe una conexión sucesiva entre cada capa dada a través de interfaces. 
       
-      p.mb-5 La ISO /IEC 17789:2014 determina cuatro capas con sus respectivas funciones:
+      p.mb-5.px-4.px-md-0 La ISO /IEC 17789:2014 determina cuatro capas con sus respectivas funciones:
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade")
       .py-4.py-md-5(titulo="Capa de usuario" :icono="require('@/assets/curso/images/tema1/ico_tab_1.svg')")
@@ -103,7 +103,7 @@
           .col-lg-8.mb-4
             h4 Capa de usuario
             p  La capa de usuario es la interfaz de usuario a través de la cual un cliente de servicios en la nube interactúa con el proveedor de servicios en la nube y con los servicios en la nube, realiza actividades administrativas relacionadas con el cliente y monitorea los servicios adquiridos por su organización.
-          .col-lg-3
+          .col-lg-3.col-10
             figure
               img(src='@/assets/curso/images/tema1/img_5.svg')
 
@@ -127,7 +127,7 @@
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Transmite solicitudes validadas a los componentes de la capa de servicios. La capa de acceso acepta las solicitudes del cliente o del proveedor para el consumo de los servicios en la nube, y así acceder a los servicios y recursos de los proveedores de servicios.  
-          .col-lg-4
+          .col-lg-4.col-10
             figure
               img(src='@/assets/curso/images/tema1/img_6.svg')
         
@@ -137,7 +137,7 @@
             h4 Capa de servicios
             p.mb-3 Contiene la implementación de los servicios que proporciona el proveedor. Esta capa contiene y controla los componentes de <i>software</i>  que implementan los servicios, sin incluir aquellos componentes subyacentes como los hipervisores, los sistemas operativos, los controladores de dispositivos, entre otros; y se encarga de ofrecer los servicios en la nube a los usuarios a través de la capa de acceso.
             p El <i>software</i>  de implementación de servicios en esta capa, a su vez, se basa en las capacidades disponibles en la capa de recursos, para proporcionar los servicios que se ofrecen y así garantizar que se cumplan los requisitos de cualquier acuerdo de nivel de servicio (SLA-Service Level Agreement), por ejemplo, mediante el uso de suficientes recursos.
-          .col-lg-3
+          .col-lg-3.col-10
             figure
               img(src='@/assets/curso/images/tema1/img_7.svg')
 
@@ -148,7 +148,7 @@
             p.mb-3 En esta capa es donde residen los recursos y que incluye equipamiento típico de un <i>Datacenter</i> como: servidores, <i>switches y routers</i> de red, dispositivos de almacenamiento y también el <i>software</i>  correspondiente no específico de la nube que se ejecuta en los servidores y otros equipos como sistemas operativos <i>host</i>, hipervisores, controladores de dispositivos y <i>software</i>  de gestión de sistemas genérico.
             p.mb-3 La capa de recursos también representa y aloja la funcionalidad de la red de transporte en la nube, necesaria para la conectividad de red subyacente entre el proveedor de servicios en la nube y los usuarios, así como en la parte interna del propio proveedor de servicios en la nube y sus proveedores de servicios de soporte asociados en la cadena de provisión.
             p.mb-3 Tenga en cuenta que para que un proveedor de servicios en la nube proporcione servicios consistentes con el SLA, puede requerir conexiones dedicadas y/o seguras entre los usuarios y el proveedor de servicios en la nube.
-          .col-lg-4
+          .col-lg-4.col-10
             figure
               img(src='@/assets/curso/images/tema1/img_8.svg')
     
@@ -212,8 +212,8 @@
         .cajon.color-custom.p-3
           p.mb-0 Un rol es un conjunto de actividades de computación en la nube que tienen un propósito común. A continuación, se mencionarán tres roles esenciales:
 
-    .row.mb-5(data-aos="fade")
-      .col-7.col-md-6.col-lg-3.p-2.d-flex
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-11.col-md-6.col-lg-3.p-2.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -221,7 +221,7 @@
                 img.my-4(src='@/assets/curso/images/tema1/ico_4.svg', alt='icono-avatar')
           h3.aling.mb-4 Cliente
             p.text-small.aling.mt-3 Cliente de servicio en la nube (CSC): usuario o empresa que mantiene una relación comercial con el propósito de utilizar servicios en la nube ofertados por un proveedor.              
-      .col-7.col-md-6.col-lg-3.p-2.d-flex
+      .col-11.col-md-6.col-lg-3.p-2.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -229,7 +229,7 @@
                 img.my-4(src='@/assets/curso/images/tema1/ico_5.svg', alt='icono-avatar')
           h3.aling Proveedor
             p.text-small.aling.mt-3 Proveedor de servicios en la nube (CSP): es la empresa quien ofrece y pone a disposición de los clientes un conjunto de servicios, en todas las categorías a fin de dar solución y respuesta a cada cliente de acuerdo a sus particularidades o necesidades.
-      .col-7.col-md-6.col-lg-3.p-2.d-flex
+      .col-11.col-md-6.col-lg-3.p-2.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -237,7 +237,7 @@
                 img.my-4(src='@/assets/curso/images/tema1/ico_6.svg', alt='icono-avatar')
           h3.aling Partner
             p.text-small.aling.mt-3 Partner de servicios en la nube (CSN): parte que se dedica a proporcionar soporte o asistencia a las actividades del CSP, del CSC o de ambos.
-      .col-7.col-md-6.col-lg-3.p-2.d-flex
+      .col-11.col-md-6.col-lg-3.p-2.d-flex
         .tarjeta--sencilla-1.p-4
           .row.justify-content-center.mb-3
             .col-7
@@ -390,8 +390,8 @@
       .col-8.col-lg-3.bg-color-5
         h3.mb-0.text-white Componentes funcionales
 
-      .row.justify-content-center.align-items-center.mb-3.mt-4.p-4
-          .col-12.col-md-4.col-lg-9.col-xl-9(data-aos="fade-right")
+      .row.justify-content-center.align-items-center.mb-3.mt-4.p-md-4.p-3
+          .col-12.col-md-4.col-lg-9.col-xl-9.mb-4.mb-md-0(data-aos="fade-right")
             .cajon.color-custom.p-3
               p.mb-3 Un componente funcional es un bloque de construcción funcional necesario para participar en una actividad, respaldado por una implementación. Las capacidades de un sistema de computación en la nube están completamente definidas por el conjunto de componentes funcionales implementados.
               P.mb-0 Existen funciones multicapa que proporcionan capacidades que se utilizan en múltiples capas funcionales y que se agrupan en subconjuntos, entre ellos se puede encontrar:
@@ -414,56 +414,32 @@
                 | Sistemas de apoyo empresarial.
 
       #menu1.row.justify-content-center(data-aos="fade")
-        .col-lg-12
+        .col-lg-12.mb-0
           .contenedor-total
             figure
               img.mx-auto(src='@/assets/curso/images/tema1/img_20.png')
-            .contenedor-text.cd 
-              .row.justify-content-center.p-4
-                .col-auto
-                  p.mb-5 A continuación, se podrá observar en detalle los componentes funcionales por capa:
-        .row.justify-content-center.d-none.d-lg-block.mt-4.z-in
+            .row.justify-content-center.neg--top 
+              .col-md-11.col-10.bg-degrade-gris-horizontal.border-10.p-4
+                p.mb-5 A continuación, se podrá observar en detalle los componentes funcionales por capa:
+        .row.justify-content-center.d-lg-block.z-in.neg--top 
           .flex-container
-            .col-lg-2
+            .col-lg-2.col-4
               a.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
                 .caja.p-3
                   img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-                  <b>Capa de usuario</b>
+                  .px-md-5.px-lg-2 <b>Capa de usuario</b>
                 .indicador--click(v-if="mostrarIndicador")
-            .col-lg-2
+            .col-lg-2.col-4
               .caja.py-3.px-3.px-md-0
                 img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
                 a(href="#2", title="Capa de acceso") <b>Modelos de referencia</b>
                 .indicador--click(v-if="mostrarIndicador")   
-            .col-lg-2
+            .col-lg-2.col-4
               .caja.p-3
                 img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
                 a(href="#3", title="Modelo de referencia TCP /IP") <b>Capa de servicio</b>
                 .indicador--click(v-if="mostrarIndicador") 
-        .row.justify-content-center.mb-5.d-block.d-lg-none
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-12
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-4(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='AvatarTop', style="width:160px; display:block; margin:auto 0;")
-              a(href="#1", title="Redes de datos") <b>Capa de usuario</b>
-              .indicador--click(v-if="mostrarIndicador")  
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-12
-              .row.justify-content-center.mb-3
-                .col-8
-                  img.mb-2(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='AvatarTop')
-              a(href="#2", title="Modelos de referencia") <b>Modelos de referencia</b>
-              .indicador--click(v-if="mostrarIndicador")
-          .col-7.col-md-6.col-lg-4.p-4.d-flex
-            .tarjeta.tarjeta_white-1.p-4.aling-12
-              .row.justify-content-center.mb-3
-                .col-8
-                  img(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='AvatarTop')
-              a(href="#3", title="Modelo de referencia TCP /IP") <b>Capa de servicio</b>
-              .indicador--click(v-if="mostrarIndicador")    
-   
-    br
+        
     #1.pRelative
       .backtoTop
         a(href="#menu1", title="Capa de usuario") 
@@ -581,7 +557,7 @@
     .row.bg-tema1-4.mb-4.mb-md-0
       .col-lg-12.px-lg-2.px-3.py-4.pb-md-5
         .row.align-items-center.justify-content-evenly
-          .col-lg-5.col-md-4-col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
+          .col-lg-5.col-md-4.col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
             img(src='@/assets/curso/images/tema1/img_22.png' alt='Imagen decorativa',  style="width:440px; isplay:block; margin:-1rem 0;")
           .col-lg-6.col-md-6.text-white.esquina(data-aos="fade-left")
             p Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario #[br] como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre  los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en #[br] las actividades que desempeñan directa o indirectamente.
@@ -606,8 +582,8 @@
   .container.bg-white.p-4.p-md-5.container-bottom
     h3.mb-5 Auditabilidad 
 
-    .row.align-items-center.mb-5
-      .col-12.col-md-4.mb-3(data-aos="fade-right")
+    .row.align-items-center.justify-content-center.mb-3.mb-md-5
+      .col-10.col-md-4.mb-3(data-aos="fade-right")
         img(src="@/assets/curso/images/tema1/img_24.svg" alt="AvatarTop")
       .col-12.col-md-8(data-aos="fade-left")
         p.mb-3 Hace referencia a la propiedad o capacidad de poder auditarse, este es un aspecto que se refiere a la capacidad de recopilar y poner a disposición la información probatoria necesaria relacionada con la operación y el uso de un servicio en la nube, con el objetivo de realizar una auditoría. 
@@ -621,9 +597,9 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-md-5.fondo-3.py-md-4
       .row.justify-content-center(data-aos="fade")
-        .col-md-8.mb-4
+        .col-md-8.col-10.mb-4
           h5.text-center Como garantía de la auditabilidad esta información documentada debe recopilarse y mantenerse de manera segura, por tanto, el objetivo de la auditoría de la computación en la nube es:
-      .col-12.col-md-4.col-lg-10.col-xl-10
+      .col-11.col-md-4.col-lg-10.col-xl-10
         PasosA.color-acento-botones.mb-5(tipo="n")
           div        
             p.mb-0 Proporcionar a las partes interesadas una evaluación de la eficacia de los controles internos y la seguridad del proveedor de servicios de computación en la nube.
@@ -653,9 +629,9 @@
           div        
             p.mb-0 Dado que las áreas bajo revisión dependen en gran medida de la efectividad de los controles generales de TI básicos, se suelen realizar revisiones de aseguramiento de las siguientes áreas previas a la ejecución de la revisión propiamente dicha de los servicios de nube. 
 
-    p.mb-3 Entre estas áreas se destacan:
+    p.mb-0.mb-md-3 Entre estas áreas se destacan:
 
-    .row.align-items-center.fondo-3.mb-5.p-5
+    .row.align-items-center.fondo-3.mb-md-5.mb-1.p-5
       .col-12.col-md-8.col-lg-7.col-xl-7(data-aos="fade-right")
         ul.lista-ul--color
           li 
@@ -704,11 +680,11 @@
       .row(data-aos="fade-right")
         h3.mb-4(data-aos="fade-right") Gobernanza
       
-        .row.justify-content-center.align-items-center.mb-5
-          .col-12.col-md-4.col-lg-12.col-xl-12(data-aos="fade")
-            .cajon.color-custom-2.p-3
-              p Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
-              p.mb-0 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-12.col-md-4.col-lg-12.col-xl-12(data-aos="fade")
+          .cajon.color-custom-2.p-3
+            p Este aspecto se refiere al sistema mediante el cual se dirige y controla la prestación y el uso de los servicios en la nube, el término de gobierno interno de la nube se utiliza para la aplicación de políticas de tiempo de diseño y tiempo de ejecución para garantizar que las soluciones basadas en la computación en la nube se diseñen e implementen de acuerdo con las expectativas especificadas, junto con la entrega de los servicios asociados.
+            p.mb-0 Dentro de la gobernanza se pueden incluir algunos o todos los aspectos transversales al diseño y puesta en funcionamiento de servicios en la nube.
 
       .col-lg-12.mx-auto.mb-4
         .tema1-1 
@@ -739,7 +715,7 @@
       .col-12.col-md-6.mb-3(data-aos="fade-right")
         h3.mb-4(data-aos="fade-right") Control de versiones
         p.mb-0 El mantenimiento puede tener lugar por una variedad de razones, incluida la necesidad de reparar fallas y también la necesidad de actualizar o ampliar las instalaciones, estos procesos de mantenimiento pueden cambiar el comportamiento de los servicios en la nube, por ejemplo, afectando el funcionamiento de un servicio cuando lo utiliza un cliente, por estos motivos es un elemento importante relacionado con la gobernanza tanto por las actividades en sí mismas como por los recursos subyacentes relacionados con estas acciones.
-      .col-12.col-md-6.px-md-5(data-aos="fade-left")
+      .col-11.col-md-6.px-md-5(data-aos="fade-left")
         img.px-md-5(src="@/assets/curso/images/tema1/img_28.svg" alt="AvatarTop")
 
     .row.justify-content-center.align-items-center.mb-3

@@ -10,10 +10,9 @@
     .contenedor-total(data-aos="fade")
       figure
         img(src='@/assets/curso/images/tema2/img_1.png' alt='Imagen ambiental' style='')
-      .contenedor-text-2
-        .row.justify-content-center.p-4
-          .col-auto
-            p.mb-0 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
+      .row.justify-content-center.neg--top
+        .col-md-11.col-10.bg-degrade-gris-horizontal.border-10.p-4
+          p.mb-0 Cuando una organización adquiere servicios en la nube al pasar el tiempo se termina por asignar algunos roles entre los equipos de trabajo de las áreas de TI encargadas de realizar la gestión y la administración sobre los servicios adquiridos.
       
     .row.justify-content-center.fondo-10.p-4
       .col-lg-9  
