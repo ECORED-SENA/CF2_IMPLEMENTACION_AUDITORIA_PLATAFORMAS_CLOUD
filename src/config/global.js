@@ -138,12 +138,12 @@ export default {
     },
     {
       referencia:
-        'Giraldo, L. A. (2019). ¿Cómo ha evolucionado la computación en la nube a través del tiempo? ',
+        'Giraldo, L. A. (2019). ¿Cómo ha evolucionado la computación en la nube a través del tiempo?. ',
       link:
         'https://www.pragma.com.co/blog/como-ha-evolucionado-la-computacion-en-la-nube-a-traves-del-tiempo',
     },
     {
-      referencia: 'ISO/IEC 17789:2014. (2021)',
+      referencia: 'ISO/IEC 17789:2014. (2021).',
       link: 'https://www.iso.org/standard/60545.html',
     },
     {
@@ -152,7 +152,7 @@ export default {
     },
     {
       referencia:
-        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3.',
+        'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3. ',
       link:
         'https://www.researchgate.net/publication/309285232_The_Role_and_Value_of_a_Cloud_Service_Partner.',
     },
@@ -161,7 +161,7 @@ export default {
     {
       termino: 'AWS',
       significado:
-        'Amazón <i>Web Services:</i> servicios de <i>cloud</i> ofrecidos por Amazon.',
+        'Amazon <i>Web Services:</i> servicios de <i>cloud</i> ofrecidos por Amazon.',
     },
     {
       termino: 'Azure',
@@ -233,7 +233,7 @@ export default {
     },
     {
       termino: 'SaaS',
-      significado: '<i>Software</i> como servicio.',
+      significado: '<i>software</i> como servicio.',
     },
   ],
   creditos: {
@@ -255,24 +255,24 @@ export default {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Instructor',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de teleinformática y producción industrial Regional Cauca',
       },
       {
         nombre: 'María Inés Machado López',
         cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología - Distrito Capital',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
         cargo: 'Revisora metodológica y pedagógica',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica - Distrito Capital',
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
       },
       {
         nombre: 'Jhon Jairo Rodríguez Pérez',
         cargo: 'Diseñador y evaluador instruccional',
         centro:
-          'Centro para la Industria de la Comunicación Gráfica - Distrito capital',
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito capital',
       },
     ],
     desarrolloProducto: [
@@ -280,59 +280,101 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Edinson Eduardo Mantilla Cuadros',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Zuleidy Maria Ruiz Torres',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jaime Enrique Díaz Reyes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

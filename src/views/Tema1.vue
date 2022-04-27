@@ -59,7 +59,7 @@
           p(numero="1" titulo="Servicios informáticos") Generalmente son los servicios más importantes, representan la columna vertebral para los clientes, acá se encuentra regularmente el acceso a máquinas virtuales, instancias de distintos tipos, contenedores <i>docker</i>, <i>clúster</i> de alto rendimiento, normalmente usados para el alojamiento de aplicaciones y servicios web.
           p(numero="2" titulo="Servicios de almacenamiento") Este tipo de servicio ofrece una variedad que va desde el almacenamiento de objetos y archivos, bases de datos SQL tradicionales como MySQL, PostgreSQL, Oracle, SQLServer o bases de datos NOSQL.
           p(numero="3" titulo="Servicios se <i>networking</i> (Acceso a Redes)") Los accesos a los servicios de la computación en la nube son alojados en internet para lograr acceder a los servicios contratados PaaS, SaaS, LaaS, se requiere contar con acceso desde y hacia redes externas, regularmente al crear un servicio en la nube se incluye la creación de una red virtual que permita la interconexión.
-          p.mb-0(numero="4" titulo="Servicios de analítica") El gran crecimiento en los datos que con lleva a la generación de la <i>big Data</i> obliga o posibilita que las empresas puedan adquirir servicios que realicen el análisis de los datos de tal manera que se facilite la inteligencia de negocios, aqui se incluyen las bodegas de datos, herramientas de transformación y extracción (ETL), y herramientas de <i>big Data.</i>  
+          p.mb-0(numero="4" titulo="Servicios de analítica") El gran crecimiento en los datos que con lleva a la generación de la <i>big data</i> obliga o posibilita que las empresas puedan adquirir servicios que realicen el análisis de los datos de tal manera que se facilite la inteligencia de negocios, aqui se incluyen las bodegas de datos, herramientas de transformación y extracción (ETL), y herramientas de <i>big data.</i>  
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",)
       
@@ -708,7 +708,7 @@
 
     figure.mb-5(data-aos="fade")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/eye3DplSguM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     
     .row.mb-5
