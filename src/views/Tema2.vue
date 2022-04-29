@@ -482,7 +482,7 @@
                 p.mb-0 Gestionar las tendencias de rendimiento y capacidad a largo plazo.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                p.mb-0 Instalar, configurar y realizar actualizaciones de mantenimiento en el requerido #[i hardware] requerido para las capacidades de computación, almacenamiento y red para el <i>datacenter</i> del proveedor de servicios en la nube.
+                p.mb-0 Instalar, configurar y realizar actualizaciones de mantenimiento en el #[i hardware] requerido para las capacidades de computación, almacenamiento y red para el <i>datacenter</i> del proveedor de servicios en la nube.
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 p.mb-0 Instalar y configurar el #[i software] necesario para ejecutar y respaldar las implementaciones de servicios en la nube. Esto incluye la aplicación de correcciones, actualizaciones y mejoras a ese #[i software], según sea necesario.
@@ -531,7 +531,7 @@
               | Realizar un seguimiento del uso de las ventas y los servicios en relación con el plan para garantizar que se logren los objetivos financieros del proveedor de servicios en la nube.
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
-              | Preparar un plan de negocios y ajustar el plan de negocios para brindar servicios en la nube.ar que se logren los objetivos financieros del proveedor de servicios en la nube.
+              | Preparar un plan de negocios y ajustar el plan de negocios para brindar servicios en la nube.
         .col-7.col-md-4
           figure
             img(src='@/assets/curso/images/tema2/img_18.svg', alt='')
@@ -622,7 +622,7 @@
 
       p.mb-5.px-md-0.px-4 Las actividades del proveedor entre nubes incluyen:
 
-      h5.text-center.mb-4 Gestionar servicios en la nube de pares: esta actividad consiste en administrar el uso de los servicios en la nube de un proveedor homólogo, implica:
+      h5.text-center.mb-4 Gestionar servicios en la nube de pares, esta actividad consiste en administrar el uso de los servicios en la nube de un proveedor homólogo, implica:
 
       .row.align-items-center.mb-5
         .col-12.col-md-8.col-lg-8.col-xl-8(data-aos="fade-right")
@@ -638,7 +638,7 @@
               | Gestionar los aspectos comerciales de los servicios en la nube de un proveedor homólogo, incluido el plan comercial y el procesamiento financiero.
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
-              | Realizar un seguimiento del uso que se está haciendo de cada servicio en la nube de proveedor homólogo, por qué usuarios se está realizando e incluir la garantía de que el uso es apropiado y está dentro del plan comercia
+              | Realizar un seguimiento del uso que se está haciendo de cada servicio en la nube de proveedor homólogo, por qué usuarios se está realizando e incluir la garantía de que el uso es apropiado y está dentro del plan comercial.
             li
               i.fas.fa-caret-right(style="color: #FF2C9C")
               | Monitorear la integración de los servicios en la nube del proveedor homólogo con las implementaciones de servicios para garantizar que se cumplan los objetivos comerciales.).
@@ -919,7 +919,7 @@
     Separador 
 
     #t_2_4.titulo-segundo(data-aos="fade-right")
-      .h2 2.4  Desarrollador de servicios de nube
+      .h2 2.4  Desarrollador de servicios en la nube
 
     p Es el responsable de diseñar, desarrollar, probar y mantener la implementación de un servicio en la nube, esto puede implicar componer la implementación del servicio a partir de implementaciones de servicios existentes.
 

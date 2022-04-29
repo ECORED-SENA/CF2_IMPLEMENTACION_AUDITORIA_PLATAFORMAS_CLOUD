@@ -154,7 +154,7 @@ export default {
       referencia:
         'Califf, C.; Sarker, S.; Skilton, M. (2016). The role and Value of a <i>Cloud Service Partner</i>. MIS Quarterly Executive. 15:3. ',
       link:
-        'https://www.researchgate.net/publication/309285232_The_Role_and_Value_of_a_Cloud_Service_Partner.',
+        'https://www.researchgate.net/publication/309285232_The_Role_and_Value_of_a_Cloud_Service_Partner',
     },
   ],
   glosario: [

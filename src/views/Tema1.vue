@@ -30,7 +30,7 @@
               .col-7
                 figure
                   img.my-3(src='@/assets/curso/images/tema1/ico_1.svg', alt='icono-avatar')
-            h3.aling Pass
+            h3.aling PaaS<br> (Platform as a Service)
               p.mb-0.text-small.mt-3 Se refiere a un servicio que ofrece una plataforma para desarrollar y ejecutar aplicaciones, usualmente incluye un lenguaje de programación, acceso a APIS, <i>framework</i> de desarrollo, bases de datos entre otros.
         .col-11.col-md-3.d-flex.mb-3.mb-md-0
           .tarjeta--sencilla.p-4
@@ -38,7 +38,7 @@
               .col-7
                 figure
                   img.my-3(src='@/assets/curso/images/tema1/ico_2.svg', alt='icono-avatar').mx-0
-            h3.aling  SaaS
+            h3.aling  SaaS<br> (Software as a Service)
               p.text-small.mt-3 Es el acceso a aplicaciones o plataformas totalmente administradas por el proveedor, el cliente solo requiere de un navegador y conexión a internet para acceder a los servicios contratados.
         .col-11.col-md-3.d-flex.mb-3.mb-md-0
           .tarjeta--sencilla.p-4
@@ -46,19 +46,19 @@
               .col-7
                 figure
                   img.my-3(src='@/assets/curso/images/tema1/ico_3.svg', alt='icono-avatar').mx-0
-            h3.aling IdaS
+            h3.aling IaaS<br> (Infrastructure as a Service)
               p.mb-3.text-small.mt-3 Proporciona el <i>hardware</i> virtualizado en forma de máquinas virtuales en diferentes instancias de Sistemas operativos o Contenedores generalmente <i>docker</i>, incluye de igual manera el <i>networking</i>.
 
     p.aling-10.px-3.px-md-0 Los proveedores de servicios de computación en la nube (CSP) actuales, ofrecen una variedad de servicios disponibles y listos para dar respuesta a los problemas o necesidades del cliente, estos servicios pueden ser adquiridos solos independientes o en combinación de varios de ellos, la oferta va desde algunos considerados “básicos”  se conocen de esta manera porque proporcionan una capa de abstracción sobre los recursos físicos en el centro de datos en la nube.
 
     .row.justify-content-center.align-items-start.fondo-3.mb-3.p-4
       .col-12.col-md-4.col-lg-6.col-xl-6(data-aos="fade-right")
-        p.aling-5.mb-0.px-3.px-md-0 En términos generales los servicios más importantes son: servicios de computo, almacenamiento y redes, a continuación de mencionan de manera general algunos de los servicios más comunes o de mayor demanda por parte de los clientes:
+        p.aling-5.mb-0.px-3.px-md-0 En términos generales los servicios más importantes son: servicios de cómputo, almacenamiento y redes, a continuación se mencionan de manera general algunos de los servicios más comunes o de mayor demanda por parte de los clientes:
 
         LineaTiempoD.color-acento-contenido.mt-5.mb-4.mb-md-5
           p(numero="1" titulo="Servicios informáticos") Generalmente son los servicios más importantes, representan la columna vertebral para los clientes, acá se encuentra regularmente el acceso a máquinas virtuales, instancias de distintos tipos, contenedores <i>docker</i>, <i>clúster</i> de alto rendimiento, normalmente usados para el alojamiento de aplicaciones y servicios web.
           p(numero="2" titulo="Servicios de almacenamiento") Este tipo de servicio ofrece una variedad que va desde el almacenamiento de objetos y archivos, bases de datos SQL tradicionales como MySQL, PostgreSQL, Oracle, SQLServer o bases de datos NOSQL.
-          p(numero="3" titulo="Servicios se <i>networking</i> (Acceso a Redes)") Los accesos a los servicios de la computación en la nube son alojados en internet para lograr acceder a los servicios contratados PaaS, SaaS, LaaS, se requiere contar con acceso desde y hacia redes externas, regularmente al crear un servicio en la nube se incluye la creación de una red virtual que permita la interconexión.
+          p(numero="3" titulo="Servicios de <i>networking</i> (Acceso a Redes)") Los accesos a los servicios de la computación en la nube son alojados en internet para lograr acceder a los servicios contratados PaaS, SaaS, IaaS, se requiere contar con acceso desde y hacia redes externas, regularmente al crear un servicio en la nube se incluye la creación de una red virtual que permita la interconexión.
           p.mb-0(numero="4" titulo="Servicios de analítica") El gran crecimiento en los datos que con lleva a la generación de la <i>big data</i> obliga o posibilita que las empresas puedan adquirir servicios que realicen el análisis de los datos de tal manera que se facilite la inteligencia de negocios, aqui se incluyen las bodegas de datos, herramientas de transformación y extracción (ETL), y herramientas de <i>big data.</i>  
       .col-12.col-md-8.col-lg-6.col-xl-6.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_2.png" alt="AvatarTop",)
@@ -120,7 +120,7 @@
                 | Es responsable de presentar las capacidades del servicio en la nube a través de uno o más mecanismos de acceso, por ejemplo, como un conjunto de páginas web a las que se accede a través de un navegador, o como un conjunto de servicios web a los que se puede acceder mediante una comunicación segura. 
               li
                 i.fas.fa-caret-right(style="color: #FF2C9C")
-                | Aplica la funcionalidad de seguridad adecuada al acceso de las capacidades del servicio en la nube, es decir, auténtica la solicitud mediante el uso de credenciales de usuario y valida la autorización del usuario para usar capacidades particulares.
+                | Aplica la funcionalidad de seguridad adecuada al acceso de las capacidades del servicio en la nube, es decir, autentica la solicitud mediante el uso de credenciales de usuario y valida la autorización del usuario para usar capacidades particulares.
               li 
                 i.fas.fa-caret-right(style="color: #FF2C9C")
                 | Es responsable de manejar el cifrado y verificar la integridad de la solicitud, cuando sea necesario, también puede ser responsable de hacer cumplir las políticas de calidad del servicio (QoS –Quality of Service) en el tráfico procedente de la capa de usuario (por ejemplo, las solicitudes de servicio que se realizan al proveedor) y, en sentido inverso, el tráfico hacia la capa de usuario (p.ej. salida de los servicios en la nube)
@@ -144,7 +144,7 @@
       .py-4.py-md-5(titulo="Capa de recursos" :icono="require('@/assets/curso/images/tema1/ico_tab_4.svg')")
         .row.justify-content-evenly
           .col-lg-8.mb-4
-            h4 Capa de servicios
+            h4 Capa de recursos
             p.mb-3 En esta capa es donde residen los recursos y que incluye equipamiento típico de un <i>Datacenter</i> como: servidores, <i>switches y routers</i> de red, dispositivos de almacenamiento y también el <i>software</i>  correspondiente no específico de la nube que se ejecuta en los servidores y otros equipos como sistemas operativos <i>host</i>, hipervisores, controladores de dispositivos y <i>software</i>  de gestión de sistemas genérico.
             p.mb-3 La capa de recursos también representa y aloja la funcionalidad de la red de transporte en la nube, necesaria para la conectividad de red subyacente entre el proveedor de servicios en la nube y los usuarios, así como en la parte interna del propio proveedor de servicios en la nube y sus proveedores de servicios de soporte asociados en la cadena de provisión.
             p.mb-3 Tenga en cuenta que para que un proveedor de servicios en la nube proporcione servicios consistentes con el SLA, puede requerir conexiones dedicadas y/o seguras entre los usuarios y el proveedor de servicios en la nube.
@@ -287,7 +287,7 @@
                   | Plataforma como servicio (PaaS).
                 li.mb-2
                   i.fas.fa-caret-right(style="color: #FF2C9C")
-                  | <i>software</i> como servicio (SaaS).
+                  p.mb-0 <i>Software</i> como servicio (SaaS).
                 li.mb-2
                   i.fas.fa-caret-right(style="color: #FF2C9C")
                   | Red como servicio (NaaS).
@@ -303,8 +303,8 @@
 
     .row.justify-content-center.align-items-center.mb-3
         .col-12.col-md-8.col-lg-8.col-xl-8(data-aos="fade-right")
-          .cajon.color-custom.p-3.mb-4
-            p.mb-0 Los modelos de implementación en la nube son una forma en la que puede organizar en función del control y el intercambio de recursos físicos o virtuales. Como se vio anteriormente en este mismo curso, los modelos de implementación en la nube son:acidades de uno o más de los tipos de capacidades en la nube anteriores, entre otros pueden ser:
+          .cajon.color-custom.p-3.mb-3
+            p.mb-0 Los modelos de implementación en la nube son una forma en la que puede organizar en función del control y el intercambio de recursos físicos o virtuales. Como se vio anteriormente en este mismo curso, los modelos de implementación en la nube son:
         .col-12.col-md-2.col-lg-2.col-xl-2(data-aos="fade-left")
           ul.lista-ul--color
             li.mb-2 
@@ -424,21 +424,23 @@
         .row.justify-content-center.d-lg-block.z-in.neg--top 
           .flex-container
             .col-lg-2.col-4
-              a.indicador__container(href="#1", title="Redes de datos" @mouseover="mostrarIndicador = false") 
+              a.indicador__container(href="#1", title="Capa de usuario" @mouseover="mostrarIndicador = false") 
                 .caja.p-3
                   img.my-3(src='@/assets/curso/images/tema1/ico_1_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
                   .px-md-5.px-lg-2 <b>Capa de usuario</b>
                 .indicador--click(v-if="mostrarIndicador")
             .col-lg-2.col-4
-              .caja.py-3.px-3.px-md-0
-                img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-                a(href="#2", title="Capa de acceso") <b>Modelos de referencia</b>
-                .indicador--click(v-if="mostrarIndicador")   
+              a(href="#2", title="Capa de acceso")
+                .caja.py-3.px-3.px-md-4
+                  img.my-3(src='@/assets/curso/images/tema1/ico_2_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+                  p.mb-0 <b>Capa de acceso</b>
+                  .indicador--click(v-if="mostrarIndicador")   
             .col-lg-2.col-4
-              .caja.p-3
-                img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
-                a(href="#3", title="Modelo de referencia TCP /IP") <b>Capa de servicio</b>
-                .indicador--click(v-if="mostrarIndicador") 
+              a(href="#3", title="Capa de Servicio")
+                .caja.p-3
+                  img.my-3(src='@/assets/curso/images/tema1/ico_3_menu.svg' alt='' , style="width:50px; display:block; margin:auto 0;").m-auto
+                  p.mb-0 <b>Capa de Servicio</b>
+                  .indicador--click(v-if="mostrarIndicador") 
         
     #1.pRelative
       .backtoTop
@@ -481,7 +483,7 @@
     
     #2.pRelative_2
       .backtoTop-2
-        a(href="#menu1", title="Capas de acceso") 
+        a(href="#menu1", title="Capa de acceso") 
           img(src='@/assets/curso/images/tema1/flechitaCAC.svg' alt='Volver arriba' style="width:60px; display:block; margin:0 -2rem;")
   
     .row.mb-5.ps-2.px-md-5
@@ -560,7 +562,7 @@
           .col-lg-5.col-md-4.col-10.mb-md-0.mb-4.mb-lg-0(data-aos="fade-right")
             img(src='@/assets/curso/images/tema1/img_22.png' alt='Imagen decorativa',  style="width:440px; isplay:block; margin:-1rem 0;")
           .col-lg-6.col-md-6.text-white.esquina(data-aos="fade-left")
-            p Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario #[br] como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre  los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en #[br] las actividades que desempeñan directa o indirectamente.
+            p Existen aspectos transversales que, como su nombre lo indica, aplican tanto a la vista del usuario como en la arquitectura  y en lo funcional del lado del proveedor de servicios de computación en la nube. Estos aspectos transversales son cuestiones compartidas entre  los roles, actividades y componentes funcionales que aplican a roles y sub-roles en la vista del usuario y deben considerarse en las actividades que desempeñan directa o indirectamente.
           .col-lg-1.col-md-1
 
   .container.bg-white.p-4.p-md-5.fondo-15
